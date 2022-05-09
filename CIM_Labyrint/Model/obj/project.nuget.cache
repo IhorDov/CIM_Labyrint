@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "fbNT1QdKzz0eug9NxFTc20TOyOp16S+PAiXez9SrGaMz7sta2a+JBsr056+oCAl5kChKXVczixgnQYfnWEZecg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nap\\Documents\\database\\Model\\database.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nap\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\nap\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\nap\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.115.5\\stub.system.data.sqlite.core.netstandard.1.0.115.5.nupkg.sha512",
+    "C:\\Users\\nap\\.nuget\\packages\\system.data.sqlite.core\\1.0.115.5\\system.data.sqlite.core.1.0.115.5.nupkg.sha512"
+  ],
+  "logs": []
+}

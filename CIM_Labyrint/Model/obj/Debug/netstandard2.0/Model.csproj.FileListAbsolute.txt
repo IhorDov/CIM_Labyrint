@@ -1,0 +1,28 @@
+C:\Users\ablo\source\repos\Dania.Courses.Databases2020.MVP\Model\bin\Debug\netstandard2.0\Dania.Courses.Databases2020.MVP.Model.deps.json
+C:\Users\ablo\source\repos\Dania.Courses.Databases2020.MVP\Model\bin\Debug\netstandard2.0\Dania.Courses.Databases2020.MVP.Model.dll
+C:\Users\ablo\source\repos\Dania.Courses.Databases2020.MVP\Model\bin\Debug\netstandard2.0\Dania.Courses.Databases2020.MVP.Model.pdb
+C:\Users\ablo\source\repos\Dania.Courses.Databases2020.MVP\Model\obj\Debug\netstandard2.0\Model.csprojAssemblyReference.cache
+C:\Users\ablo\source\repos\Dania.Courses.Databases2020.MVP\Model\obj\Debug\netstandard2.0\Model.AssemblyInfoInputs.cache
+C:\Users\ablo\source\repos\Dania.Courses.Databases2020.MVP\Model\obj\Debug\netstandard2.0\Model.AssemblyInfo.cs
+C:\Users\ablo\source\repos\Dania.Courses.Databases2020.MVP\Model\obj\Debug\netstandard2.0\Dania.Courses.Databases2020.MVP.Model.dll
+C:\Users\ablo\source\repos\Dania.Courses.Databases2020.MVP\Model\obj\Debug\netstandard2.0\Dania.Courses.Databases2020.MVP.Model.pdb
+C:\Users\nap\OneDrive - EaDania\C#\semester 2\databaser\DAG 5\Model\bin\Debug\netstandard2.0\Dania.Courses.Databases2020.MVP.Model.deps.json
+C:\Users\nap\OneDrive - EaDania\C#\semester 2\databaser\DAG 5\Model\bin\Debug\netstandard2.0\Dania.Courses.Databases2020.MVP.Model.dll
+C:\Users\nap\OneDrive - EaDania\C#\semester 2\databaser\DAG 5\Model\bin\Debug\netstandard2.0\Dania.Courses.Databases2020.MVP.Model.pdb
+C:\Users\nap\OneDrive - EaDania\C#\semester 2\databaser\DAG 5\Model\obj\Debug\netstandard2.0\Model.csproj.AssemblyReference.cache
+C:\Users\nap\OneDrive - EaDania\C#\semester 2\databaser\DAG 5\Model\obj\Debug\netstandard2.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nap\OneDrive - EaDania\C#\semester 2\databaser\DAG 5\Model\obj\Debug\netstandard2.0\Model.AssemblyInfoInputs.cache
+C:\Users\nap\OneDrive - EaDania\C#\semester 2\databaser\DAG 5\Model\obj\Debug\netstandard2.0\Model.AssemblyInfo.cs
+C:\Users\nap\OneDrive - EaDania\C#\semester 2\databaser\DAG 5\Model\obj\Debug\netstandard2.0\Model.csproj.CoreCompileInputs.cache
+C:\Users\nap\OneDrive - EaDania\C#\semester 2\databaser\DAG 5\Model\obj\Debug\netstandard2.0\Dania.Courses.Databases2020.MVP.Model.dll
+C:\Users\nap\OneDrive - EaDania\C#\semester 2\databaser\DAG 5\Model\obj\Debug\netstandard2.0\Dania.Courses.Databases2020.MVP.Model.pdb
+C:\Users\nap\Documents\GitHub\database\Model\bin\Debug\netstandard2.0\Dania.Courses.Databases2020.MVP.Model.deps.json
+C:\Users\nap\Documents\GitHub\database\Model\bin\Debug\netstandard2.0\Dania.Courses.Databases2020.MVP.Model.dll
+C:\Users\nap\Documents\GitHub\database\Model\bin\Debug\netstandard2.0\Dania.Courses.Databases2020.MVP.Model.pdb
+C:\Users\nap\Documents\GitHub\database\Model\obj\Debug\netstandard2.0\Model.csproj.AssemblyReference.cache
+C:\Users\nap\Documents\GitHub\database\Model\obj\Debug\netstandard2.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nap\Documents\GitHub\database\Model\obj\Debug\netstandard2.0\Model.AssemblyInfoInputs.cache
+C:\Users\nap\Documents\GitHub\database\Model\obj\Debug\netstandard2.0\Model.AssemblyInfo.cs
+C:\Users\nap\Documents\GitHub\database\Model\obj\Debug\netstandard2.0\Model.csproj.CoreCompileInputs.cache
+C:\Users\nap\Documents\GitHub\database\Model\obj\Debug\netstandard2.0\Dania.Courses.Databases2020.MVP.Model.dll
+C:\Users\nap\Documents\GitHub\database\Model\obj\Debug\netstandard2.0\Dania.Courses.Databases2020.MVP.Model.pdb
