@@ -15,8 +15,8 @@ namespace CIM_Labyrint
         private List<GameObject> newGameObjects = new List<GameObject>();
         private List<GameObject> destroyedGameObjects = new List<GameObject>();
 
-        private LevelManeger levels = new LevelManeger();
 
+        private PlayerBuilder levels = new PlayerBuilder();
 
 
 
@@ -54,9 +54,13 @@ namespace CIM_Labyrint
         {
             ScreenSize();
 
-            Director director = new Director(new PlayerBuilder());
+            
 
+
+            Director director = new Director(new PlayerBuilder());
+levels.LoadLevel(0);
             gameObjects.Add(director.Construct());
+
 
 
             for (int i = 0; i < gameObjects.Count; i++)

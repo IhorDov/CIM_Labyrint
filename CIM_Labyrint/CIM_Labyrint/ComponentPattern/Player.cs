@@ -29,15 +29,15 @@ namespace CIM_Labyrint
 
         public void Move(Vector2 velocity)
         {
-            velocity.X = X;
-            velocity.Y = Y;
+
 
 
             if (velocity != Vector2.Zero)
             {
                 velocity.Normalize();
             }
-
+            velocity.X = X;
+            velocity.Y = Y;
             velocity *= speed;
 
             //Movement(velocity);

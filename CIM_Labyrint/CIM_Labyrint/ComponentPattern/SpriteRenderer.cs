@@ -14,7 +14,6 @@ namespace CIM_Labyrint
 
         public override void Start()
         {
-            Origin = (new Vector2(Sprite.Width / 2, Sprite.Height / 2));
 
         }
 

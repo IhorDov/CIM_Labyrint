@@ -9,7 +9,6 @@ namespace CIM_Labyrint
     {
         private GameObject gameObject;
 
-        private PlayerBuilder levels = new PlayerBuilder();
         private float adaw;
         private float dwawa;
 
@@ -25,7 +24,7 @@ namespace CIM_Labyrint
         public void BuildGameObject()
         {
             gameObject = new GameObject();
-levels.LoadLevel(0);
+
             BuildComponents();
 
 
@@ -56,7 +55,6 @@ levels.LoadLevel(0);
             levelHolder.Add(LevelData.level_3);
             levelHolder.Add(LevelData.level_4);
 
-            
 
 
             gameObject.AddComponent(new SpriteRenderer());
