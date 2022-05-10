@@ -8,6 +8,12 @@ namespace CIM_Labyrint
     public abstract class Component
     {
         protected float speed;
+
+
+        protected Component()
+        {
+        }
+
         public GameObject GameObject { get; set; }
 
         public virtual void Awake() { }

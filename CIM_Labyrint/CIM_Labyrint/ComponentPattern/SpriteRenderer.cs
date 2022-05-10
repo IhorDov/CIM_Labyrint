@@ -6,7 +6,7 @@ using System.Text;
 
 namespace CIM_Labyrint
 {
-    class SpriteRenderer : Component
+     class SpriteRenderer : Component
     {
         public int number = 0;
 

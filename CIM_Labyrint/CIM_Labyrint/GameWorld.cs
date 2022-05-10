@@ -14,6 +14,12 @@ namespace CIM_Labyrint
         private List<GameObject> gameObjects = new List<GameObject>();
         private List<GameObject> newGameObjects = new List<GameObject>();
         private List<GameObject> destroyedGameObjects = new List<GameObject>();
+
+        private LevelManeger levels = new LevelManeger();
+
+
+
+
         //private float lastSpawn = 0;
         private static Random rnd = new Random();
         //public List<Collider> Colliders { get; private set; } = new List<Collider>();
@@ -49,6 +55,7 @@ namespace CIM_Labyrint
             ScreenSize();
 
             Director director = new Director(new PlayerBuilder());
+
             gameObjects.Add(director.Construct());
 
 

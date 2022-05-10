@@ -4,22 +4,22 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/45527/Source/Repos/IhorDov/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerB_1.png</File>
-    <File>C:/Users/45527/Source/Repos/IhorDov/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerB_2.png</File>
-    <File>C:/Users/45527/Source/Repos/IhorDov/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerB_3.png</File>
-    <File>C:/Users/45527/Source/Repos/IhorDov/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerB_4.png</File>
-    <File>C:/Users/45527/Source/Repos/IhorDov/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerF_1.png</File>
-    <File>C:/Users/45527/Source/Repos/IhorDov/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerF_2.png</File>
-    <File>C:/Users/45527/Source/Repos/IhorDov/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerF_3.png</File>
-    <File>C:/Users/45527/Source/Repos/IhorDov/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerF_4.png</File>
-    <File>C:/Users/45527/Source/Repos/IhorDov/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerL_1.png</File>
-    <File>C:/Users/45527/Source/Repos/IhorDov/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerL_2.png</File>
-    <File>C:/Users/45527/Source/Repos/IhorDov/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerL_3.png</File>
-    <File>C:/Users/45527/Source/Repos/IhorDov/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerL_4.png</File>
-    <File>C:/Users/45527/Source/Repos/IhorDov/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerR_1.png</File>
-    <File>C:/Users/45527/Source/Repos/IhorDov/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerR_2.png</File>
-    <File>C:/Users/45527/Source/Repos/IhorDov/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerR_3.png</File>
-    <File>C:/Users/45527/Source/Repos/IhorDov/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerR_4.png</File>
+    <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerB_1.png</File>
+    <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerB_2.png</File>
+    <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerB_3.png</File>
+    <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerB_4.png</File>
+    <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerF_1.png</File>
+    <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerF_2.png</File>
+    <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerF_3.png</File>
+    <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerF_4.png</File>
+    <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerL_1.png</File>
+    <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerL_2.png</File>
+    <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerL_3.png</File>
+    <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerL_4.png</File>
+    <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerR_1.png</File>
+    <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerR_2.png</File>
+    <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerR_3.png</File>
+    <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerR_4.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

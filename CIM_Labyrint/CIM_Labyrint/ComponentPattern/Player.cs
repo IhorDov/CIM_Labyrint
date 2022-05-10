@@ -6,9 +6,10 @@ using System.Text;
 
 namespace CIM_Labyrint
 {
-    class Player : Component, IGameListner    
+    class Player : Component, IGameListner
     {
-        //private float speed;
+        private float Y;
+        private float X;
 
         //private bool canShoot = true;
 
@@ -18,14 +19,28 @@ namespace CIM_Labyrint
 
         private Dictionary<Keys, BUTTONSTATE> movementKeys = new Dictionary<Keys, BUTTONSTATE>();
 
+        public Player(float xPosition, float yPosition)
+        {
+            this.X = xPosition;
+
+            this.Y = yPosition;
+        }
+
+
         public void Move(Vector2 velocity)
         {
+            velocity.X = X;
+            velocity.Y = Y;
+
+
             if (velocity != Vector2.Zero)
             {
                 velocity.Normalize();
             }
 
             velocity *= speed;
+
+            //Movement(velocity);
 
             GameObject.Transform.Position += (velocity * GameWorld.DeltaTime);
 
@@ -52,6 +67,24 @@ namespace CIM_Labyrint
             }
         }
 
+        //private void Movement(Vector2 direction)
+        //{
+        //    //Look
+        //    GameObjectWithCollider targetObject = LookAround.LookAt(GridPlacement.Placement(GameObject.gridPosition + direction));
+
+        //    if (targetObject == null)
+        //       MoveInDirection(direction);
+        //    else if (targetObject is Box)
+        //    {
+        //        Box targetBox = (Box)targetObject;
+        //        bool result = targetBox.BoxMovement(direction);
+
+        //        if (result)
+        //            MoveInDirection(direction);
+        //    }
+        //}
+
+
         public override void Awake()
         {
             this.speed = 150;
@@ -64,8 +97,6 @@ namespace CIM_Labyrint
 
             sr.SetSprite("Player/PlayerF_2");
 
-            GameObject.Transform.Position = new Vector2(GameWorld.Instance.Graphics.PreferredBackBufferWidth / 2,
-               GameWorld.Instance.Graphics.PreferredBackBufferHeight / 2 - sr.Sprite.Height / 3);
 
             animator = (Animator)GameObject.GetComponent<Animator>();
         }

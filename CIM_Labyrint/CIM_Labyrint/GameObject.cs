@@ -10,7 +10,45 @@ namespace CIM_Labyrint
     {
         private List<Component> components = new List<Component>();
 
+
+
+        public Vector2 position;
+        public float rotaton;
+        public Vector2 scale = Vector2.One;
+        public Vector2 gridPosition;
+
+        //Rendering
+        public float layerDepth;
+        protected SpriteEffects effect;
+        public Rectangle rectangle;
+
+        //Animation
+        protected Texture2D sprite;
+        protected Texture2D[] animations;
+        protected float animationSpeed;
+
         public Transform Transform { get; private set; } = new Transform();
+
+
+
+        public GameObject()
+        {
+    
+            this.position = GridPlacement.Placement(gridPosition);
+        }
+
+        public Vector2 Origen
+        {
+            get
+            {
+                if (sprite != null)
+                {
+                    return new Vector2(sprite.Width / 2, sprite.Height / 2);
+                }
+                return Vector2.Zero;
+            }
+        }
+
 
         public Component AddComponent(Component component)
         {
