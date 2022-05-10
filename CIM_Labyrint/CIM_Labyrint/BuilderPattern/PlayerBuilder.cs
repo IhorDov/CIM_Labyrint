@@ -9,11 +9,13 @@ namespace CIM_Labyrint
     {
         private GameObject gameObject;
 
-        private LevelManeger levels = new LevelManeger();
+        private PlayerBuilder levels = new PlayerBuilder();
         private float adaw;
         private float dwawa;
 
         public List<int[,]> levelHolder = new List<int[,]>();
+
+
 
 
 
@@ -23,7 +25,7 @@ namespace CIM_Labyrint
         public void BuildGameObject()
         {
             gameObject = new GameObject();
-
+levels.LoadLevel(0);
             BuildComponents();
 
 
@@ -54,9 +56,9 @@ namespace CIM_Labyrint
             levelHolder.Add(LevelData.level_3);
             levelHolder.Add(LevelData.level_4);
 
-
-
             
+
+
             gameObject.AddComponent(new SpriteRenderer());
             gameObject.AddComponent(new Animator());
 
@@ -136,7 +138,7 @@ namespace CIM_Labyrint
                     }
                 }
 
-                objectManeger.UpdateLoop();
+               
             }
             catch (IndexOutOfRangeException e)
             {

@@ -37,17 +37,17 @@ namespace CIM_Labyrint
             this.position = GridPlacement.Placement(gridPosition);
         }
 
-        public Vector2 Origen
-        {
-            get
-            {
-                if (sprite != null)
-                {
-                    return new Vector2(sprite.Width / 2, sprite.Height / 2);
-                }
-                return Vector2.Zero;
-            }
-        }
+        //public Vector2 Origen
+        //{
+        //    get
+        //    {
+        //        if (sprite != null)
+        //        {
+        //            return new Vector2(sprite.Width / 2, sprite.Height / 2);
+        //        }
+        //        return Vector2.Zero;
+        //    }
+        //}
 
 
         public Component AddComponent(Component component)

@@ -23,7 +23,7 @@ namespace CIM_Labyrint
         }
 
 
-        public override void Update()
+        public override void Update( )
         {
             timeElapsed += GameWorld.DeltaTime;
 
