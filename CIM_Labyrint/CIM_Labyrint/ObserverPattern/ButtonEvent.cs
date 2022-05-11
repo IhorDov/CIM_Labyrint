@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CIM_Labyrint
 {
-    class ButtonEvent: GameEvent
+    class ButtonEvent : GameEvent
     {
         public Keys Key { get; private set; }
 

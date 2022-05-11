@@ -14,12 +14,6 @@ namespace CIM_Labyrint
         private List<GameObject> gameObjects = new List<GameObject>();
         private List<GameObject> newGameObjects = new List<GameObject>();
         private List<GameObject> destroyedGameObjects = new List<GameObject>();
-
-
-        private PlayerBuilder levels = new PlayerBuilder();
-
-
-
         //private float lastSpawn = 0;
         private static Random rnd = new Random();
         //public List<Collider> Colliders { get; private set; } = new List<Collider>();
@@ -53,16 +47,13 @@ namespace CIM_Labyrint
         protected override void Initialize()
         {
             ScreenSize();
-
             
-
-
             Director director = new Director(new PlayerBuilder());
-levels.LoadLevel(0);
             gameObjects.Add(director.Construct());
 
-
-
+            director = new Director(new LevelManeger());
+            gameObjects.Add(director.Construct());
+            
             for (int i = 0; i < gameObjects.Count; i++)
             {
                 gameObjects[i].Awake();
@@ -92,7 +83,7 @@ levels.LoadLevel(0);
             {
                 gameObjects[i].Update(gameTime);
             }
-
+            
             base.Update(gameTime);
         }
 

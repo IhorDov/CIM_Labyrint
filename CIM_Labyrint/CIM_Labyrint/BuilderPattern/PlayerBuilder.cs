@@ -1,3 +1,4 @@
+﻿
 ﻿using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
@@ -9,25 +10,11 @@ namespace CIM_Labyrint
     {
         private GameObject gameObject;
 
-        private float adaw;
-        private float dwawa;
-
-        public List<int[,]> levelHolder = new List<int[,]>();
-
-
-
-
-
-        private GameObjectManeger objectManeger = GameObjectManeger.Instance;
-
-
         public void BuildGameObject()
         {
             gameObject = new GameObject();
 
             BuildComponents();
-
-
 
             Animator animator = (Animator)gameObject.GetComponent<Animator>();
 
@@ -47,16 +34,7 @@ namespace CIM_Labyrint
         {
             //Player p = (Player)gameObject.AddComponent(new Player());
 
-            //levels.LoadLevel(0);
-
-            levelHolder.Add(LevelData.level_0);
-            levelHolder.Add(LevelData.level_1);
-            levelHolder.Add(LevelData.level_2);
-            levelHolder.Add(LevelData.level_3);
-            levelHolder.Add(LevelData.level_4);
-
-
-
+            
             gameObject.AddComponent(new SpriteRenderer());
             gameObject.AddComponent(new Animator());
 
@@ -77,81 +55,6 @@ namespace CIM_Labyrint
 
             return animation;
         }
-
-
-
-
-
-
-
-
-
-        private Component Object(int whatObjects, float xPos, float yPos)
-        {
-            switch (whatObjects)
-            {
-                //case 0:
-                //    return new Floor(xPos, yPos);
-                //case 1:
-                //    return new Wall(xPos, yPos);
-                //case 2:
-                //    return new Box(xPos, yPos);
-                //case 3:
-                //    return new Goal(xPos, yPos);
-                case 0:
-                    return gameObject.AddComponent(new Player(xPos, yPos));
-            }
-
-            return null;
-        }
-
-        public void LoadLevel(int targetLevel)
-        {
-            int[,] spawnLevel = new int[0, 0];
-
-            try
-            {
-                spawnLevel = levelHolder[targetLevel];
-
-                //Remove old level
-                //if (objectManeger.GameObjects.Count > 0)
-                //{
-                //    foreach (var item in objectManeger.GameObjects)
-                //    {
-                //        objectManeger.Destory(item);
-                //    }
-                //}
-
-                //Inscert level
-                for (int y = 0; y < spawnLevel.GetLength(1); y++)
-                {
-                    for (int x = 0; x < spawnLevel.GetLength(0); x++)
-                    {
-                        //Add floor if needed
-                        if (spawnLevel[x, y] > 1)
-                 Object(0, x, y);
-
-                        //Spawn object
-                        Object(spawnLevel[x, y], x, y);
-                    }
-                }
-
-               
-            }
-            catch (IndexOutOfRangeException e)
-            {
-                Console.WriteLine($"No level of {targetLevel} number found. There are {levelHolder.Count} levels");
-                Console.WriteLine(e.Message);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("heJ" + e.Message);
-            }
-        }
-
-
-
-
 
         public GameObject GetResult()
         {

@@ -8,8 +8,7 @@ namespace CIM_Labyrint
 {
     class Player : Component, IGameListner
     {
-        private float Y;
-        private float X;
+        //private float speed;
 
         //private bool canShoot = true;
 
@@ -18,29 +17,25 @@ namespace CIM_Labyrint
         private Animator animator;
 
         private Dictionary<Keys, BUTTONSTATE> movementKeys = new Dictionary<Keys, BUTTONSTATE>();
+        public float XPos { get; set; }
+        public float YPos { get; set; }
 
-        public Player(float xPosition, float yPosition)
+        public Player(float xPos, float yPos)
         {
-            this.X = xPosition;
-
-            this.Y = yPosition;
+            this.XPos = xPos;
+            this.YPos = yPos;
         }
 
+   
 
         public void Move(Vector2 velocity)
         {
-
-
-
             if (velocity != Vector2.Zero)
             {
                 velocity.Normalize();
             }
-            velocity.X = X;
-            velocity.Y = Y;
-            velocity *= speed;
 
-            //Movement(velocity);
+            velocity *= speed;
 
             GameObject.Transform.Position += (velocity * GameWorld.DeltaTime);
 
@@ -67,24 +62,6 @@ namespace CIM_Labyrint
             }
         }
 
-        //private void Movement(Vector2 direction)
-        //{
-        //    //Look
-        //    GameObjectWithCollider targetObject = LookAround.LookAt(GridPlacement.Placement(GameObject.gridPosition + direction));
-
-        //    if (targetObject == null)
-        //       MoveInDirection(direction);
-        //    else if (targetObject is Box)
-        //    {
-        //        Box targetBox = (Box)targetObject;
-        //        bool result = targetBox.BoxMovement(direction);
-
-        //        if (result)
-        //            MoveInDirection(direction);
-        //    }
-        //}
-
-
         public override void Awake()
         {
             this.speed = 150;
@@ -103,10 +80,10 @@ namespace CIM_Labyrint
             animator = (Animator)GameObject.GetComponent<Animator>();
         }
 
-       
+
         public override void Update()
         {
-            InputHandler.Instance.Execute(this);           
+            InputHandler.Instance.Execute(this);
         }
 
         public void Notify(GameEvent gameEvent)
@@ -117,9 +94,9 @@ namespace CIM_Labyrint
             //}
             //else if (gameEvent is ButtonEvent)
             //{
-                ButtonEvent be = (gameEvent as ButtonEvent);
+            ButtonEvent be = (gameEvent as ButtonEvent);
 
-                movementKeys[be.Key] = be.State;
+            movementKeys[be.Key] = be.State;
             //}
         }
     }

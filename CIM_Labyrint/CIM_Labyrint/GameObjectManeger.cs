@@ -54,10 +54,7 @@ namespace CIM_Labyrint
          
         }
 
-        public void Instantiate(GameObject target)
-        {
-            addedGameObjects.Add(target);
-        }
+
 
         public void Destory(GameObject target)
         {
