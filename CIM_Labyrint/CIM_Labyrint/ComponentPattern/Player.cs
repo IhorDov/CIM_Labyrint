@@ -20,10 +20,9 @@ namespace CIM_Labyrint
         public float XPos { get; set; }
         public float YPos { get; set; }
 
-        public Player(float xPos, float yPos)
+        public Player()
         {
-            this.XPos = xPos;
-            this.YPos = yPos;
+ 
         }
 
    
@@ -74,8 +73,6 @@ namespace CIM_Labyrint
 
             sr.SetSprite("Player/PlayerF_2");
 
-            GameObject.Transform.Position = new Vector2(GameWorld.Instance.Graphics.PreferredBackBufferWidth / 2,
-               GameWorld.Instance.Graphics.PreferredBackBufferHeight / 2 - sr.Sprite.Height / 3);
 
             animator = (Animator)GameObject.GetComponent<Animator>();
         }

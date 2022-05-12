@@ -10,6 +10,14 @@ namespace CIM_Labyrint
     {
         private GameObject gameObject;
 
+        private float x,  y;
+
+        public PlayerBuilder(float x, float y)
+        {
+            this.x = x;
+            this.y = y;
+        }
+
         public void BuildGameObject()
         {
             gameObject = new GameObject();
@@ -28,13 +36,15 @@ namespace CIM_Labyrint
             { "Player/PlayerL_1", "Player/PlayerL_2", "Player/PlayerL_3", "Player/PlayerL_4" }));
             animator.AddAnimation(BuildAnimation("Stay", new string[]
             { "Player/PlayerF_2", "Player/PlayerF_2", "Player/PlayerF_2", "Player/PlayerF_2" }));
+
+            gameObject.Transform.Position = new Microsoft.Xna.Framework.Vector2(x, y);
         }
 
         private void BuildComponents()
         {
             //Player p = (Player)gameObject.AddComponent(new Player());
 
-            
+            gameObject.AddComponent(new Player());
             gameObject.AddComponent(new SpriteRenderer());
             gameObject.AddComponent(new Animator());
 

@@ -1,24 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Microsoft.Xna.Framework;
 
 namespace CIM_Labyrint
 {
-    class LevelManeger : Component , IBuilder
+    class LevelManager
     {
 
         public List<int[,]> levelHolder = new List<int[,]>();
 
         private GameObject gameObject;
 
-
-
-        private Player player = new Player(new float() , new float());
-
-
-
-
-        public LevelManeger()
+        public LevelManager()
         {
             levelHolder.Add(LevelData.level_0);
             levelHolder.Add(LevelData.level_1);
@@ -27,25 +21,26 @@ namespace CIM_Labyrint
             levelHolder.Add(LevelData.level_4);
         }
 
-        public Player PlayerObject(int whatObjects, float xPos, float yPos)
+        private GameObject CreateGameObject(int whatObjects, float xPos, float yPos)
         {
+            GameObject go = new GameObject();
 
-
-            switch (whatObjects)
+            Director director = null;
+            if (whatObjects == 1) //Alle objects skal tilføjes i denne metode
             {
-                //case 0:
-                //    return new Floor(xPos, yPos);
-                //case 1:
-                //    return new Wall(xPos, yPos);
-                //case 2:
-                //    return new Box(xPos, yPos);
-                //case 3:
-                //    return new Goal(xPos, yPos);
-                case 4:
-                    return new Player(xPos, yPos);
+                SpriteRenderer sr = (SpriteRenderer)go.AddComponent(new SpriteRenderer());
+                sr.SetSprite("block_05");
+                go.Transform.Position = new Vector2(xPos, yPos);
+
+            }
+            else if (whatObjects == 4)
+            {
+                //tilføjer en player til spillet
+                director = new Director(new PlayerBuilder(xPos, yPos));
+                go = director.Construct();
             }
 
-            return null;
+            return go;
         }
 
         public void LoadLevel(int targetLevel)
@@ -73,11 +68,20 @@ namespace CIM_Labyrint
                     for (int x = 0; x < spawnLevel.GetLength(0); x++)
                     {
                         //Add floor if needed
-                        if (spawnLevel[x, y] > 1)
-                            PlayerObject(0, x, y);
+                        if (spawnLevel[x, y] > 0)
+                        {
+                            GameObject newObject = CreateGameObject(spawnLevel[x, y], x, y);
+
+                            //tilføj newObject til GameWorlds ´gameObjects liste
+                            if (newObject != null)
+                            {
+                                GameWorld.Instance.Instantiate(newObject);
+                            }
+                        }
+
 
                         //Spawn object
-                        gameObject.AddComponent(PlayerObject(spawnLevel[x, y], x, y));
+
                     }
                 }
 
@@ -97,6 +101,7 @@ namespace CIM_Labyrint
         public void BuildGameObject()
         {
             LoadLevel(0);
+
         }
 
         public GameObject GetResult()

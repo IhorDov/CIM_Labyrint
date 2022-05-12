@@ -47,13 +47,14 @@ namespace CIM_Labyrint
         protected override void Initialize()
         {
             ScreenSize();
-            
-            Director director = new Director(new PlayerBuilder());
-            gameObjects.Add(director.Construct());
 
-            director = new Director(new LevelManeger());
-            gameObjects.Add(director.Construct());
-            
+            LevelManager levelManager = new LevelManager();
+
+            levelManager.LoadLevel(0);
+
+            gameObjects.AddRange(newGameObjects);
+            newGameObjects.Clear();
+
             for (int i = 0; i < gameObjects.Count; i++)
             {
                 gameObjects[i].Awake();
@@ -83,6 +84,9 @@ namespace CIM_Labyrint
             {
                 gameObjects[i].Update(gameTime);
             }
+
+            gameObjects.AddRange(newGameObjects);
+            newGameObjects.Clear();
             
             base.Update(gameTime);
         }
@@ -107,6 +111,15 @@ namespace CIM_Labyrint
             Graphics.PreferredBackBufferHeight = GraphicsDevice.DisplayMode.Height - 150; //sets the height of the window
             Graphics.PreferredBackBufferWidth = Graphics.PreferredBackBufferHeight / 300 * 600; //sets the width of the window
             Graphics.ApplyChanges(); //applies the changes
+        }
+
+        /// <summary>
+        /// Instantiate during runtime
+        /// </summary>
+        /// <param name="go"></param>
+        public void Instantiate(GameObject go)
+        {
+            newGameObjects.Add(go);
         }
     }
 }

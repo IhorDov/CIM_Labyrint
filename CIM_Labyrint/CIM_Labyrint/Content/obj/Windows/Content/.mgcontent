@@ -4,6 +4,7 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/block/block_05.png</File>
     <File>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerB_1.png</File>
     <File>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerB_2.png</File>
     <File>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerB_3.png</File>
@@ -22,6 +23,7 @@
     <File>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerR_4.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

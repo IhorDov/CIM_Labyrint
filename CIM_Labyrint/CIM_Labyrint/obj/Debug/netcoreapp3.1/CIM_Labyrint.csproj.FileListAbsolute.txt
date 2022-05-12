@@ -205,3 +205,4 @@ C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\n
 C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.dll
 C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.pdb
 C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.genruntimeconfig.cache
+C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\block\block_05.xnb
