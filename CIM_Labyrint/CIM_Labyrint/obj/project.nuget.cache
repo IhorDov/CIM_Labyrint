@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IttYTxUuIxJ7U//jowxaJhQV/1hRg6YjXRjU1odfHQp/itXm+yp0DsTqyDhNixo4NYP+89y4vWakYp1/76JE0w==",
+  "dgSpecHash": "513Q4lsQezEVltSGXKn2+osbor7bWBa21foD++NFeNjXtOh7DFhfEmtPa0FNQ4ckHQTqn4gHzqh7Hm4FFhl8bQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nap\\Desktop\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint.csproj",
+  "projectFilePath": "C:\\Users\\nap\\Documents\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nap\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\nap\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",

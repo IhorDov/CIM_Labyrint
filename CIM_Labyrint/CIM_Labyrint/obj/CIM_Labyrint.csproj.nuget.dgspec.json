@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nap\\Desktop\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint.csproj": {}
+    "C:\\Users\\nap\\Documents\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nap\\Desktop\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint.csproj": {
+    "C:\\Users\\nap\\Documents\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nap\\Desktop\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint.csproj",
+        "projectUniqueName": "C:\\Users\\nap\\Documents\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint.csproj",
         "projectName": "CIM_Labyrint",
-        "projectPath": "C:\\Users\\nap\\Desktop\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint.csproj",
+        "projectPath": "C:\\Users\\nap\\Documents\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint.csproj",
         "packagesPath": "C:\\Users\\nap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nap\\Desktop\\CIM_Labyrint\\CIM_Labyrint\\obj\\",
+        "outputPath": "C:\\Users\\nap\\Documents\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

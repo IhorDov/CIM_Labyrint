@@ -10,7 +10,7 @@ namespace CIM_Labyrint
         {
             SpriteRenderer sr = GameObject.GetComponent<SpriteRenderer>() as SpriteRenderer;
 
-            sr.SetSprite("block/block_05");
+            sr.SetSprite("Bloks/block_05");
         }
     }
 

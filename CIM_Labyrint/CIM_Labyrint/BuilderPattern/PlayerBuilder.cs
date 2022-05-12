@@ -11,12 +11,17 @@ namespace CIM_Labyrint
     {
         private GameObject gameObject;
 
-        private float x,  y;
+        protected Vector2 gridPosition;
+
+        public Vector2 position;
 
         public PlayerBuilder(float x, float y)
         {
-            this.x = x;
-            this.y = y;
+            this.gridPosition.X = x;
+            this.gridPosition.Y = y;
+
+
+            this.position = GridPlacement.Placement(gridPosition);
         }
 
         public void BuildGameObject()
@@ -38,7 +43,7 @@ namespace CIM_Labyrint
             animator.AddAnimation(BuildAnimation("Stay", new string[]
             { "Player/PlayerF_2", "Player/PlayerF_2", "Player/PlayerF_2", "Player/PlayerF_2" }));
 
-            gameObject.Transform.Position = new Vector2(x, y);
+            gameObject.Transform.Position = new Vector2(position.X, position.Y);
         }
 
         private void BuildComponents()

@@ -7,6 +7,8 @@ namespace CIM_Labyrint
 {
     public abstract class Component
     {
+
+
         protected float speed;
         public GameObject GameObject { get; set; }
 

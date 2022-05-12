@@ -8,20 +8,16 @@ namespace CIM_Labyrint
 {
     class Player : Component, IGameListner
     {
-        //private float speed;
 
-        //private bool canShoot = true;
-
-        //private float shootTime = 0;
 
         private Animator animator;
 
         private Dictionary<Keys, BUTTONSTATE> movementKeys = new Dictionary<Keys, BUTTONSTATE>();
-        public float XPos { get; set; }
-        public float YPos { get; set; }
+      
 
         public void Move(Vector2 velocity)
         {
+
             if (velocity != Vector2.Zero)
             {
                 velocity.Normalize();
@@ -57,7 +53,7 @@ namespace CIM_Labyrint
         public override void Awake()
         {
             this.speed = 150;
-            //this.myScale = 0.5f;
+            
         }
 
         public override void Start()
