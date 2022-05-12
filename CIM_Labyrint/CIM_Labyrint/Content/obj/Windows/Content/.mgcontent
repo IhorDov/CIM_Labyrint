@@ -4,7 +4,16 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/block/block_05.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/326543__sqeeeek__wetfootsteps.wav</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Bloks/block_01.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Bloks/block_02.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Bloks/block_03.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Bloks/block_04.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Bloks/block_05.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Bloks/block_06.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Bloks/block_07.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Bloks/block_08.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/CollisionTexture.png</File>
     <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_01.png</File>
     <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_02.png</File>
     <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_03.png</File>
@@ -71,6 +80,15 @@
     <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerR_4.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

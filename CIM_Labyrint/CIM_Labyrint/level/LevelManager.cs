@@ -29,10 +29,9 @@ namespace CIM_Labyrint
            
             if (whatObjects == 1) //Alle objects skal tilføjes i denne metode
             {
-                //SpriteRenderer sr = (SpriteRenderer)go.AddComponent(new SpriteRenderer());
-                //sr.SetSprite("block_05");
-                go.Transform.Position = new Vector2(xPos, yPos);
-
+                //tilføjer en block til spillet
+                director = new Director(new BlockBuilder(xPos, yPos));
+                go = director.Construct();
             }
             else if (whatObjects == 2)
             {
@@ -42,6 +41,7 @@ namespace CIM_Labyrint
             }
             else if (whatObjects == 3)
             {
+                //tilføjer en base til spillet
                 director = new Director(new BaseBuilder(xPos, yPos));
                 go = director.Construct();
             }
