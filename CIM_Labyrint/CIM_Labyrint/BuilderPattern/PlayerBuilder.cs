@@ -24,6 +24,21 @@ namespace CIM_Labyrint
             this.position = GridPlacement.Placement(gridPosition);
         }
 
+        public bool CrateMovement(Vector2 direction)
+        {
+            //GameObjectWithCollider targetObject = LookAround.LookAt(GridPlacement.Placement(gridPosition + direction));
+
+            //if (targetObject == null)
+            //{
+            //    MoveInDirection(direction);
+
+            //    return true;
+            //}
+
+            return false;
+        }
+
+
         public void BuildGameObject()
         {
             gameObject = new GameObject();
@@ -44,18 +59,15 @@ namespace CIM_Labyrint
             { "Player/PlayerF_2", "Player/PlayerF_2", "Player/PlayerF_2", "Player/PlayerF_2" }));
 
             gameObject.Transform.Position = new Vector2(position.X, position.Y);
+
+
         }
 
         private void BuildComponents()
         {
-            //Player p = (Player)gameObject.AddComponent(new Player());
-
             gameObject.AddComponent(new Player());
             gameObject.AddComponent(new SpriteRenderer());
             gameObject.AddComponent(new Animator());
-
-            //Collider c = (Collider)gameObject.AddComponent(new Collider());
-            //c.CollisionEvent.Attach(p);
         }
 
         private Animation BuildAnimation(string animationName, string[] spriteNames)
