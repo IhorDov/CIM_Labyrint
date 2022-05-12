@@ -1,8 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace CIM_Labyrint
 {
@@ -11,17 +9,6 @@ namespace CIM_Labyrint
         private List<Component> components = new List<Component>();
 
         public Transform Transform { get; private set; } = new Transform();
-
-
-
-        //public GameObject()
-        //{
-    
-        //    this.position = GridPlacement.Placement(gridPosition);
-        //}
-
-
-
 
         public Component AddComponent(Component component)
         {
@@ -68,6 +55,5 @@ namespace CIM_Labyrint
                 components[i].Draw(spriteBatch);
             }
         }
-
     }
 }

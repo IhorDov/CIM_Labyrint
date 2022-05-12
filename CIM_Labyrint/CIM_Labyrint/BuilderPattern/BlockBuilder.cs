@@ -9,31 +9,28 @@ namespace CIM_Labyrint
     {
         private GameObject gameObject;
 
-        private float x, y;
+        protected Vector2 gridPosition;
+
+        public Vector2 position;
 
         public BlockBuilder(float x, float y)
         {
-            this.x = x;
-            this.y = y;
+            this.gridPosition.X = x;
+            this.gridPosition.Y = y;
+
+
+            this.position = GridPlacement.Placement(gridPosition);
         }
         public void BuildGameObject()
         {
             gameObject = new GameObject();
 
-            BuildComponents();
-
-            gameObject.Transform.Position = new Vector2(x, y);
-        }
-        private void BuildComponents()
-        {
-            //Player p = (Player)gameObject.AddComponent(new Player());
-
             gameObject.AddComponent(new Block());
             gameObject.AddComponent(new SpriteRenderer());
 
-            //Collider c = (Collider)gameObject.AddComponent(new Collider());
-            //c.CollisionEvent.Attach(p);
+            gameObject.Transform.Position = new Microsoft.Xna.Framework.Vector2(position.X, position.Y);
         }
+
 
         public GameObject GetResult()
         {

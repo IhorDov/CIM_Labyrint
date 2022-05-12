@@ -6,14 +6,12 @@ namespace CIM_Labyrint
 {
     class Block : Component
     {
-        public float XPos { get; set; }
-        public float YPos { get; set; }
-
         public override void Start()
         {
             SpriteRenderer sr = GameObject.GetComponent<SpriteRenderer>() as SpriteRenderer;
 
-            sr.SetSprite("Bloks/block_05");
+            sr.SetSprite("block/block_05");
         }
     }
+
 }

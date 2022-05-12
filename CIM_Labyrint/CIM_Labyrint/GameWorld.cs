@@ -11,12 +11,18 @@ namespace CIM_Labyrint
         private static GameWorld instance;
         private GraphicsDeviceManager graphics;
         private SpriteBatch spriteBatch;
+
+        //game gameObjects
         private List<GameObject> gameObjects = new List<GameObject>();
         private List<GameObject> newGameObjects = new List<GameObject>();
         private List<GameObject> destroyedGameObjects = new List<GameObject>();
-        //private float lastSpawn = 0;
-        private static Random rnd = new Random();
+
+
+
+        //Colliders
         //public List<Collider> Colliders { get; private set; } = new List<Collider>();
+
+
 
         public static float DeltaTime { get; private set; }
         public GraphicsDeviceManager Graphics
@@ -44,6 +50,8 @@ namespace CIM_Labyrint
             IsMouseVisible = true;
         }
 
+
+
         protected override void Initialize()
         {
             ScreenSize();
@@ -67,11 +75,17 @@ namespace CIM_Labyrint
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
+
+
             for (int i = 0; i < gameObjects.Count; i++)
             {
                 gameObjects[i].Start();
             }
         }
+
+
+
+
 
         protected override void Update(GameTime gameTime)
         {
@@ -87,8 +101,10 @@ namespace CIM_Labyrint
 
             gameObjects.AddRange(newGameObjects);
             newGameObjects.Clear();
-            
+
             base.Update(gameTime);
+
+
         }
 
         protected override void Draw(GameTime gameTime)

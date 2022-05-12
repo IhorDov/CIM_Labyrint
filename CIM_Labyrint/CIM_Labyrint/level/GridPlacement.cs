@@ -11,8 +11,8 @@ namespace CIM_Labyrint
 
         public static Vector2 Placement(Vector2 dir)
         {
-            Vector2 result =  new Vector2(dir.X * gridSize + gridSize / 2,
-                dir.Y * gridSize + gridSize / 2);
+            Vector2 result =  new Vector2(dir.X * gridSize + gridSize / 3,
+                dir.Y * gridSize + gridSize / 3);
 
             return result;
         }

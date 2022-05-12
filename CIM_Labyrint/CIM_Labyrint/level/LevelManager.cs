@@ -26,33 +26,45 @@ namespace CIM_Labyrint
             GameObject go = new GameObject();
 
             Director director = null;
-           
+
+
+
+
             if (whatObjects == 1) //Alle objects skal tilføjes i denne metode
             {
-                //tilføjer en block til spillet
                 director = new Director(new BlockBuilder(xPos, yPos));
                 go = director.Construct();
+                
             }
             else if (whatObjects == 2)
             {
                 //tilføjer en crate til spillet
                 director = new Director(new CrateBuilder(xPos, yPos));
                 go = director.Construct();
+                
             }
             else if (whatObjects == 3)
             {
-                //tilføjer en base til spillet
                 director = new Director(new BaseBuilder(xPos, yPos));
                 go = director.Construct();
+              
             }
             else if (whatObjects == 4)
             {
                 //tilføjer en player til spillet
                 director = new Director(new PlayerBuilder(xPos, yPos));
                 go = director.Construct();
+                
             }
 
+
+
             return go;
+
+
+
+
+
         }
 
         public void LoadLevel(int targetLevel)
@@ -82,12 +94,17 @@ namespace CIM_Labyrint
                         //Add floor if needed
                         if (spawnLevel[x, y] > 0)
                         {
+                            
+                            GameWorld.Instance.Instantiate(CreateGameObject(0, x, y));
+
                             GameObject newObject = CreateGameObject(spawnLevel[x, y], x, y);
+
 
                             //tilføj newObject til GameWorlds ´gameObjects liste
                             if (newObject != null)
                             {
                                 GameWorld.Instance.Instantiate(newObject);
+
                             }
                         }
 
@@ -95,7 +112,7 @@ namespace CIM_Labyrint
                     }
                 }
 
-
+                
             }
             catch (IndexOutOfRangeException e)
             {
@@ -107,6 +124,9 @@ namespace CIM_Labyrint
                 Console.WriteLine("heJ" + e.Message);
             }
         }
+
+
+
 
         public void BuildGameObject()
         {

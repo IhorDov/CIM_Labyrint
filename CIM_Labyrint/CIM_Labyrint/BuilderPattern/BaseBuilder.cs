@@ -9,12 +9,21 @@ namespace CIM_Labyrint
     {
         private GameObject gameObject;
 
-        private float x, y;
+     
+
+        protected Vector2 gridPosition;
+
+        public Vector2 position;
+
 
         public BaseBuilder(float x, float y)
         {
-            this.x = x;
-            this.y = y;
+            this.gridPosition.X = x;
+            this.gridPosition.Y = y;
+
+
+            this.position = GridPlacement.Placement(gridPosition);
+
         }
         public void BuildGameObject()
         {
@@ -22,7 +31,8 @@ namespace CIM_Labyrint
 
             BuildComponents();
 
-            gameObject.Transform.Position = new Vector2(x, y);
+
+
         }
         private void BuildComponents()
         {
@@ -30,6 +40,7 @@ namespace CIM_Labyrint
 
             gameObject.AddComponent(new Base());
             gameObject.AddComponent(new SpriteRenderer());
+            gameObject.Transform.Position = new Vector2(position.X, position.Y);
 
             //Collider c = (Collider)gameObject.AddComponent(new Collider());
             //c.CollisionEvent.Attach(p);

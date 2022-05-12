@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Xna.Framework;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -8,12 +9,17 @@ namespace CIM_Labyrint
     {
         private GameObject gameObject;
 
-        private float x, y;
+        protected Vector2 gridPosition;
+
+        public Vector2 position;
 
         public CrateBuilder(float x, float y)
         {
-            this.x = x;
-            this.y = y;
+            this.gridPosition.X = x;
+            this.gridPosition.Y = y;
+
+
+            this.position = GridPlacement.Placement(gridPosition);
         }
         public void BuildGameObject()
         {
@@ -21,17 +27,13 @@ namespace CIM_Labyrint
 
             BuildComponents();
 
-            gameObject.Transform.Position = new Microsoft.Xna.Framework.Vector2(x, y);
+            gameObject.Transform.Position = new Vector2(position.X, position.Y);
         }
         private void BuildComponents()
         {
-            //Player p = (Player)gameObject.AddComponent(new Player());
 
             gameObject.AddComponent(new Crate());
             gameObject.AddComponent(new SpriteRenderer());
-
-            //Collider c = (Collider)gameObject.AddComponent(new Collider());
-            //c.CollisionEvent.Attach(p);
         }
 
         public GameObject GetResult()

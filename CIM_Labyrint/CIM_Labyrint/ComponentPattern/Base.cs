@@ -6,9 +6,6 @@ namespace CIM_Labyrint
 {
     class Base : Component
     {
-        public float XPos { get; set; }
-        public float YPos { get; set; }
-
         public override void Start()
         {
             SpriteRenderer sr = GameObject.GetComponent<SpriteRenderer>() as SpriteRenderer;
