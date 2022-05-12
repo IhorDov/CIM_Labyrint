@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerL_2.png</SourceFile>
-  <SourceTime>2022-05-11T10:33:50.9897577+02:00</SourceTime>
-  <DestFile>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/bin/Windows/Content/Player/PlayerL_2.xnb</DestFile>
-  <DestTime>2022-05-11T11:37:38.2696509+02:00</DestTime>
+  <SourceFile>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerL_2.png</SourceFile>
+  <SourceTime>2022-05-12T10:18:33.4747079+02:00</SourceTime>
+  <DestFile>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/bin/Windows/Content/Player/PlayerL_2.xnb</DestFile>
+  <DestTime>2022-05-12T10:18:41.7067276+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

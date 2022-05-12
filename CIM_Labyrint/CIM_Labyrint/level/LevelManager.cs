@@ -26,12 +26,24 @@ namespace CIM_Labyrint
             GameObject go = new GameObject();
 
             Director director = null;
+           
             if (whatObjects == 1) //Alle objects skal tilføjes i denne metode
             {
-                SpriteRenderer sr = (SpriteRenderer)go.AddComponent(new SpriteRenderer());
-                sr.SetSprite("block_05");
+                //SpriteRenderer sr = (SpriteRenderer)go.AddComponent(new SpriteRenderer());
+                //sr.SetSprite("block_05");
                 go.Transform.Position = new Vector2(xPos, yPos);
 
+            }
+            else if (whatObjects == 2)
+            {
+                //tilføjer en crate til spillet
+                director = new Director(new CrateBuilder(xPos, yPos));
+                go = director.Construct();
+            }
+            else if (whatObjects == 3)
+            {
+                director = new Director(new BaseBuilder(xPos, yPos));
+                go = director.Construct();
             }
             else if (whatObjects == 4)
             {
@@ -79,9 +91,7 @@ namespace CIM_Labyrint
                             }
                         }
 
-
                         //Spawn object
-
                     }
                 }
 

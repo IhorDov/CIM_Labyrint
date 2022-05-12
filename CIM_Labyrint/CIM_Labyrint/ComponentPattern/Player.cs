@@ -20,13 +20,6 @@ namespace CIM_Labyrint
         public float XPos { get; set; }
         public float YPos { get; set; }
 
-        public Player()
-        {
- 
-        }
-
-   
-
         public void Move(Vector2 velocity)
         {
             if (velocity != Vector2.Zero)

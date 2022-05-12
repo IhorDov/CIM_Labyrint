@@ -4,25 +4,121 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/block/block_05.png</File>
-    <File>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerB_1.png</File>
-    <File>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerB_2.png</File>
-    <File>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerB_3.png</File>
-    <File>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerB_4.png</File>
-    <File>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerF_1.png</File>
-    <File>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerF_2.png</File>
-    <File>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerF_3.png</File>
-    <File>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerF_4.png</File>
-    <File>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerL_1.png</File>
-    <File>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerL_2.png</File>
-    <File>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerL_3.png</File>
-    <File>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerL_4.png</File>
-    <File>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerR_1.png</File>
-    <File>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerR_2.png</File>
-    <File>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerR_3.png</File>
-    <File>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerR_4.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/block/block_05.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_01.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_02.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_03.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_04.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_05.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_06.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_07.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_08.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_09.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_10.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_11.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_12.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_13.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_14.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_15.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_16.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_17.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_18.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_19.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_20.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_21.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_22.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_23.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_24.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_25.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_26.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_28.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_29.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_30.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_31.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_32.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_33.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Environment/environment_01.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Environment/environment_02.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Environment/environment_03.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Environment/environment_04.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Environment/environment_05.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Environment/environment_06.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Environment/environment_07.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Environment/environment_08.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Environment/environment_09.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Environment/environment_10.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Environment/environment_11.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Environment/environment_12.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Environment/environment_13.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Environment/environment_14.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Environment/environment_15.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Environment/environment_16.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerB_1.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerB_2.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerB_3.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerB_4.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerF_1.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerF_2.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerF_3.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerF_4.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerL_1.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerL_2.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerL_3.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerL_4.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerR_1.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerR_2.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerR_3.png</File>
+    <File>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerR_4.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

@@ -1,5 +1,6 @@
 ﻿
-﻿using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -37,7 +38,7 @@ namespace CIM_Labyrint
             animator.AddAnimation(BuildAnimation("Stay", new string[]
             { "Player/PlayerF_2", "Player/PlayerF_2", "Player/PlayerF_2", "Player/PlayerF_2" }));
 
-            gameObject.Transform.Position = new Microsoft.Xna.Framework.Vector2(x, y);
+            gameObject.Transform.Position = new Vector2(x, y);
         }
 
         private void BuildComponents()
