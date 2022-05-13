@@ -10,22 +10,13 @@ namespace CIM_Labyrint
     class SpriteRenderer : Component
     {
         public int number = 0;
-        public Rectangle rectangle;
-
-                private GameObject gameObject;
-
-
 
         public Texture2D Sprite { get; set; }
         public Vector2 Origin { get; set; }
 
         public override void Start()
         {
-            gameObject = new GameObject();
-
-            Origin = new Vector2(Sprite.Width / 3, Sprite.Height / 3);
-            rectangle = new Rectangle((int)gameObject.Transform.Position.X, (int)gameObject.Transform.Position.Y, Sprite.Width, Sprite.Height);
-
+            Origin = new Vector2(Sprite.Width / 2, Sprite.Height / 2);
         }
         public void SetSprite(string spriteName)
         {
@@ -33,7 +24,7 @@ namespace CIM_Labyrint
         }
         public override void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(Sprite, GameObject.Transform.Position, rectangle, Color.White, 0, Origin, 0.7f, SpriteEffects.None, 0);
+            spriteBatch.Draw(Sprite, GameObject.Transform.Position, null, Color.White, 0, Origin, 0.6f, SpriteEffects.None, 1);
         }
     }
 }

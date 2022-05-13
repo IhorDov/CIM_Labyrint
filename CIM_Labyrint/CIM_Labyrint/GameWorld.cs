@@ -54,7 +54,7 @@ namespace CIM_Labyrint
 
         protected override void Initialize()
         {
-            //ScreenSize();
+            ScreenSize();
 
             LevelManager levelManager = new LevelManager();
 
