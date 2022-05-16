@@ -24,7 +24,7 @@ namespace CIM_Labyrint
         }
         public override void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(Sprite, GameObject.Transform.Position, null, Color.White, 0, Origin, 0.6f, SpriteEffects.None, 1);
+            spriteBatch.Draw(Sprite, GameObject.Transform.Position, null, Color.White, 0, Origin, 1f, SpriteEffects.None, 1);
         }
     }
 }

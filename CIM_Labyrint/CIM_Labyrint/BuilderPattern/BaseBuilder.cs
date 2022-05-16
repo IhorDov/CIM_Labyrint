@@ -11,7 +11,7 @@ namespace CIM_Labyrint
 
      
 
-        protected Vector2 gridPosition;
+        private Vector2 gridPosition;
 
         public Vector2 position;
 
