@@ -1,52 +1,141 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
+using System.Collections.Generic;
 
 namespace CIM_Labyrint
 {
     public class GameWorld : Game
     {
-        private GraphicsDeviceManager _graphics;
-        private SpriteBatch _spriteBatch;
+        private static GameWorld instance;
+        private GraphicsDeviceManager graphics;
+        private SpriteBatch spriteBatch;
+
+        //game gameObjects
+        private List<GameObject> gameObjects = new List<GameObject>();
+        private List<GameObject> newGameObjects = new List<GameObject>();
+        private List<GameObject> destroyedGameObjects = new List<GameObject>();
+
+
+
+        //Colliders
+        //public List<Collider> Colliders { get; private set; } = new List<Collider>();
+
+
+
+        public static float DeltaTime { get; private set; }
+        public GraphicsDeviceManager Graphics
+        {
+            get { return graphics; }
+            set { graphics = value; }
+        }
+
+        public static GameWorld Instance
+        {
+            get
+            {
+                if (instance == null)
+                {
+                    instance = new GameWorld();
+                }
+                return instance;
+            }
+        }
 
         public GameWorld()
         {
-            _graphics = new GraphicsDeviceManager(this);
+            graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
         }
 
+
+
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
+            ScreenSize();
+
+            LevelManager levelManager = new LevelManager();
+
+            levelManager.LoadLevel(0);
+
+            gameObjects.AddRange(newGameObjects);
+            newGameObjects.Clear();
+
+            for (int i = 0; i < gameObjects.Count; i++)
+            {
+                gameObjects[i].Awake();
+            }
 
             base.Initialize();
         }
 
         protected override void LoadContent()
         {
-            _spriteBatch = new SpriteBatch(GraphicsDevice);
+            spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            // TODO: use this.Content to load your game content here
+
+
+            for (int i = 0; i < gameObjects.Count; i++)
+            {
+                gameObjects[i].Start();
+            }
         }
+
+
+
+
 
         protected override void Update(GameTime gameTime)
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            // TODO: Add your update logic here
+            DeltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
+
+            for (int i = 0; i < gameObjects.Count; i++)
+            {
+                gameObjects[i].Update(gameTime);
+            }
+
+            gameObjects.AddRange(newGameObjects);
+            newGameObjects.Clear();
 
             base.Update(gameTime);
+
+
         }
 
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            // TODO: Add your drawing code here
+            spriteBatch.Begin();
+
+            for (int i = 0; i < gameObjects.Count; i++)
+            {
+                gameObjects[i].Draw(spriteBatch);
+            }
+
+            spriteBatch.End();
 
             base.Draw(gameTime);
+        }
+        private void ScreenSize()
+        {
+            Graphics.PreferredBackBufferHeight = GraphicsDevice.DisplayMode.Height - 150; //sets the height of the window
+            Graphics.PreferredBackBufferWidth = Graphics.PreferredBackBufferHeight / 300 * 600; //sets the width of the window
+            Graphics.ApplyChanges(); //applies the changes
+        }
+
+        /// <summary>
+        /// Instantiate during runtime
+        /// </summary>
+        /// <param name="go"></param>
+        public void Instantiate(GameObject go)
+        {
+            newGameObjects.Add(go);
         }
     }
 }

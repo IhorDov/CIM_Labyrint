@@ -7,8 +7,7 @@ namespace CIM_Labyrint
         [STAThread]
         static void Main()
         {
-            using (var game = new GameWorld())
-                game.Run();
+            GameWorld.Instance.Run();
         }
     }
 }

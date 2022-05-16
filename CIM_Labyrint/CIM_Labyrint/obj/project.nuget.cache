@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tNEMvTNclDOaBsvHdlndIbk2QS4Qznz3fpc4jIonLnO26DL4PG/gU5G7717h4lDOQ61XymeiYn+j4N64iGZyZA==",
+  "dgSpecHash": "oQDnGl1j31HZZG1q+7qvewHDF7oh3yY72tNFB2bQwYT/CmI3GjA1GsYqGjFz1Af8qyEMuwVfnpS7iLfrkEltfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nap\\Documents\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint.csproj",
+  "projectFilePath": "C:\\Users\\nap\\Documents\\GitHub\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nap\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\nap\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",
@@ -39,7 +39,6 @@
     "C:\\Users\\nap\\.nuget\\packages\\sharpdx.mediafoundation\\4.0.1\\sharpdx.mediafoundation.4.0.1.nupkg.sha512",
     "C:\\Users\\nap\\.nuget\\packages\\sharpdx.xaudio2\\4.0.1\\sharpdx.xaudio2.4.0.1.nupkg.sha512",
     "C:\\Users\\nap\\.nuget\\packages\\sharpdx.xinput\\4.0.1\\sharpdx.xinput.4.0.1.nupkg.sha512",
-    "C:\\Users\\nap\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.115.5\\stub.system.data.sqlite.core.netstandard.1.0.115.5.nupkg.sha512",
     "C:\\Users\\nap\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",
     "C:\\Users\\nap\\.nuget\\packages\\system.buffers\\4.0.0\\system.buffers.4.0.0.nupkg.sha512",
     "C:\\Users\\nap\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
@@ -48,7 +47,6 @@
     "C:\\Users\\nap\\.nuget\\packages\\system.componentmodel\\4.0.1\\system.componentmodel.4.0.1.nupkg.sha512",
     "C:\\Users\\nap\\.nuget\\packages\\system.componentmodel.annotations\\4.1.0\\system.componentmodel.annotations.4.1.0.nupkg.sha512",
     "C:\\Users\\nap\\.nuget\\packages\\system.console\\4.0.0\\system.console.4.0.0.nupkg.sha512",
-    "C:\\Users\\nap\\.nuget\\packages\\system.data.sqlite.core\\1.0.115.5\\system.data.sqlite.core.1.0.115.5.nupkg.sha512",
     "C:\\Users\\nap\\.nuget\\packages\\system.diagnostics.debug\\4.0.11\\system.diagnostics.debug.4.0.11.nupkg.sha512",
     "C:\\Users\\nap\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.0.0\\system.diagnostics.diagnosticsource.4.0.0.nupkg.sha512",
     "C:\\Users\\nap\\.nuget\\packages\\system.diagnostics.fileversioninfo\\4.0.0\\system.diagnostics.fileversioninfo.4.0.0.nupkg.sha512",
@@ -126,7 +124,8 @@
     "C:\\Users\\nap\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
     "C:\\Users\\nap\\.nuget\\packages\\system.xml.xmldocument\\4.0.1\\system.xml.xmldocument.4.0.1.nupkg.sha512",
     "C:\\Users\\nap\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
-    "C:\\Users\\nap\\.nuget\\packages\\system.xml.xpath.xdocument\\4.0.1\\system.xml.xpath.xdocument.4.0.1.nupkg.sha512"
+    "C:\\Users\\nap\\.nuget\\packages\\system.xml.xpath.xdocument\\4.0.1\\system.xml.xpath.xdocument.4.0.1.nupkg.sha512",
+    "C:\\Users\\nap\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
   ],
   "logs": []
 }

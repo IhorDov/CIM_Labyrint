@@ -21,6 +21,6 @@
     <MonoGameContentReference Include="Content\Content.mgcb" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\database\Model\database.csproj" />
+    <Folder Include="Content\Player\" />
   </ItemGroup>
 </Project>
