@@ -7,7 +7,6 @@ namespace CIM_Labyrint
 {
     class LevelManager
     {
-
         public List<int[,]> levelHolder = new List<int[,]>();
 
         private GameObject gameObject;
@@ -27,11 +26,16 @@ namespace CIM_Labyrint
 
             Director director = null;
 
-
-
-
-            if (whatObjects == 1) //Alle objects skal tilføjes i denne metode
+            if (whatObjects == 0) //Alle objects skal tilføjes i denne metode
             {
+                //tilføjer ground til spillet
+                director = new Director(new GroundBuilder(xPos, yPos));
+                go = director.Construct();
+
+            }
+            else if (whatObjects == 1) 
+            {
+                //tilføjer en block til spillet
                 director = new Director(new BlockBuilder(xPos, yPos));
                 go = director.Construct();
                 
@@ -57,14 +61,7 @@ namespace CIM_Labyrint
                 
             }
 
-
-
             return go;
-
-
-
-
-
         }
 
         public void LoadLevel(int targetLevel)
@@ -92,9 +89,8 @@ namespace CIM_Labyrint
                     for (int x = 0; x < spawnLevel.GetLength(0); x++)
                     {
                         //Add floor if needed
-                        if (spawnLevel[x, y] > 0)
-                        {
-                            
+                        if (spawnLevel[x, y] >= 0)
+                        {                            
                             GameWorld.Instance.Instantiate(CreateGameObject(0, x, y));
 
                             GameObject newObject = CreateGameObject(spawnLevel[x, y], x, y);
@@ -124,9 +120,6 @@ namespace CIM_Labyrint
                 Console.WriteLine("heJ" + e.Message);
             }
         }
-
-
-
 
         public void BuildGameObject()
         {
