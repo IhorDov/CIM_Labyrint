@@ -9,7 +9,7 @@ namespace CIM_Labyrint
     {
         private GameObject gameObject;
 
-        protected Vector2 gridPosition;
+        private Vector2 gridPosition;
 
         public Vector2 position;
 

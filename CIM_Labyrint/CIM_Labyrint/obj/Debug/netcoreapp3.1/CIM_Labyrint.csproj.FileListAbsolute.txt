@@ -559,3 +559,9 @@ C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_
 C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_07.xnb
 C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_08.xnb
 C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\CollisionTexture.xnb
+C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_01.xnb
+C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_02.xnb
+C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_03.xnb
+C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_04.xnb
+C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_05.xnb
+C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_06.xnb

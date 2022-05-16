@@ -7,32 +7,24 @@ namespace CIM_Labyrint
 {
     class BaseBuilder : IBuilder
     {
-        private GameObject gameObject;
-
-     
+        private GameObject gameObject;     
 
         private Vector2 gridPosition;
 
         public Vector2 position;
-
 
         public BaseBuilder(float x, float y)
         {
             this.gridPosition.X = x;
             this.gridPosition.Y = y;
 
-
             this.position = GridPlacement.Placement(gridPosition);
-
         }
         public void BuildGameObject()
         {
             gameObject = new GameObject();
 
             BuildComponents();
-
-
-
         }
         private void BuildComponents()
         {

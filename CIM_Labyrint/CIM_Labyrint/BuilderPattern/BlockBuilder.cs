@@ -9,7 +9,7 @@ namespace CIM_Labyrint
     {
         private GameObject gameObject;
 
-        protected Vector2 gridPosition;
+        private Vector2 gridPosition;
 
         public Vector2 position;
 
@@ -17,7 +17,6 @@ namespace CIM_Labyrint
         {
             this.gridPosition.X = x;
             this.gridPosition.Y = y;
-
 
             this.position = GridPlacement.Placement(gridPosition);
         }
@@ -28,7 +27,7 @@ namespace CIM_Labyrint
             gameObject.AddComponent(new Block());
             gameObject.AddComponent(new SpriteRenderer());
 
-            gameObject.Transform.Position = new Microsoft.Xna.Framework.Vector2(position.X, position.Y);
+            gameObject.Transform.Position = new Vector2(position.X, position.Y);
         }
 
 
