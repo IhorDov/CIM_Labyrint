@@ -32,7 +32,8 @@ namespace CIM_Labyrint
 
             if (whatObjects == 1) //Alle objects skal tilføjes i denne metode
             {
-                director = new Director(new BlockBuilder(xPos, yPos));
+                director = new Director (    new BlockBuilder(xPos, yPos));
+
                 go = director.Construct();
                 
             }
@@ -53,18 +54,11 @@ namespace CIM_Labyrint
             {
                 //tilføjer en player til spillet
                 director = new Director(new PlayerBuilder(xPos, yPos));
+                
                 go = director.Construct();
                 
             }
-
-
-
             return go;
-
-
-
-
-
         }
 
         public void LoadLevel(int targetLevel)
@@ -130,7 +124,7 @@ namespace CIM_Labyrint
 
         public void BuildGameObject()
         {
-            LoadLevel(0);
+          
 
         }
 

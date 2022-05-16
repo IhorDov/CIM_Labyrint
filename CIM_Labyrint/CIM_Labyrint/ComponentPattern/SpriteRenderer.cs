@@ -19,7 +19,7 @@ namespace CIM_Labyrint
             Origin = new Vector2(Sprite.Width / 2, Sprite.Height / 2);
         }
         public void SetSprite(string spriteName)
-        {
+        {   
             Sprite = GameWorld.Instance.Content.Load<Texture2D>(spriteName);
         }
         public override void Draw(SpriteBatch spriteBatch)

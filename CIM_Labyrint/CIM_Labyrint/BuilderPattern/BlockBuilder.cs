@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace CIM_Labyrint
 {
@@ -24,11 +25,12 @@ namespace CIM_Labyrint
         public void BuildGameObject()
         {
             gameObject = new GameObject();
-
             gameObject.AddComponent(new Block());
             gameObject.AddComponent(new SpriteRenderer());
 
-            gameObject.Transform.Position = new Microsoft.Xna.Framework.Vector2(position.X, position.Y);
+            
+
+            gameObject.Transform.Position = new Vector2(position.X, position.Y);
         }
 
 

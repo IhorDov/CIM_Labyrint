@@ -61,7 +61,10 @@ namespace CIM_Labyrint
             levelManager.LoadLevel(0);
 
             gameObjects.AddRange(newGameObjects);
+            
+
             newGameObjects.Clear();
+            
 
             for (int i = 0; i < gameObjects.Count; i++)
             {

@@ -4,6 +4,7 @@ using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace CIM_Labyrint
 {
@@ -15,6 +16,7 @@ namespace CIM_Labyrint
 
         public Vector2 position;
 
+
         public PlayerBuilder(float x, float y)
         {
             this.gridPosition.X = x;
@@ -22,7 +24,10 @@ namespace CIM_Labyrint
 
 
             this.position = GridPlacement.Placement(gridPosition);
+
+
         }
+
 
         public void BuildGameObject()
         {
@@ -46,13 +51,19 @@ namespace CIM_Labyrint
             gameObject.Transform.Position = new Vector2(position.X, position.Y);
         }
 
-        private void BuildComponents()
+        void BuildComponents()
         {
             //Player p = (Player)gameObject.AddComponent(new Player());
+
+            Player p = new Player();
+
+            p.Startd();
 
             gameObject.AddComponent(new Player());
             gameObject.AddComponent(new SpriteRenderer());
             gameObject.AddComponent(new Animator());
+
+           
 
             //Collider c = (Collider)gameObject.AddComponent(new Collider());
             //c.CollisionEvent.Attach(p);
