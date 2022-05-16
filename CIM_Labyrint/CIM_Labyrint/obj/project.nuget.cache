@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oQDnGl1j31HZZG1q+7qvewHDF7oh3yY72tNFB2bQwYT/CmI3GjA1GsYqGjFz1Af8qyEMuwVfnpS7iLfrkEltfw==",
+  "dgSpecHash": "513Q4lsQezEVltSGXKn2+osbor7bWBa21foD++NFeNjXtOh7DFhfEmtPa0FNQ4ckHQTqn4gHzqh7Hm4FFhl8bQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nap\\Documents\\GitHub\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint.csproj",
+  "projectFilePath": "C:\\Users\\nap\\Documents\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nap\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\nap\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",
@@ -124,8 +124,7 @@
     "C:\\Users\\nap\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
     "C:\\Users\\nap\\.nuget\\packages\\system.xml.xmldocument\\4.0.1\\system.xml.xmldocument.4.0.1.nupkg.sha512",
     "C:\\Users\\nap\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
-    "C:\\Users\\nap\\.nuget\\packages\\system.xml.xpath.xdocument\\4.0.1\\system.xml.xpath.xdocument.4.0.1.nupkg.sha512",
-    "C:\\Users\\nap\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+    "C:\\Users\\nap\\.nuget\\packages\\system.xml.xpath.xdocument\\4.0.1\\system.xml.xpath.xdocument.4.0.1.nupkg.sha512"
   ],
   "logs": []
 }

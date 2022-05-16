@@ -54,6 +54,7 @@ namespace CIM_Labyrint
 
         protected override void Initialize()
         {
+
             ScreenSize();
 
             LevelManager levelManager = new LevelManager();
@@ -64,7 +65,9 @@ namespace CIM_Labyrint
             
 
             newGameObjects.Clear();
-            
+
+
+
 
             for (int i = 0; i < gameObjects.Count; i++)
             {

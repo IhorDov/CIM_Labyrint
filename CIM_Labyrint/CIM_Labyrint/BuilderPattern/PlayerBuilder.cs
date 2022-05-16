@@ -55,11 +55,9 @@ namespace CIM_Labyrint
         {
             //Player p = (Player)gameObject.AddComponent(new Player());
 
-            Player p = new Player();
 
-            p.Startd();
 
-            gameObject.AddComponent(new Player());
+            gameObject.AddComponent(new Player(Vector2.Zero));
             gameObject.AddComponent(new SpriteRenderer());
             gameObject.AddComponent(new Animator());
 

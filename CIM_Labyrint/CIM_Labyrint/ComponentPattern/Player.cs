@@ -5,42 +5,33 @@ using System.Threading;
 
 namespace CIM_Labyrint
 {
-    class Player : Component, IGameListner
+   public class Player : Component, IGameListner
     {
 
         static readonly object _object = new object();
-
-        private Thread internalThread;
-        private Vector2 velocity;
-
         private Animator animator;
 
         private Dictionary<Keys, BUTTONSTATE> movementKeys = new Dictionary<Keys, BUTTONSTATE>();
+        private Vector2 velocity;
 
-
-        public void Move(Vector2 velocity)
+        public void D(Vector2 velocityu)
         {
-            this.velocity = velocity;
-            internalThread = new Thread(test);
-            internalThread.IsBackground = true;
+            this.velocity = velocityu;
         }
 
-        public void Startd()
+        public void Move()
         {
-            internalThread.Start();
 
-        }
-
-
-        void test()
-        {
             while (true)
             {
-                Run();
+                Run(velocity);
             }
         }
 
-        void Run()
+
+
+
+        void Run(Vector2 velocity)
         {
 
             lock (_object)
@@ -86,14 +77,14 @@ namespace CIM_Labyrint
         public override void Awake()
         {
             this.speed = 150;
-
+            
         }
 
         public override void Start()
         {
 
 
-         
+
 
             SpriteRenderer sr = GameObject.GetComponent<SpriteRenderer>() as SpriteRenderer;
 
