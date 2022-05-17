@@ -62,6 +62,12 @@
     <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Environment/environment_14.png</File>
     <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Environment/environment_15.png</File>
     <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Environment/environment_16.png</File>
+    <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Ground/ground_01.png</File>
+    <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Ground/ground_02.png</File>
+    <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Ground/ground_03.png</File>
+    <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Ground/ground_04.png</File>
+    <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Ground/ground_05.png</File>
+    <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Ground/ground_06.png</File>
     <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerB_1.png</File>
     <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerB_2.png</File>
     <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerB_3.png</File>
@@ -80,6 +86,12 @@
     <File>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Player/PlayerR_4.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

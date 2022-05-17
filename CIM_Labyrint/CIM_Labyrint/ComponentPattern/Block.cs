@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CIM_Labyrint
 {
-    public class Block : Component
+    class Block : Component
     {
         public override void Start()
         {

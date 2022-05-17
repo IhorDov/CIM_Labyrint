@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
-using Microsoft.Xna.Framework;
+using System.Threading;
 
 namespace CIM_Labyrint
 {
@@ -11,6 +10,10 @@ namespace CIM_Labyrint
         public List<int[,]> levelHolder = new List<int[,]>();
 
         private GameObject gameObject;
+        private int targetLevel;
+
+        static readonly object _object = new object();
+
 
         public LevelManager()
         {
@@ -19,6 +22,7 @@ namespace CIM_Labyrint
             levelHolder.Add(LevelData.level_2);
             levelHolder.Add(LevelData.level_3);
             levelHolder.Add(LevelData.level_4);
+
         }
 
         private GameObject CreateGameObject(int whatObjects, float xPos, float yPos)
@@ -32,90 +36,122 @@ namespace CIM_Labyrint
 
             if (whatObjects == 1) //Alle objects skal tilføjes i denne metode
             {
-                director = new Director (    new BlockBuilder(xPos, yPos));
+                director = new Director(new BlockBuilder(xPos, yPos));
 
                 go = director.Construct();
-                
+
             }
             else if (whatObjects == 2)
             {
                 //tilføjer en crate til spillet
                 director = new Director(new CrateBuilder(xPos, yPos));
                 go = director.Construct();
-                
+
             }
             else if (whatObjects == 3)
             {
                 director = new Director(new BaseBuilder(xPos, yPos));
                 go = director.Construct();
-              
+
             }
             else if (whatObjects == 4)
             {
+
+
+
                 //tilføjer en player til spillet
                 director = new Director(new PlayerBuilder(xPos, yPos));
-                
+
                 go = director.Construct();
-                
+
+
+
             }
             return go;
         }
-
-        public void LoadLevel(int targetLevel)
+        public void startd(int targetLeveld)
         {
-            int[,] spawnLevel = new int[0, 0];
-            gameObject = new GameObject();
 
 
-            try
+
+            this.targetLevel = targetLeveld;
+
+
+        }
+
+        public void StartLoadLevel()
+        {
+            while (true)
             {
-                spawnLevel = levelHolder[targetLevel];
+                Thread.Sleep(11999);
 
-                //Remove old level
-                //if (objectManeger.GameObjects.Count > 0)
-                //{
-                //    foreach (var item in objectManeger.GameObjects)
-                //    {
-                //        objectManeger.Destory(item);
-                //    }
-                //}
+                LoadLevel();
 
-                //Inscert level
-                for (int y = 0; y < spawnLevel.GetLength(1); y++)
+            }
+        }
+
+         void LoadLevel()
+        {
+
+            lock (_object)
+            {
+                
+
+                int[,] spawnLevel = new int[0, 0];
+                gameObject = new GameObject();
+
+
+                try
                 {
-                    for (int x = 0; x < spawnLevel.GetLength(0); x++)
+                    spawnLevel = levelHolder[targetLevel];
+
+                    //Remove old level
+                    //if (objectManeger.GameObjects.Count > 0)
+                    //{
+                    //    foreach (var item in objectManeger.GameObjects)
+                    //    {
+                    //        objectManeger.Destory(item);
+                    //    }
+                    //}
+
+                    //Inscert level
+                    for (int y = 0; y < spawnLevel.GetLength(1); y++)
                     {
-                        //Add floor if needed
-                        if (spawnLevel[x, y] > 0)
+                        for (int x = 0; x < spawnLevel.GetLength(0); x++)
                         {
-                            
-                            GameWorld.Instance.Instantiate(CreateGameObject(0, x, y));
-
-                            GameObject newObject = CreateGameObject(spawnLevel[x, y], x, y);
-
-
-                            //tilføj newObject til GameWorlds ´gameObjects liste
-                            if (newObject != null)
+                            //Add floor if needed
+                            if (spawnLevel[x, y] > 0)
                             {
-                                GameWorld.Instance.Instantiate(newObject);
 
+                                GameWorld.Instance.Instantiate(CreateGameObject(0, x, y));
+
+                                GameObject newObject = CreateGameObject(spawnLevel[x, y], x, y);
+
+
+                                //tilføj newObject til GameWorlds ´gameObjects liste
+                                if (newObject != null)
+                                {
+                                    GameWorld.Instance.Instantiate(newObject);
+
+                                }
                             }
-                        }
 
-                        //Spawn object
+                            //Spawn object
+                        }
                     }
+
+
+                }
+                catch (IndexOutOfRangeException e)
+                {
+                    Console.WriteLine($"No level of {targetLevel} number found. There are {levelHolder.Count} levels");
+                    Console.WriteLine(e.Message);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("heJ" + e.Message);
                 }
 
-                
-            }
-            catch (IndexOutOfRangeException e)
-            {
-                Console.WriteLine($"No level of {targetLevel} number found. There are {levelHolder.Count} levels");
-                Console.WriteLine(e.Message);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("heJ" + e.Message);
             }
         }
 
@@ -124,7 +160,7 @@ namespace CIM_Labyrint
 
         public void BuildGameObject()
         {
-          
+
 
         }
 

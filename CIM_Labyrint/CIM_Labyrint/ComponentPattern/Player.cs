@@ -1,78 +1,54 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
+using System;
 using System.Collections.Generic;
-using System.Threading;
+using System.Text;
 
 namespace CIM_Labyrint
 {
-   public class Player : Component, IGameListner
+    class Player : Component, IGameListner
     {
 
-        static readonly object _object = new object();
+
         private Animator animator;
 
         private Dictionary<Keys, BUTTONSTATE> movementKeys = new Dictionary<Keys, BUTTONSTATE>();
-        private Vector2 velocity;
+      
 
-        public void D(Vector2 velocityu)
-        {
-            this.velocity = velocityu;
-        }
-
-        public void Move()
+        public void Move(Vector2 velocity)
         {
 
-            while (true)
+            if (velocity != Vector2.Zero)
             {
-                Run(velocity);
-            }
-        }
-
-
-
-
-        void Run(Vector2 velocity)
-        {
-
-            lock (_object)
-            {
-
-                if (velocity != Vector2.Zero)
-                {
-                    velocity.Normalize();
-                }
-
-                velocity *= speed;
-
-                GameObject.Transform.Position += (velocity * GameWorld.DeltaTime);
-
-                if (velocity.X > 0)
-                {
-                    animator.PlayAnimation("Right");
-
-                }
-                else if (velocity.X < 0)
-                {
-                    animator.PlayAnimation("Left");
-                }
-                else if (velocity.Y < 0)
-                {
-                    animator.PlayAnimation("Back");
-                }
-                else if (velocity.Y > 0)
-                {
-                    animator.PlayAnimation("Forward");
-                }
-                else if (velocity.X == 0 && velocity.Y == 0)
-                {
-                    animator.PlayAnimation("Stay");
-                }
-
-                Thread.Sleep(1);
+                velocity.Normalize();
             }
 
-        }
+            velocity *= speed;
 
+            GameObject.Transform.Position += (velocity * GameWorld.DeltaTime);
+
+            if (velocity.X > 0)
+            {
+                animator.PlayAnimation("Right");
+
+            }
+            else if (velocity.X < 0)
+            {
+                animator.PlayAnimation("Left");
+            }
+            else if (velocity.Y < 0)
+            {
+                animator.PlayAnimation("Back");
+            }
+            else if (velocity.Y > 0)
+            {
+                animator.PlayAnimation("Forward");
+            }
+            else if (velocity.X == 0 && velocity.Y == 0)
+            {
+                animator.PlayAnimation("Stay");
+            }
+        }
 
         public override void Awake()
         {
@@ -82,10 +58,6 @@ namespace CIM_Labyrint
 
         public override void Start()
         {
-
-
-
-
             SpriteRenderer sr = GameObject.GetComponent<SpriteRenderer>() as SpriteRenderer;
 
             sr.SetSprite("Player/PlayerF_2");

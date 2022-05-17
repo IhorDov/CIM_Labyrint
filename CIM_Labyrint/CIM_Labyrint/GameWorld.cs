@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace CIM_Labyrint
 {
@@ -18,6 +19,7 @@ namespace CIM_Labyrint
         private List<GameObject> destroyedGameObjects = new List<GameObject>();
 
 
+        private Thread internalThread;
 
         //Colliders
         //public List<Collider> Colliders { get; private set; } = new List<Collider>();
@@ -54,25 +56,30 @@ namespace CIM_Labyrint
 
         protected override void Initialize()
         {
-
-            ScreenSize();
-
             LevelManager levelManager = new LevelManager();
 
-            levelManager.LoadLevel(0);
+            ScreenSize();
+levelManager.startd(0);
+            
+            internalThread = new Thread(levelManager.StartLoadLevel);
+
+         
+
+
+            
 
             gameObjects.AddRange(newGameObjects);
             
-
             newGameObjects.Clear();
 
-
-
+   internalThread.Start();
 
             for (int i = 0; i < gameObjects.Count; i++)
             {
                 gameObjects[i].Awake();
             }
+
+ 
 
             base.Initialize();
         }

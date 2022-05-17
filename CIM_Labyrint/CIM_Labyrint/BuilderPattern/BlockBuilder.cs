@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Threading;
 
 namespace CIM_Labyrint
 {
@@ -10,7 +9,7 @@ namespace CIM_Labyrint
     {
         private GameObject gameObject;
 
-        protected Vector2 gridPosition;
+        private Vector2 gridPosition;
 
         public Vector2 position;
 
@@ -19,16 +18,14 @@ namespace CIM_Labyrint
             this.gridPosition.X = x;
             this.gridPosition.Y = y;
 
-
             this.position = GridPlacement.Placement(gridPosition);
         }
         public void BuildGameObject()
         {
             gameObject = new GameObject();
+
             gameObject.AddComponent(new Block());
             gameObject.AddComponent(new SpriteRenderer());
-
-            
 
             gameObject.Transform.Position = new Vector2(position.X, position.Y);
         }
