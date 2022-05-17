@@ -6,6 +6,7 @@ namespace CIM_Labyrint
 {
     class LevelManager
     {
+        private Thread internalThread;
 
         public List<int[,]> levelHolder = new List<int[,]>();
 
@@ -17,6 +18,9 @@ namespace CIM_Labyrint
 
         public LevelManager()
         {
+            internalThread = new Thread(StartLoadLevel);
+
+
             levelHolder.Add(LevelData.level_0);
             levelHolder.Add(LevelData.level_1);
             levelHolder.Add(LevelData.level_2);
@@ -72,18 +76,20 @@ namespace CIM_Labyrint
         public void startd(int targetLeveld)
         {
 
-
+            internalThread.Start();
+            Thread.Sleep(1000);
 
             this.targetLevel = targetLeveld;
 
 
         }
 
-        public void StartLoadLevel()
+         void StartLoadLevel()
         {
             while (true)
             {
-                Thread.Sleep(11999);
+
+
 
                 LoadLevel();
 

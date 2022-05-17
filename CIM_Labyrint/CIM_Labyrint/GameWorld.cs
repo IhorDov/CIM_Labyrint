@@ -19,7 +19,6 @@ namespace CIM_Labyrint
         private List<GameObject> destroyedGameObjects = new List<GameObject>();
 
 
-        private Thread internalThread;
 
         //Colliders
         //public List<Collider> Colliders { get; private set; } = new List<Collider>();
@@ -59,11 +58,11 @@ namespace CIM_Labyrint
             LevelManager levelManager = new LevelManager();
 
             ScreenSize();
-levelManager.startd(0);
-            
-            internalThread = new Thread(levelManager.StartLoadLevel);
 
-         
+            
+
+          levelManager.startd(1);
+
 
 
             
@@ -72,14 +71,11 @@ levelManager.startd(0);
             
             newGameObjects.Clear();
 
-   internalThread.Start();
-
             for (int i = 0; i < gameObjects.Count; i++)
             {
                 gameObjects[i].Awake();
             }
 
- 
 
             base.Initialize();
         }
