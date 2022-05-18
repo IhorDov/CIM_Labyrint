@@ -9,9 +9,12 @@ namespace CIM_Labyrint
     {
         private Animator animator;
 
+        //moveKeys
         private Dictionary<Keys, BUTTONSTATE> movementKeys = new Dictionary<Keys, BUTTONSTATE>();
 
         //private float time;
+
+        //internalThread
         private Thread internalThread;
 
 
@@ -30,7 +33,6 @@ namespace CIM_Labyrint
 
                 //if (time >= GameWorld.DeltaTime)
                 //{
-
                 //    time = 0;
                 //}
                     InputHandler.Instance.Execute(this);
