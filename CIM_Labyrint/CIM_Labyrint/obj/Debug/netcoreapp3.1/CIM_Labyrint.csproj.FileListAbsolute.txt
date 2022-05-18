@@ -700,3 +700,20 @@ C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_
 C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.pdb
 C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.genruntimeconfig.cache
 C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Pixel.xnb
+C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\CollisionTexture.xnb
+C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\326543__sqeeeek__wetfootsteps.xnb
+C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_01.xnb
+C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_02.xnb
+C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_03.xnb
+C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_04.xnb
+C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_05.xnb
+C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_06.xnb
+C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_07.xnb
+C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_08.xnb
+C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_01.xnb
+C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_02.xnb
+C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_03.xnb
+C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_04.xnb
+C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_05.xnb
+C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_06.xnb
+C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Pixel.xnb

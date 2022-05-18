@@ -1,8 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
-using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Threading;
 
 namespace CIM_Labyrint
 {
@@ -10,7 +9,34 @@ namespace CIM_Labyrint
     {
         private Animator animator;
 
-        private Dictionary<Keys, BUTTONSTATE> movementKeys = new Dictionary<Keys, BUTTONSTATE>();      
+        private Dictionary<Keys, BUTTONSTATE> movementKeys = new Dictionary<Keys, BUTTONSTATE>();
+
+        //private float time;
+        private Thread internalThread;
+
+
+        public Player()
+        {
+            internalThread = new Thread(InputHandlerThread);
+            internalThread.IsBackground = true;
+            internalThread.Start();
+        }
+
+        void InputHandlerThread()
+        {
+            while (true)
+            {
+                //time =+ 0.001f;
+
+                //if (time >= GameWorld.DeltaTime)
+                //{
+
+                //    time = 0;
+                //}
+                    InputHandler.Instance.Execute(this);
+            }
+        }
+
 
         public void Move(Vector2 velocity)
         {
@@ -48,7 +74,7 @@ namespace CIM_Labyrint
 
         public override void Awake()
         {
-            this.speed = 150;            
+            this.speed = 0.01f;
         }
 
         public override void Start()
@@ -61,9 +87,12 @@ namespace CIM_Labyrint
         }
 
 
+
+
         public override void Update()
         {
-            InputHandler.Instance.Execute(this);
+
+
         }
 
         public void Notify(GameEvent gameEvent)
@@ -76,7 +105,7 @@ namespace CIM_Labyrint
             {
                 ButtonEvent be = (gameEvent as ButtonEvent);
 
-            movementKeys[be.Key] = be.State;
+                movementKeys[be.Key] = be.State;
             }
         }
     }
