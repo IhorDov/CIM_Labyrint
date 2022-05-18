@@ -31,34 +31,29 @@ namespace CIM_Labyrint
                 //tilføjer ground til spillet
                 director = new Director(new GroundBuilder(xPos, yPos));
                 go = director.Construct();
-
             }
             else if (whatObjects == 1) 
             {
                 //tilføjer en block til spillet
                 director = new Director(new BlockBuilder(xPos, yPos));
-                go = director.Construct();
-                
+                go = director.Construct();                
             }
             else if (whatObjects == 2)
             {
                 //tilføjer en crate til spillet
                 director = new Director(new CrateBuilder(xPos, yPos));
-                go = director.Construct();
-                
+                go = director.Construct();                
             }
             else if (whatObjects == 3)
             {
                 director = new Director(new BaseBuilder(xPos, yPos));
-                go = director.Construct();
-              
+                go = director.Construct();              
             }
             else if (whatObjects == 4)
             {
                 //tilføjer en player til spillet
                 director = new Director(new PlayerBuilder(xPos, yPos));
-                go = director.Construct();
-                
+                go = director.Construct();                
             }
 
             return go;
@@ -121,15 +116,14 @@ namespace CIM_Labyrint
             }
         }
 
-        public void BuildGameObject()
-        {
-            LoadLevel(0);
+        //public void BuildGameObject()
+        //{
+        //    LoadLevel(0);
+        //}
 
-        }
-
-        public GameObject GetResult()
-        {
-            return gameObject;
-        }
+        //public GameObject GetResult()
+        //{
+        //    return gameObject;
+        //}
     }
 }

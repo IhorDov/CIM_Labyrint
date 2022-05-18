@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CIM_Labyrint
 {
-    class Crate : Component
+    class Crate : Component, IGameListner
     {
         public float XPos { get; set; }
         public float YPos { get; set; }
@@ -33,5 +33,12 @@ namespace CIM_Labyrint
         //{
         //    GameWorld.Instance.Execute(this);
         //}
+        public void Notify(GameEvent gameEvent)
+        {
+            if (gameEvent is CollisionEvent)
+            {
+                GameWorld.Instance.Destroy((gameEvent as CollisionEvent).Other);
+            }
+        }
     }
 }

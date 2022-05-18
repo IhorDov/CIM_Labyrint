@@ -24,10 +24,18 @@ namespace CIM_Labyrint
         {
             gameObject = new GameObject();
 
+            BuildComponents();
+        }
+        private void BuildComponents()
+        {
+            Block bl = (Block)gameObject.AddComponent(new Block());
+
             gameObject.AddComponent(new Block());
             gameObject.AddComponent(new SpriteRenderer());
-
             gameObject.Transform.Position = new Vector2(position.X, position.Y);
+
+            Collider c = (Collider)gameObject.AddComponent(new Collider());
+            c.CollisionEvent.Attach(bl);
         }
 
 

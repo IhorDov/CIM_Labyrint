@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_23.png</SourceFile>
-  <SourceTime>2022-05-16T09:49:52.6272458+02:00</SourceTime>
-  <DestFile>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_ Game/CIM_Labyrint/CIM_Labyrint/Content/bin/Windows/Content/Crate/crate_23.xnb</DestFile>
-  <DestTime>2022-05-16T10:51:55.2257569+02:00</DestTime>
+  <SourceFile>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_Game1/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_23.png</SourceFile>
+  <SourceTime>2022-05-16T11:40:30.5512931+02:00</SourceTime>
+  <DestFile>C:/Ihor/Uddannelse 2021/EaDania Projekter/A_Førsteårsprojekt/CIM_Labyrint/CID_Game1/CIM_Labyrint/CIM_Labyrint/Content/bin/Windows/Content/Crate/crate_23.xnb</DestFile>
+  <DestTime>2022-05-16T11:40:39.1991438+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

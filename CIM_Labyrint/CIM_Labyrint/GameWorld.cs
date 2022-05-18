@@ -17,12 +17,8 @@ namespace CIM_Labyrint
         private List<GameObject> newGameObjects = new List<GameObject>();
         private List<GameObject> destroyedGameObjects = new List<GameObject>();
 
-
-
         //Colliders
-        //public List<Collider> Colliders { get; private set; } = new List<Collider>();
-
-
+        public List<Collider> Colliders { get; private set; } = new List<Collider>();
 
         public static float DeltaTime { get; private set; }
         public GraphicsDeviceManager Graphics
@@ -50,8 +46,6 @@ namespace CIM_Labyrint
             IsMouseVisible = true;
         }
 
-
-
         protected override void Initialize()
         {
             ScreenSize();
@@ -75,17 +69,11 @@ namespace CIM_Labyrint
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-
-
             for (int i = 0; i < gameObjects.Count; i++)
             {
                 gameObjects[i].Start();
             }
         }
-
-
-
-
 
         protected override void Update(GameTime gameTime)
         {
@@ -104,7 +92,7 @@ namespace CIM_Labyrint
 
             base.Update(gameTime);
 
-
+            Cleanup();
         }
 
         protected override void Draw(GameTime gameTime)
@@ -136,6 +124,41 @@ namespace CIM_Labyrint
         public void Instantiate(GameObject go)
         {
             newGameObjects.Add(go);
+        }
+
+        public void Destroy(GameObject go)
+        {
+            destroyedGameObjects.Add(go);
+        }
+
+        private void Cleanup()
+        {
+            for (int i = 0; i < newGameObjects.Count; i++)
+            {
+                gameObjects.Add(newGameObjects[i]);
+                newGameObjects[i].Awake();
+                newGameObjects[i].Start();
+
+                Collider c = (Collider)newGameObjects[i].GetComponent<Collider>();
+                if (c != null)
+                {
+                    Colliders.Add(c);
+                }
+            }
+
+            for (int i = 0; i < destroyedGameObjects.Count; i++)
+            {
+                Collider c = (Collider)destroyedGameObjects[i].GetComponent<Collider>();
+
+                gameObjects.Remove(destroyedGameObjects[i]);
+
+                if (c != null)
+                {
+                    Colliders.Remove(c);
+                }
+            }
+            destroyedGameObjects.Clear();
+            newGameObjects.Clear();
         }
     }
 }
