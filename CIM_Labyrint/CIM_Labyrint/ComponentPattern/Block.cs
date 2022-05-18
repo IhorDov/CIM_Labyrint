@@ -4,13 +4,21 @@ using System.Text;
 
 namespace CIM_Labyrint
 {
-    class Block : Component
+    class Block : Component, IGameListner
     {
         public override void Start()
         {
             SpriteRenderer sr = GameObject.GetComponent<SpriteRenderer>() as SpriteRenderer;
 
             sr.SetSprite("Bloks/block_05");
+        }
+
+        public void Notify(GameEvent gameEvent)
+        {
+            if (gameEvent is CollisionEvent)
+            {
+                GameWorld.Instance.Destroy((gameEvent as CollisionEvent).Other);
+            }
         }
     }
 
