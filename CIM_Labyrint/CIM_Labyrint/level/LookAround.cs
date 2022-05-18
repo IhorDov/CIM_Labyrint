@@ -7,14 +7,14 @@ namespace CIM_Labyrint
 {
     public static class LookAround
     {
-        //public static GameObjectWithCollider LookAt(Vector2 position)
+        //public static GameObject LookAt(Vector2 position)
         //{
-        //    GameObjectWithCollider targetObject = null;
+        //    GameObject targetObject = null;
 
         //    //Look
         //    Rectangle rec = new Rectangle((int)position.X, (int)position.Y, 1, 1);
 
-        //    foreach (GameObjectWithCollider item in GameObjectManeger.Instance.CollisionList)
+        //    foreach (GameObject item in GameObject.CollisionList)
         //    {
         //        if (item.Trigger)
         //            continue;

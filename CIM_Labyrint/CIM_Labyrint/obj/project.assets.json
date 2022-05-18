@@ -7319,25 +7319,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nap\\.nuget\\packages\\": {},
+    "C:\\Users\\45527\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nap\\Documents\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint.csproj",
+      "projectUniqueName": "C:\\Ihor\\Uddannelse 2021\\EaDania Projekter\\A_Førsteårsprojekt\\CIM_Labyrint\\CID_Game1\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint.csproj",
       "projectName": "CIM_Labyrint",
-      "projectPath": "C:\\Users\\nap\\Documents\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint.csproj",
-      "packagesPath": "C:\\Users\\nap\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nap\\Documents\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint\\obj\\",
+      "projectPath": "C:\\Ihor\\Uddannelse 2021\\EaDania Projekter\\A_Førsteårsprojekt\\CIM_Labyrint\\CID_Game1\\CIM_Labyrint\\CIM_Labyrint\\CIM_Labyrint.csproj",
+      "packagesPath": "C:\\Users\\45527\\.nuget\\packages\\",
+      "outputPath": "C:\\Ihor\\Uddannelse 2021\\EaDania Projekter\\A_Førsteårsprojekt\\CIM_Labyrint\\CID_Game1\\CIM_Labyrint\\CIM_Labyrint\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\nap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\45527\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"

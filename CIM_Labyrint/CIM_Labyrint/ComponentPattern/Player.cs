@@ -8,12 +8,9 @@ namespace CIM_Labyrint
 {
     class Player : Component, IGameListner
     {
-
-
         private Animator animator;
 
-        private Dictionary<Keys, BUTTONSTATE> movementKeys = new Dictionary<Keys, BUTTONSTATE>();
-      
+        private Dictionary<Keys, BUTTONSTATE> movementKeys = new Dictionary<Keys, BUTTONSTATE>();      
 
         public void Move(Vector2 velocity)
         {
@@ -30,7 +27,6 @@ namespace CIM_Labyrint
             if (velocity.X > 0)
             {
                 animator.PlayAnimation("Right");
-
             }
             else if (velocity.X < 0)
             {
@@ -52,8 +48,7 @@ namespace CIM_Labyrint
 
         public override void Awake()
         {
-            this.speed = 150;
-            
+            this.speed = 150;            
         }
 
         public override void Start()
@@ -61,7 +56,6 @@ namespace CIM_Labyrint
             SpriteRenderer sr = GameObject.GetComponent<SpriteRenderer>() as SpriteRenderer;
 
             sr.SetSprite("Player/PlayerF_2");
-
 
             animator = (Animator)GameObject.GetComponent<Animator>();
         }
@@ -74,16 +68,16 @@ namespace CIM_Labyrint
 
         public void Notify(GameEvent gameEvent)
         {
-            //if (gameEvent is CollisionEvent)
-            //{
-            //    GameWorld.Instance.Destroy((gameEvent as CollisionEvent).Other);
-            //}
-            //else if (gameEvent is ButtonEvent)
-            //{
-            ButtonEvent be = (gameEvent as ButtonEvent);
+            if (gameEvent is CollisionEvent)
+            {
+                GameWorld.Instance.Destroy((gameEvent as CollisionEvent).Other);
+            }
+            else if (gameEvent is ButtonEvent)
+            {
+                ButtonEvent be = (gameEvent as ButtonEvent);
 
             movementKeys[be.Key] = be.State;
-            //}
+            }
         }
     }
 }
