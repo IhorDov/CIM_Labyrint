@@ -9,6 +9,9 @@ namespace CIM_Labyrint
     class InputHandler
     {
         private static InputHandler instance;
+
+        private static readonly object padlock = new object();
+
         private Dictionary<KeyInfo, ICommand> keybinds = new Dictionary<KeyInfo, ICommand>();
         private ButtonEvent buttonEvent = new ButtonEvent();
 
@@ -44,9 +47,12 @@ namespace CIM_Labyrint
         {
             get
             {
-                if (instance == null)
+                lock (padlock)
                 {
-                    instance = new InputHandler();
+                    if (instance == null)
+                    {
+                        instance = new InputHandler();
+                    }
                 }
                 return instance;
             }
