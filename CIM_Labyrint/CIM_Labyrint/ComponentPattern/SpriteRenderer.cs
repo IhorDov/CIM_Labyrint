@@ -13,6 +13,7 @@ namespace CIM_Labyrint
 
         public Texture2D Sprite { get; set; }
         public Vector2 Origin { get; set; }
+        public float LayerDepth { get; set; }
 
         public override void Start()
         {
@@ -24,7 +25,7 @@ namespace CIM_Labyrint
         }
         public override void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(Sprite, GameObject.Transform.Position, null, Color.White, 0, Origin, 1f, SpriteEffects.None, 1);
+            spriteBatch.Draw(Sprite, GameObject.Transform.Position, null, Color.White, 0, Origin, 1f, SpriteEffects.None, LayerDepth);
         }
     }
 }
