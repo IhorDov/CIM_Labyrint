@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>c:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_09.png</SourceFile>
+  <SourceFile>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/Crate/crate_09.png</SourceFile>
   <SourceTime>2022-05-18T16:08:10.4623335+02:00</SourceTime>
-  <DestFile>c:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/bin/Windows/Content/Crate/crate_09.xnb</DestFile>
-  <DestTime>2022-05-18T16:33:58.7411036+02:00</DestTime>
+  <DestFile>C:/Users/nap/Documents/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/bin/Windows/Content/Crate/crate_09.xnb</DestFile>
+  <DestTime>2022-05-19T08:55:58.8297205+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
