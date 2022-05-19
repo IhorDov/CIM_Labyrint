@@ -54,14 +54,6 @@ namespace CIM_Labyrint
 
             levelManager.LoadLevel(0);
 
-            gameObjects.AddRange(newGameObjects);
-            newGameObjects.Clear();
-
-            for (int i = 0; i < gameObjects.Count; i++)
-            {
-                gameObjects[i].Awake();
-            }
-
             base.Initialize();
         }
 
@@ -87,9 +79,6 @@ namespace CIM_Labyrint
                 gameObjects[i].Update(gameTime);
             }
 
-            gameObjects.AddRange(newGameObjects);
-            newGameObjects.Clear();
-
             base.Update(gameTime);
 
             Cleanup();
@@ -99,7 +88,7 @@ namespace CIM_Labyrint
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            spriteBatch.Begin();
+            spriteBatch.Begin(SpriteSortMode.BackToFront);
 
             for (int i = 0; i < gameObjects.Count; i++)
             {

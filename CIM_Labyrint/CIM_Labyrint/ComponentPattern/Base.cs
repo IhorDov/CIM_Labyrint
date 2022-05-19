@@ -11,13 +11,14 @@ namespace CIM_Labyrint
             SpriteRenderer sr = GameObject.GetComponent<SpriteRenderer>() as SpriteRenderer;
 
             sr.SetSprite("Environment/environment_06");
+            sr.LayerDepth = 0;
         }
 
         public void Notify(GameEvent gameEvent)
         {
             if (gameEvent is CollisionEvent)
             {
-                GameWorld.Instance.Destroy((gameEvent as CollisionEvent).Other);
+                //GameWorld.Instance.Destroy((gameEvent as CollisionEvent).Other);
             }
         }
     }

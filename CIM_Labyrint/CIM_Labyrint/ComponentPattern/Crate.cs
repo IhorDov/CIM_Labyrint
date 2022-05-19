@@ -15,6 +15,7 @@ namespace CIM_Labyrint
             SpriteRenderer sr = GameObject.GetComponent<SpriteRenderer>() as SpriteRenderer;
 
             sr.SetSprite("Crate/crate_10");
+            sr.LayerDepth = 0;
         }
         //public bool CrateMovement(Vector2 direction)
         //{
@@ -37,7 +38,7 @@ namespace CIM_Labyrint
         {
             if (gameEvent is CollisionEvent)
             {
-                GameWorld.Instance.Destroy((gameEvent as CollisionEvent).Other);
+                //GameWorld.Instance.Destroy((gameEvent as CollisionEvent).Other);
             }
         }
     }
