@@ -13,10 +13,13 @@ namespace CIM_Labyrint
 
         public Vector2 position;
 
+        private float speed;
+
         public EnemyBuilder(float x, float y)
         {
             this.gridPosition.X = x;
             this.gridPosition.Y = y;
+            this.speed = 0.01f;
 
             this.position = GridPlacement.Placement(gridPosition);
         }
@@ -30,8 +33,15 @@ namespace CIM_Labyrint
         {
             Enemy cr = (Enemy)gameObject.AddComponent(new Enemy());
 
+            StartAlgoritme Sa = (StartAlgoritme)gameObject.AddComponent(new StartAlgoritme());
+
+
             gameObject.AddComponent(new Enemy());
             gameObject.AddComponent(new SpriteRenderer());
+            gameObject.AddComponent(new StartAlgoritme());
+
+
+
             gameObject.Transform.Position = new Vector2(position.X, position.Y);
 
             Collider c = (Collider)gameObject.AddComponent(new Collider());

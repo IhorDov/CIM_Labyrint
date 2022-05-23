@@ -122,14 +122,5 @@ namespace CIM_Labyrint
             }
         }
 
-        //public void BuildGameObject()
-        //{
-        //    LoadLevel(0);
-        //}
-
-        //public GameObject GetResult()
-        //{
-        //    return gameObject;
-        //}
     }
 }
