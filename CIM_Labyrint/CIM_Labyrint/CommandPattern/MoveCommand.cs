@@ -11,7 +11,7 @@ namespace CIM_Labyrint
 
         public MoveCommand(Vector2 velocity)
         {
-            this.velocity = velocity;
+            this.velocity = velocity;            
         }
 
         public void Execute(Player player)

@@ -9,26 +9,31 @@ namespace CIM_Labyrint
         private List<Component> components = new List<Component>();
 
         public Transform Transform { get; private set; } = new Transform();
+        public List<Component> Components { get => components; set => components = value; }
+        public bool Trigger { get; set; }
+
+        public string Tag { get; set; }
+        //public float Speed { get; set; }
 
         public Component AddComponent(Component component)
         {
             component.GameObject = this;
 
-            components.Add(component);
+            Components.Add(component);
 
             return component;
         }
 
-        public Component GetComponent<T>() where T : Component
+        public T GetComponent<T>() where T : Component
         {
-            return components.Find(x => x.GetType() == typeof(T));
+            return (T)Components.Find(x => x.GetType() == typeof(T));
         }
 
         public void Awake()
         {
             for (int i = 0; i < components.Count; i++)
             {
-                components[i].Awake();
+                Components[i].Awake();
             }
         }
 
@@ -36,7 +41,7 @@ namespace CIM_Labyrint
         {
             for (int i = 0; i < components.Count; i++)
             {
-                components[i].Start();
+                Components[i].Start();
             }
         }
 
@@ -44,7 +49,7 @@ namespace CIM_Labyrint
         {
             for (int i = 0; i < components.Count; i++)
             {
-                components[i].Update();
+                Components[i].Update();
             }
         }
 
@@ -52,7 +57,7 @@ namespace CIM_Labyrint
         {
             for (int i = 0; i < components.Count; i++)
             {
-                components[i].Draw(spriteBatch);
+                Components[i].Draw(spriteBatch);
             }
         }
     }

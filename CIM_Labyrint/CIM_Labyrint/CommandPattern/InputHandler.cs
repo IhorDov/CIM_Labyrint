@@ -10,7 +10,9 @@ namespace CIM_Labyrint
     {
         private static InputHandler instance;
         private Dictionary<KeyInfo, ICommand> keybinds = new Dictionary<KeyInfo, ICommand>();
-        private ButtonEvent buttonEvent = new ButtonEvent();
+        private readonly ButtonEvent buttonEvent = new ButtonEvent();
+
+        //private Player player;
 
         private InputHandler()
         {

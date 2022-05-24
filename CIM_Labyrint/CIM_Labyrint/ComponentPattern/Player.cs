@@ -2,20 +2,18 @@
 using Microsoft.Xna.Framework.Input;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.Tracing;
 using System.Text;
 
 namespace CIM_Labyrint
 {
     class Player : Component, IGameListner
     {
-        //private BlockBuilder block = new BlockBuilder(new float(), new float());
-        //private Player playerPosition = new Player();
-        //private readonly object Transform;
-
-
         private Animator animator;
 
         private Dictionary<Keys, BUTTONSTATE> movementKeys = new Dictionary<Keys, BUTTONSTATE>();
+
+
 
         public void Move(Vector2 velocity)
         {
@@ -25,9 +23,9 @@ namespace CIM_Labyrint
                 velocity.Normalize();
             }
 
-            velocity *= speed;
+            velocity *= Speed;
 
-            GameObject.Transform.Position += (velocity * GameWorld.DeltaTime);
+            GameObject.Transform.Position += velocity * GameWorld.DeltaTime;
 
             if (velocity.X > 0)
             {
@@ -53,7 +51,9 @@ namespace CIM_Labyrint
 
         public override void Awake()
         {
-            this.speed = 150;            
+            this.Speed = 150;
+
+            GameObject.Tag = "Player";
         }
 
         public override void Start()
@@ -62,43 +62,40 @@ namespace CIM_Labyrint
 
             sr.SetSprite("Player/PlayerF_2");
             sr.LayerDepth = 0;
+            sr.Rotation = 0;
 
             animator = (Animator)GameObject.GetComponent<Animator>();
         }
 
-
         public override void Update()
         {
             InputHandler.Instance.Execute(this);
-
-            //if (GameObject.Transform.Position.Y == block.position.Y)
-            //{
-            //    playerPosition.Transform.Equals(block.position.Y - 1);
-            //}
-            //else if (GameObject.Transform.Position.X == block.position.X)
-            //{
-            //    playerPosition.Transform.Equals(block.position.X - 1);
-            //}
         }
 
         public void Notify(GameEvent gameEvent)
         {
-            if (gameEvent is CollisionEvent)
-            {
-                //GameWorld.Instance.Destroy(GameObject);
 
-                if (GameObject is Block)  //When this enemy colliders with shield
+            ButtonEvent be = (gameEvent as ButtonEvent);
+
+            if (gameEvent is CollisionEvent ce)
+            {
+                if (ce.Other.Tag == "Block")
                 {
-                    GameWorld.Instance.Destroy(GameObject);
-
+                    GameObject.Transform.Translate(new Vector2(0, 0));
                 }
-            }
-            else if (gameEvent is ButtonEvent)
-            {
-                ButtonEvent be = (gameEvent as ButtonEvent);
 
+                //GameWorld.Instance.Destroy(GameObject);
+                //GameWorld.Instance.Destroy((gameEvent as CollisionEvent).Other);
+            }
+            if (gameEvent is ButtonEvent)
+            {
                 movementKeys[be.Key] = be.State;
             }
+            //else if (gameEvent is CrateEvent)
+            //{
+            //    if (be != null) movementKeys[be.Key] = be.State;
+            //}
+
         }
     }
 }

@@ -28,11 +28,11 @@ namespace CIM_Labyrint
         }
         private void BuildComponents()
         {
-            gameObject = GameObjectsPool.Instance.GetObject();
-
-            gameObject.AddComponent(new Block());
+            Block block = (Block)gameObject.AddComponent(new Block());
             gameObject.AddComponent(new SpriteRenderer());
-            gameObject.AddComponent(new Collider());
+
+            Collider c = (Collider)gameObject.AddComponent(new Collider());
+            c.CollisionEvent.Attach(block);
 
             gameObject.Transform.Position = new Vector2(position.X, position.Y);
         }
