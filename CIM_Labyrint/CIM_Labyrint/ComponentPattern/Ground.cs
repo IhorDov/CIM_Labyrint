@@ -12,6 +12,7 @@ namespace CIM_Labyrint
 
             sr.SetSprite("Ground/ground_06");
             sr.LayerDepth = 0.1f;
+            sr.Rotation = 0;
         }
     }
 }

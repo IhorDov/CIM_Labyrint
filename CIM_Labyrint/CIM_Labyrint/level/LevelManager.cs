@@ -26,7 +26,7 @@ namespace CIM_Labyrint
         {
             GameObject go = new GameObject();
 
-            Director director = null;
+            Director director;
 
             if (whatObjects == 0) //Alle objects skal tilføjes i denne metode
             {
@@ -48,6 +48,7 @@ namespace CIM_Labyrint
             }
             else if (whatObjects == 3)
             {
+                //tilføjer en base til spillet
                 director = new Director(new BaseBuilder(xPos, yPos));
                 go = director.Construct();              
             }

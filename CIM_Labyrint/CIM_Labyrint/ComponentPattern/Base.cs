@@ -12,6 +12,7 @@ namespace CIM_Labyrint
 
             sr.SetSprite("Environment/environment_06");
             sr.LayerDepth = 0;
+            sr.Rotation = 0;
         }
 
         public void Notify(GameEvent gameEvent)
