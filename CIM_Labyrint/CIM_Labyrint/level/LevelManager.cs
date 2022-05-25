@@ -65,8 +65,6 @@ namespace CIM_Labyrint
         public void LoadLevel(int targetLevel)
         {
             int[,] spawnLevel = new int[0, 0];
-            GameObject = new GameObject();
-
 
             try
             {

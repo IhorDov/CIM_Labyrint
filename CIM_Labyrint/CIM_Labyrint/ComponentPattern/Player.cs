@@ -77,16 +77,16 @@ namespace CIM_Labyrint
 
             ButtonEvent be = (gameEvent as ButtonEvent);
 
-            if (gameEvent is CollisionEvent ce)
-            {
-                if (ce.Other.Tag == "Block")
-                {
-                    GameObject.Transform.Translate(new Vector2(0, 0));
-                }
+            //if (gameEvent is CollisionEvent ce)
+            //{
+            //    if (ce.Other.Tag == "Block")
+            //    {
+            //        GameObject.Transform.Translate(new Vector2(0, 0));
+            //    }
 
-                //GameWorld.Instance.Destroy(GameObject);
-                //GameWorld.Instance.Destroy((gameEvent as CollisionEvent).Other);
-            }
+            //    //GameWorld.Instance.Destroy(GameObject);
+            //    //GameWorld.Instance.Destroy((gameEvent as CollisionEvent).Other);
+            //}
             if (gameEvent is ButtonEvent)
             {
                 movementKeys[be.Key] = be.State;

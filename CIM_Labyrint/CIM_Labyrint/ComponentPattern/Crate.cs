@@ -46,59 +46,58 @@ namespace CIM_Labyrint
 
             if (gameEvent is CollisionEvent ce)
             {
-                Rigidbody rb = ce.Other.GetComponent<Rigidbody>();
-                if (rb == null)
-                    return;
-                Vector2 direction = (GameObject.Transform.Position - rb.GameObject.Transform.Position);
-                direction.Normalize();
-                if (direction.X > 0)
-                {
-                    direction.Y = 0;
-                    sideOfCollider = sideOfCollider | COLLIDERSIDE.RIGHT;
-                }
-                else if (direction.X < 0)
-                {
-                    direction.Y = 0;
-                    sideOfCollider = sideOfCollider | COLLIDERSIDE.LEFT;
-                }
-                else if (direction.Y > 0)
-                {
-                    direction.X = 0;
-                    sideOfCollider = sideOfCollider | COLLIDERSIDE.DOWN;
-                }
-                else if (direction.Y < 0)
-                {
-                    direction.X = 0;
-                    sideOfCollider = sideOfCollider | COLLIDERSIDE.UP;
-                }
-                if (rb.Block)
-                {
-                    stopMove = true;
-                }
-                else
-                {
-                    translation = direction * rb.Speed;
-                }
-            }
+                //    if (ce == null)
+                //        return;
+                //    Vector2 direction = (GameObject.Transform.Position - ce.GameObject.Transform.Position);
+                //    direction.Normalize();
+                //    if (direction.X > 0)
+                //    {
+                //        direction.Y = 0;
+                //        sideOfCollider = sideOfCollider | COLLIDERSIDE.RIGHT;
+                //    }
+                //    else if (direction.X < 0)
+                //    {
+                //        direction.Y = 0;
+                //        sideOfCollider = sideOfCollider | COLLIDERSIDE.LEFT;
+                //    }
+                //    else if (direction.Y > 0)
+                //    {
+                //        direction.X = 0;
+                //        sideOfCollider = sideOfCollider | COLLIDERSIDE.DOWN;
+                //    }
+                //    else if (direction.Y < 0)
+                //    {
+                //        direction.X = 0;
+                //        sideOfCollider = sideOfCollider | COLLIDERSIDE.UP;
+                //    }
+                //    if (rb.Block)
+                //    {
+                //        stopMove = true;
+                //    }
+                //    else
+                //    {
+                //        translation = direction * rb.Speed;
+                //    }
+                //}
 
-            //if (gameEvent is CollisionEvent ce)
-            //{
-            //    if (ce.Other.Tag == "Player")
-            //    {
-            //        GameObject.Transform.Translate(new Vector2(-1, 0));
-            //        //Player p = ce.Other.GetComponent<Player>();
-            //        //if(p != null)
-            //        //{
-            //        //    translation = new Vector2(-1, 0) * p.Speed;
-            //        //}
-            //    }
-            //    else if(ce.Other.Tag == "Crate")
-            //    {
-            //        GameObject.Transform.Translate(new Vector2(0, 0));
-            //        blocked = true;
-            //    }
-                
-            //}
+                //if (gameEvent is CollisionEvent ce)
+                //{
+                if (ce.Other.Tag == "Player")
+            {
+                GameObject.Transform.Translate(new Vector2(-1, 0));
+                //Player p = ce.Other.GetComponent<Player>();
+                //if(p != null)
+                //{
+                //    translation = new Vector2(-1, 0) * p.Speed;
+                //}
+            }
+                else if (ce.Other.Tag == "Crate")
+                {
+                    GameObject.Transform.Translate(new Vector2(0, 0));
+                    blocked = true;
+                }
+
+            }
         }
     }
 }
