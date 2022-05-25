@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "jkey452bRts+9OsR19eaTzPV8MwumgBehEolyRvJQBfekA+99qY1cIWyDju85XDMN/aNeTaAF0YuwezZWhIzaQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nap\\Documents\\GitHub\\CIM_Labyrint\\CIM_Labyrint\\Model\\database.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nap\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\nap\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\nap\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.115.5\\stub.system.data.sqlite.core.netstandard.1.0.115.5.nupkg.sha512",
+    "C:\\Users\\nap\\.nuget\\packages\\system.data.sqlite.core\\1.0.115.5\\system.data.sqlite.core.1.0.115.5.nupkg.sha512"
+  ],
+  "logs": []
+}

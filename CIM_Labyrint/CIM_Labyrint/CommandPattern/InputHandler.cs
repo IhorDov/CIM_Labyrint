@@ -12,6 +12,8 @@ namespace CIM_Labyrint
         private Dictionary<KeyInfo, ICommand> keybinds = new Dictionary<KeyInfo, ICommand>();
         private readonly ButtonEvent buttonEvent = new ButtonEvent();
 
+        private static readonly object padlock = new object();
+
         //private Player player;
 
         private InputHandler()
@@ -46,9 +48,13 @@ namespace CIM_Labyrint
         {
             get
             {
-                if (instance == null)
+                lock (padlock)
                 {
-                    instance = new InputHandler();
+                    if (instance == null)
+                    {
+                        instance = new InputHandler();
+                    }
+
                 }
                 return instance;
             }

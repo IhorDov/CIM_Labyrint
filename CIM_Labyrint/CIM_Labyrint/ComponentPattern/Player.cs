@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics.Tracing;
 using System.Text;
+using System.Threading;
 
 namespace CIM_Labyrint
 {
@@ -12,6 +13,32 @@ namespace CIM_Labyrint
         private Animator animator;
 
         private Dictionary<Keys, BUTTONSTATE> movementKeys = new Dictionary<Keys, BUTTONSTATE>();
+
+
+        private Thread internalThread;
+
+
+        //public Player()
+        //{
+        //    internalThread = new Thread(InputHandlerThread);
+        //    internalThread.IsBackground = true;
+        //    internalThread.Start();
+        //}
+
+        //void InputHandlerThread()
+        //{
+        //    while (true)
+        //    {
+        //        //time =+ 0.001f;
+
+        //        //if (time >= GameWorld.DeltaTime)
+        //        //{
+        //        //    time = 0;
+        //        //}
+        //        InputHandler.Instance.Execute(this);
+        //    }
+        //}
+
 
 
 
@@ -69,8 +96,11 @@ namespace CIM_Labyrint
 
         public override void Update()
         {
-            InputHandler.Instance.Execute(this);
+              InputHandler.Instance.Execute(this);
+
+
         }
+
 
         public void Notify(GameEvent gameEvent)
         {
