@@ -247,27 +247,32 @@
   },
   "packageFolders": {
     "C:\\Users\\nap\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "C:\\Users\\nap\\Documents\\database\\Model\\database.csproj",
       "projectName": "database",
       "projectPath": "C:\\Users\\nap\\Documents\\database\\Model\\database.csproj",
       "packagesPath": "C:\\Users\\nap\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\nap\\Documents\\database\\Model\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\nap\\Documents\\CIM_Labyrint\\CIM_Labyrint\\Model\\database.csproj",
+      "projectName": "database",
+      "projectPath": "C:\\Users\\nap\\Documents\\CIM_Labyrint\\CIM_Labyrint\\Model\\database.csproj",
+      "packagesPath": "C:\\Users\\nap\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nap\\Documents\\CIM_Labyrint\\CIM_Labyrint\\Model\\obj\\",
+>>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\nap\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -313,7 +318,11 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+<<<<<<< Updated upstream
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
       }
     }
   }

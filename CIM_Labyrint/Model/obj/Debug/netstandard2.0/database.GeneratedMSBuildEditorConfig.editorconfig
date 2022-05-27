@@ -1,3 +1,7 @@
 is_global = true
 build_property.RootNamespace = database
+<<<<<<< Updated upstream
 build_property.ProjectDir = C:\Users\nap\Documents\database\Model\
+=======
+build_property.ProjectDir = C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\Model\
+>>>>>>> Stashed changes
