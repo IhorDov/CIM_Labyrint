@@ -39,7 +39,7 @@ namespace CIM_Labyrint
             }
         }
 
-        public GameWorld()
+        private GameWorld()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";

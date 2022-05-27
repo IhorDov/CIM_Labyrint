@@ -14,12 +14,15 @@ namespace CIM_Labyrint
         public Vector2 position;
 
 
+        public Dictionary<Vector2, Vector2> G { get; private set; } = new Dictionary<Vector2, Vector2>();
+
+
         public GroundBuilder(float x, float y)
         {
             this.gridPosition.X = x;
             this.gridPosition.Y = y;
-
             this.position = GridPlacement.Placement(gridPosition);
+            G.Add(new Vector2 (x, y), new Vector2 (position.X, position.Y));
         }
         public void BuildGameObject()
         {
