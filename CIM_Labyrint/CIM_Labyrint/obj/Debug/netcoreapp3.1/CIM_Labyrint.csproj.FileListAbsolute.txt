@@ -852,3 +852,13 @@ C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_
 C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.dll
 C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.pdb
 C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.genruntimeconfig.cache
+C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_5.xnb
+C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_6.xnb
+C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_5.xnb
+C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_6.xnb
+C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_7.xnb
+C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_8.xnb
+C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_5.xnb
+C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_6.xnb
+C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_5.xnb
+C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_6.xnb
