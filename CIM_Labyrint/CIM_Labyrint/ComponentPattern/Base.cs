@@ -14,6 +14,11 @@ namespace CIM_Labyrint
             sr.LayerDepth = 0;
             sr.Rotation = 0;
         }
+        public override void Awake()
+        {
+            GameObject.Tag = "Base";
+            GameObject.Speed = 0;
+        }
 
         public void Notify(GameEvent gameEvent)
         {

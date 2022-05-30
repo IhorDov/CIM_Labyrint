@@ -8,11 +8,9 @@ namespace CIM_Labyrint
 {
     class Crate : Component, IGameListner
     {
-        private Vector2 translation;
-        private bool blocked;
-        private bool stopMove = false;
-
-        private COLLIDERSIDE sideOfCollider = new COLLIDERSIDE();
+        private Vector2 cratePosition;
+        private Collider crateCollider;
+        private Player player;
 
         public override void Start()
         {
@@ -21,82 +19,94 @@ namespace CIM_Labyrint
             sr.SetSprite("Crate/crate_10");
             sr.LayerDepth = 0;
             sr.Rotation = 0;
+            crateCollider = GameObject.GetComponent<Collider>() as Collider;
+            player = GameObject.GetComponent<Player>() as Player;
         }
 
         public override void Awake()
         {
-            this.Speed = 150;
-
             GameObject.Tag = "Crate";
+            GameObject.Speed = 150;
+            cratePosition = GridPlacement.Placement(cratePosition);
         }
-
-        //public override void Update()
-        //{
-        //    base.Update();
-        //    if(!blocked)
-        //    {
-        //        GameObject.Transform.Translate(translation);
-        //        translation = Vector2.Zero;
-        //    }
-        //    blocked = false;
-        //}
                 
         public void Notify(GameEvent gameEvent)
         {
-
             if (gameEvent is CollisionEvent ce)
             {
-                //    if (ce == null)
-                //        return;
-                //    Vector2 direction = (GameObject.Transform.Position - ce.GameObject.Transform.Position);
-                //    direction.Normalize();
-                //    if (direction.X > 0)
-                //    {
-                //        direction.Y = 0;
-                //        sideOfCollider = sideOfCollider | COLLIDERSIDE.RIGHT;
-                //    }
-                //    else if (direction.X < 0)
-                //    {
-                //        direction.Y = 0;
-                //        sideOfCollider = sideOfCollider | COLLIDERSIDE.LEFT;
-                //    }
-                //    else if (direction.Y > 0)
-                //    {
-                //        direction.X = 0;
-                //        sideOfCollider = sideOfCollider | COLLIDERSIDE.DOWN;
-                //    }
-                //    else if (direction.Y < 0)
-                //    {
-                //        direction.X = 0;
-                //        sideOfCollider = sideOfCollider | COLLIDERSIDE.UP;
-                //    }
-                //    if (rb.Block)
-                //    {
-                //        stopMove = true;
-                //    }
-                //    else
-                //    {
-                //        translation = direction * rb.Speed;
-                //    }
-                //}
+                Collider otherCollider = ce.Other.GetComponent<Collider>();
 
-                //if (gameEvent is CollisionEvent ce)
-                //{
                 if (ce.Other.Tag == "Player")
-            {
-                GameObject.Transform.Translate(new Vector2(-1, 0));
-                //Player p = ce.Other.GetComponent<Player>();
-                //if(p != null)
-                //{
-                //    translation = new Vector2(-1, 0) * p.Speed;
-                //}
-            }
-                else if (ce.Other.Tag == "Crate")
                 {
-                    GameObject.Transform.Translate(new Vector2(0, 0));
-                    blocked = true;
-                }
 
+                     if (crateCollider.CollisionBox.Right >= otherCollider.CollisionBox.Right)
+                     {
+                        GameObject.Transform.Translate(new Vector2(1, 0));
+                        GameObject.Speed = 150;
+                     }
+
+                     if (crateCollider.CollisionBox.Left <= otherCollider.CollisionBox.Left)
+                    {
+                        GameObject.Transform.Translate(new Vector2(-1, 0));
+                        GameObject.Speed = 150;
+                    }
+
+                    if (crateCollider.CollisionBox.Top >= otherCollider.CollisionBox.Top)
+                    {
+                        GameObject.Transform.Translate(new Vector2(0, 1));
+                        GameObject.Speed = 150;
+                    }
+
+                    if (crateCollider.CollisionBox.Bottom <= otherCollider.CollisionBox.Bottom)
+                    {
+                        GameObject.Transform.Translate(new Vector2(0, -1));
+                        GameObject.Speed = 150;
+                    }
+                }
+                if (ce.Other.Tag == "Crate")
+                {
+                    if (crateCollider.CollisionBox.Right >= otherCollider.CollisionBox.Right)
+                    {
+                        GameObject.Transform.Translate(new Vector2(1, 0));
+                    }
+
+                    if (crateCollider.CollisionBox.Left <= otherCollider.CollisionBox.Left)
+                    {
+                        GameObject.Transform.Translate(new Vector2(-1, 0));
+                    }
+
+                    if (crateCollider.CollisionBox.Top >= otherCollider.CollisionBox.Top)
+                    {
+                        GameObject.Transform.Translate(new Vector2(0, 1));
+                    }
+
+                    if (crateCollider.CollisionBox.Bottom <= otherCollider.CollisionBox.Bottom)
+                    {
+                        GameObject.Transform.Translate(new Vector2(0, -1));
+                    }
+                }
+                if (ce.Other.Tag == "Block")
+                {
+                    if (crateCollider.CollisionBox.Right >= otherCollider.CollisionBox.Right)
+                    {
+                        GameObject.Transform.Translate(new Vector2(1, 0));
+                    }
+
+                    if (crateCollider.CollisionBox.Left <= otherCollider.CollisionBox.Left)
+                    {
+                        GameObject.Transform.Translate(new Vector2(-1, 0));
+                    }
+
+                    if (crateCollider.CollisionBox.Top >= otherCollider.CollisionBox.Top)
+                    {
+                        GameObject.Transform.Translate(new Vector2(0, 1));
+                    }
+
+                    if (crateCollider.CollisionBox.Bottom <= otherCollider.CollisionBox.Bottom)
+                    {
+                        GameObject.Transform.Translate(new Vector2(0, -1));
+                    }
+                }
             }
         }
     }

@@ -13,7 +13,9 @@ namespace CIM_Labyrint
         public bool Trigger { get; set; }
 
         public string Tag { get; set; }
-        //public float Speed { get; set; }
+        public float Speed { get; set; }
+
+        public Vector2 Position { get; set; }
 
         public Component AddComponent(Component component)
         {

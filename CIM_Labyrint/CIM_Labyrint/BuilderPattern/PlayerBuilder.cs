@@ -47,11 +47,6 @@ namespace CIM_Labyrint
 
         private void BuildComponents()
         {
-            //Rigidbody rB = (Rigidbody)gameObject.AddComponent(new Rigidbody());
-            //gameObject.AddComponent(new Rigidbody());
-            //c.CollisionEvent.Attach(rB);
-
-
             Player p = (Player)gameObject.AddComponent(new Player());
             gameObject.AddComponent(new Player());
             gameObject.AddComponent(new SpriteRenderer());

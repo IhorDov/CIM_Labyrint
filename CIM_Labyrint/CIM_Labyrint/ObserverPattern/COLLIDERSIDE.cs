@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CIM_Labyrint
 {
-    [System.Flags]
+    [Flags]
      public enum COLLIDERSIDE
     {
         UP,

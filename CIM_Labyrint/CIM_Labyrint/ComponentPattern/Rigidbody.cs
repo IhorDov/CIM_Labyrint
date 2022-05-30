@@ -11,6 +11,7 @@ namespace CIM_Labyrint
         private bool stopMove;
         private Vector2 translation;
         private COLLIDERSIDE sideOfCollider;
+
         public bool Block { get => block; set => block = value; }
 
         public override void Awake()
@@ -30,13 +31,14 @@ namespace CIM_Labyrint
 
         public void Notify(GameEvent gameEvent)
         {
-            return;
+            //return;
             if (gameEvent is CollisionEvent ce)
             {
                 Rigidbody rb = ce.Other.GetComponent<Rigidbody>();
                 if (rb == null)
                     return;
-                Vector2 direction = (GameObject.Transform.Position - rb.GameObject.Transform.Position);
+
+                Vector2 direction = GameObject.Transform.Position - rb.GameObject.Transform.Position;
                 direction.Normalize();
 
                 if (direction.X > 0)
@@ -65,7 +67,8 @@ namespace CIM_Labyrint
                 }
                 else
                 {
-                    translation = direction * rb.Speed;
+                    if (rb != null)
+                        translation = direction * rb.Speed;
                 }
             }
         }

@@ -12,7 +12,7 @@ namespace CIM_Labyrint
 
         private bool loaded = false;
 
-        // private List<RectangleData> rectangles = new List<RectangleData>();
+        //private List<RectangleData> rectangles = new List<RectangleData>();
 
         private Texture2D texture;
 
@@ -129,7 +129,7 @@ namespace CIM_Labyrint
             spriteBatch.Draw(texture, leftLine, null, Color.Red, 0, Vector2.Zero, SpriteEffects.None, 1);
         }
 
-        private void CheckCollision()
+        public void CheckCollision() //It was private field
         {
             foreach (Collider other in GameWorld.Instance.Colliders)
             {

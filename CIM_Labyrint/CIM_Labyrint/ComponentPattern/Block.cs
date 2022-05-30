@@ -8,6 +8,7 @@ namespace CIM_Labyrint
     class Block : Component, IGameListner
     {
         Player player = new Player();
+        private Collider blockCollider;
         public override void Start()
         {
             SpriteRenderer sr = GameObject.GetComponent<SpriteRenderer>() as SpriteRenderer;
@@ -15,6 +16,8 @@ namespace CIM_Labyrint
             sr.SetSprite("Bloks/block_05");
             sr.LayerDepth = 0;
             sr.Rotation = 0;
+
+            blockCollider = GameObject.GetComponent<Collider>() as Collider;
         }
         public override void Awake()
         {
@@ -22,17 +25,10 @@ namespace CIM_Labyrint
         }
 
         public void Notify(GameEvent gameEvent)
-        {
+        {            
             if (gameEvent is CollisionEvent ce)
             {
-                if (ce.Other.Tag == "Player")
-                {
-                    GameObject.Transform.Translate(new Vector2(0, 0));                    
-                }
-            }
-                if (gameEvent is CollisionEvent)
-            {
-                //GameWorld.Instance.Destroy((gameEvent as CollisionEvent).Other);
+                Collider otherCollider = ce.Other.GetComponent<Collider>();
             }
         }
     }

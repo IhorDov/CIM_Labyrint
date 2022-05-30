@@ -13,6 +13,7 @@ namespace CIM_Labyrint
 
         private Dictionary<Keys, BUTTONSTATE> movementKeys = new Dictionary<Keys, BUTTONSTATE>();
 
+        private Collider playerCollider;
 
 
         public void Move(Vector2 velocity)
@@ -23,7 +24,7 @@ namespace CIM_Labyrint
                 velocity.Normalize();
             }
 
-            velocity *= Speed;
+            velocity *= GameObject.Speed;
 
             GameObject.Transform.Position += velocity * GameWorld.DeltaTime;
 
@@ -51,9 +52,8 @@ namespace CIM_Labyrint
 
         public override void Awake()
         {
-            this.Speed = 150;
-
             GameObject.Tag = "Player";
+            GameObject.Speed = 150;
         }
 
         public override void Start()
@@ -65,6 +65,8 @@ namespace CIM_Labyrint
             sr.Rotation = 0;
 
             animator = (Animator)GameObject.GetComponent<Animator>();
+
+            playerCollider = GameObject.GetComponent<Collider>() as Collider;
         }
 
         public override void Update()
@@ -77,25 +79,37 @@ namespace CIM_Labyrint
 
             ButtonEvent be = (gameEvent as ButtonEvent);
 
-            //if (gameEvent is CollisionEvent ce)
-            //{
-            //    if (ce.Other.Tag == "Block")
-            //    {
-            //        GameObject.Transform.Translate(new Vector2(0, 0));
-            //    }
-
-            //    //GameWorld.Instance.Destroy(GameObject);
-            //    //GameWorld.Instance.Destroy((gameEvent as CollisionEvent).Other);
-            //}
-            if (gameEvent is ButtonEvent)
+            if (gameEvent is CollisionEvent ce)
             {
-                movementKeys[be.Key] = be.State;
-            }
-            //else if (gameEvent is CrateEvent)
-            //{
-            //    if (be != null) movementKeys[be.Key] = be.State;
-            //}
+                Collider otherCollider = ce.Other.GetComponent<Collider>();
 
+                if (ce.Other.Tag == "Block")
+                {
+                    if (playerCollider.CollisionBox.Right >= otherCollider.CollisionBox.Right)
+                    {
+                        GameObject.Transform.Translate(new Vector2(1, 0));                        
+                    }
+
+                    if (playerCollider.CollisionBox.Left <= otherCollider.CollisionBox.Left)
+                    {
+                        GameObject.Transform.Translate(new Vector2(-1, 0));
+                    }
+
+                    if (playerCollider.CollisionBox.Top >= otherCollider.CollisionBox.Top)
+                    {
+                        GameObject.Transform.Translate(new Vector2(0, 1));
+                    }
+
+                    if (playerCollider.CollisionBox.Bottom <= otherCollider.CollisionBox.Bottom)
+                    {
+                        GameObject.Transform.Translate(new Vector2(0, -1));
+                    }
+                }
+                if (gameEvent is ButtonEvent)
+                {
+                    movementKeys[be.Key] = be.State;
+                }
+            }  
         }
     }
 }
