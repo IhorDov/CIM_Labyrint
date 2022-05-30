@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "jkey452bRts+9OsR19eaTzPV8MwumgBehEolyRvJQBfekA+99qY1cIWyDju85XDMN/aNeTaAF0YuwezZWhIzaQ==",
+  "dgSpecHash": "k+lQDUlg8qb3OE1lvujU69P20Ky/P40NwAsK9IGDNN7H7cXX3b0HM8cNHc8j+CYDbbNxGW0EUVHs7MU/swMJ3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nap\\Documents\\GitHub\\CIM_Labyrint\\CIM_Labyrint\\Model\\database.csproj",
+  "projectFilePath": "C:\\Ihor\\Uddannelse 2021\\EaDania Projekter\\A_Førsteårsprojekt\\CIM_Labyrint\\CID_Game2\\CIM_Labyrint\\Model\\database.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\nap\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\nap\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\nap\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.115.5\\stub.system.data.sqlite.core.netstandard.1.0.115.5.nupkg.sha512",
-    "C:\\Users\\nap\\.nuget\\packages\\system.data.sqlite.core\\1.0.115.5\\system.data.sqlite.core.1.0.115.5.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\45527\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.115.5\\stub.system.data.sqlite.core.netstandard.1.0.115.5.nupkg.sha512",
+    "C:\\Users\\45527\\.nuget\\packages\\system.data.sqlite.core\\1.0.115.5\\system.data.sqlite.core.1.0.115.5.nupkg.sha512"
   ],
   "logs": []
 }

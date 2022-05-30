@@ -17,6 +17,13 @@ namespace CIM_Labyrint
             sr.SetSprite("Crate/crate_03");
         }
 
+        public override void Awake()
+        {
+            this.Speed = 120;
+
+            GameObject.Tag = "Enemy";
+        }
+
         public void Notify(GameEvent gameEvent)
         {
             //if (gameEvent is CollisionEvent)

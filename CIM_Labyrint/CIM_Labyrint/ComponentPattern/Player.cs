@@ -14,8 +14,9 @@ namespace CIM_Labyrint
 
         private Dictionary<Keys, BUTTONSTATE> movementKeys = new Dictionary<Keys, BUTTONSTATE>();
 
-
         private Thread internalThread;
+
+        private Collider playerCollider;
 
 
         //public Player()
@@ -38,9 +39,6 @@ namespace CIM_Labyrint
         //        InputHandler.Instance.Execute(this);
         //    }
         //}
-
-
-
 
         public void Move(Vector2 velocity)
         {
@@ -92,40 +90,51 @@ namespace CIM_Labyrint
             sr.Rotation = 0;
 
             animator = (Animator)GameObject.GetComponent<Animator>();
+
+            playerCollider = GameObject.GetComponent<Collider>() as Collider;
         }
 
         public override void Update()
         {
               InputHandler.Instance.Execute(this);
-
-
         }
-
 
         public void Notify(GameEvent gameEvent)
         {
-
             ButtonEvent be = (gameEvent as ButtonEvent);
 
             if (gameEvent is CollisionEvent ce)
             {
+                Collider otherCollider = ce.Other.GetComponent<Collider>();
+
                 if (ce.Other.Tag == "Block")
                 {
-                    GameObject.Transform.Translate(new Vector2(0, 0));
-                }
+                    if (playerCollider.CollisionBox.Right >= otherCollider.CollisionBox.Right)
+                    {
+                        GameObject.Transform.Translate(new Vector2(1, 0));
+                    }
 
-                //GameWorld.Instance.Destroy(GameObject);
-                //GameWorld.Instance.Destroy((gameEvent as CollisionEvent).Other);
+                    if (playerCollider.CollisionBox.Left <= otherCollider.CollisionBox.Left)
+                    {
+                        GameObject.Transform.Translate(new Vector2(-1, 0));
+                    }
+
+                    if (playerCollider.CollisionBox.Top >= otherCollider.CollisionBox.Top)
+                    {
+                        GameObject.Transform.Translate(new Vector2(0, 1));
+                    }
+
+                    if (playerCollider.CollisionBox.Bottom <= otherCollider.CollisionBox.Bottom)
+                    {
+                        GameObject.Transform.Translate(new Vector2(0, -1));
+                    }
+                }                
             }
+
             if (gameEvent is ButtonEvent)
             {
                 movementKeys[be.Key] = be.State;
-            }
-            //else if (gameEvent is CrateEvent)
-            //{
-            //    if (be != null) movementKeys[be.Key] = be.State;
-            //}
-
+            }            
         }
     }
 }

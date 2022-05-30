@@ -14,6 +14,8 @@ namespace CIM_Labyrint
 
         private COLLIDERSIDE sideOfCollider = new COLLIDERSIDE();
 
+        private Collider crateCollider;
+
         public override void Start()
         {
             SpriteRenderer sr = GameObject.GetComponent<SpriteRenderer>() as SpriteRenderer;
@@ -21,84 +23,97 @@ namespace CIM_Labyrint
             sr.SetSprite("Crate/crate_10");
             sr.LayerDepth = 0;
             sr.Rotation = 0;
+
+            crateCollider = GameObject.GetComponent<Collider>() as Collider;
         }
 
         public override void Awake()
         {
-            this.Speed = 150;
+            GameObject.Speed = 150;
 
             GameObject.Tag = "Crate";
         }
-
-        //public override void Update()
-        //{
-        //    base.Update();
-        //    if(!blocked)
-        //    {
-        //        GameObject.Transform.Translate(translation);
-        //        translation = Vector2.Zero;
-        //    }
-        //    blocked = false;
-        //}
                 
         public void Notify(GameEvent gameEvent)
         {
 
             if (gameEvent is CollisionEvent ce)
             {
-                Rigidbody rb = ce.Other.GetComponent<Rigidbody>();
-                if (rb == null)
-                    return;
-                Vector2 direction = (GameObject.Transform.Position - rb.GameObject.Transform.Position);
-                direction.Normalize();
-                if (direction.X > 0)
+                Collider otherCollider = ce.Other.GetComponent<Collider>();
+
+                if (ce.Other.Tag == "Player")
                 {
-                    direction.Y = 0;
-                    sideOfCollider = sideOfCollider | COLLIDERSIDE.RIGHT;
+                    if (crateCollider.CollisionBox.Right >= otherCollider.CollisionBox.Right)
+                    {
+                        GameObject.Transform.Translate(new Vector2(1, 0));
+                        GameObject.Speed = 150;
+                    }
+
+                    if (crateCollider.CollisionBox.Left <= otherCollider.CollisionBox.Left)
+                    {
+                        GameObject.Transform.Translate(new Vector2(-1, 0));
+                        GameObject.Speed = 150;
+                    }
+
+                    if (crateCollider.CollisionBox.Top >= otherCollider.CollisionBox.Top)
+                    {
+                        GameObject.Transform.Translate(new Vector2(0, 1));
+                        GameObject.Speed = 150;
+                    }
+
+                    if (crateCollider.CollisionBox.Bottom <= otherCollider.CollisionBox.Bottom)
+                    {
+                        GameObject.Transform.Translate(new Vector2(0, -1));
+                        GameObject.Speed = 150;
+                    }
                 }
-                else if (direction.X < 0)
+
+                if (ce.Other.Tag == "Crate")
                 {
-                    direction.Y = 0;
-                    sideOfCollider = sideOfCollider | COLLIDERSIDE.LEFT;
+                    if (crateCollider.CollisionBox.Right >= otherCollider.CollisionBox.Right)
+                    {
+                        GameObject.Transform.Translate(new Vector2(1, 0));
+                    }
+
+                    if (crateCollider.CollisionBox.Left <= otherCollider.CollisionBox.Left)
+                    {
+                        GameObject.Transform.Translate(new Vector2(-1, 0));
+                    }
+
+                    if (crateCollider.CollisionBox.Top >= otherCollider.CollisionBox.Top)
+                    {
+                        GameObject.Transform.Translate(new Vector2(0, 1));
+                    }
+
+                    if (crateCollider.CollisionBox.Bottom <= otherCollider.CollisionBox.Bottom)
+                    {
+                        GameObject.Transform.Translate(new Vector2(0, -1));
+                    }
                 }
-                else if (direction.Y > 0)
+
+                if (ce.Other.Tag == "Block")
                 {
-                    direction.X = 0;
-                    sideOfCollider = sideOfCollider | COLLIDERSIDE.DOWN;
-                }
-                else if (direction.Y < 0)
-                {
-                    direction.X = 0;
-                    sideOfCollider = sideOfCollider | COLLIDERSIDE.UP;
-                }
-                if (rb.Block)
-                {
-                    stopMove = true;
-                }
-                else
-                {
-                    translation = direction * rb.Speed;
+                    if (crateCollider.CollisionBox.Right >= otherCollider.CollisionBox.Right)
+                    {
+                        GameObject.Transform.Translate(new Vector2(1, 0));
+                    }
+
+                    if (crateCollider.CollisionBox.Left <= otherCollider.CollisionBox.Left)
+                    {
+                        GameObject.Transform.Translate(new Vector2(-1, 0));
+                    }
+
+                    if (crateCollider.CollisionBox.Top >= otherCollider.CollisionBox.Top)
+                    {
+                        GameObject.Transform.Translate(new Vector2(0, 1));
+                    }
+
+                    if (crateCollider.CollisionBox.Bottom <= otherCollider.CollisionBox.Bottom)
+                    {
+                        GameObject.Transform.Translate(new Vector2(0, -1));
+                    }
                 }
             }
-
-            //if (gameEvent is CollisionEvent ce)
-            //{
-            //    if (ce.Other.Tag == "Player")
-            //    {
-            //        GameObject.Transform.Translate(new Vector2(-1, 0));
-            //        //Player p = ce.Other.GetComponent<Player>();
-            //        //if(p != null)
-            //        //{
-            //        //    translation = new Vector2(-1, 0) * p.Speed;
-            //        //}
-            //    }
-            //    else if(ce.Other.Tag == "Crate")
-            //    {
-            //        GameObject.Transform.Translate(new Vector2(0, 0));
-            //        blocked = true;
-            //    }
-                
-            //}
         }
     }
 }

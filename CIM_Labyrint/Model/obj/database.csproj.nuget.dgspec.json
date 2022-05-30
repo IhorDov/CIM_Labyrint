@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nap\\Documents\\GitHub\\CIM_Labyrint\\CIM_Labyrint\\Model\\database.csproj": {}
+    "C:\\Ihor\\Uddannelse 2021\\EaDania Projekter\\A_Førsteårsprojekt\\CIM_Labyrint\\CID_Game2\\CIM_Labyrint\\Model\\database.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nap\\Documents\\GitHub\\CIM_Labyrint\\CIM_Labyrint\\Model\\database.csproj": {
+    "C:\\Ihor\\Uddannelse 2021\\EaDania Projekter\\A_Førsteårsprojekt\\CIM_Labyrint\\CID_Game2\\CIM_Labyrint\\Model\\database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nap\\Documents\\GitHub\\CIM_Labyrint\\CIM_Labyrint\\Model\\database.csproj",
+        "projectUniqueName": "C:\\Ihor\\Uddannelse 2021\\EaDania Projekter\\A_Førsteårsprojekt\\CIM_Labyrint\\CID_Game2\\CIM_Labyrint\\Model\\database.csproj",
         "projectName": "database",
-        "projectPath": "C:\\Users\\nap\\Documents\\GitHub\\CIM_Labyrint\\CIM_Labyrint\\Model\\database.csproj",
-        "packagesPath": "C:\\Users\\nap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nap\\Documents\\GitHub\\CIM_Labyrint\\CIM_Labyrint\\Model\\obj\\",
+        "projectPath": "C:\\Ihor\\Uddannelse 2021\\EaDania Projekter\\A_Førsteårsprojekt\\CIM_Labyrint\\CID_Game2\\CIM_Labyrint\\Model\\database.csproj",
+        "packagesPath": "C:\\Users\\45527\\.nuget\\packages\\",
+        "outputPath": "C:\\Ihor\\Uddannelse 2021\\EaDania Projekter\\A_Førsteårsprojekt\\CIM_Labyrint\\CID_Game2\\CIM_Labyrint\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\nap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\45527\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -67,7 +68,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }
