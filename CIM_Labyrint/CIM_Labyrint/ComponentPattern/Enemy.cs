@@ -7,8 +7,7 @@ namespace CIM_Labyrint
 {
     class Enemy : Component, IGameListner
     {
-        public float XPos { get; set; }
-        public float YPos { get; set; }
+
 
         public override void Start()
         {
