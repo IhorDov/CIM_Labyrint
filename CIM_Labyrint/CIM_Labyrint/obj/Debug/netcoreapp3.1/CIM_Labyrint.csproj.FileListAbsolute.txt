@@ -864,3 +864,22 @@ C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_
 C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_6.xnb
 C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\The-Northern-Path.wma
 C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\The-Northern-Path.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_01.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_02.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_03.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_04.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_05.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_06.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Pixel.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_5.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_6.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_5.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_6.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_7.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_8.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_5.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_6.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_5.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_6.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\The-Northern-Path.wma
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\The-Northern-Path.xnb
