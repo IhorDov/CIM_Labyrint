@@ -29,7 +29,7 @@ namespace CIM_Labyrint
 
         public override void Awake()
         {
-            GameObject.Speed = 150;
+            GameObject.Speed = 0;
 
             GameObject.Tag = "Crate";
         }

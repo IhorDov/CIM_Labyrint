@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
 using System;
 using System.Collections.Generic;
 
@@ -11,6 +12,10 @@ namespace CIM_Labyrint
         private static GameWorld instance;
         private GraphicsDeviceManager graphics;
         private SpriteBatch spriteBatch;
+
+        public static bool sound = false; //Play soundeffects and music.
+        private bool soundTap = true; //Used to prevent music spam.
+
 
         //game gameObjects
         private List<GameObject> gameObjects = new List<GameObject>();
@@ -65,6 +70,12 @@ namespace CIM_Labyrint
             {
                 gameObjects[i].Start();
             }
+
+            MediaPlayer.IsRepeating = true;          //Set MediaPlayer to true
+            Song music = Content.Load<Song>("The-Northern-Path"); //Download music
+            MediaPlayer.Play(music);                       //Create a MediaPlayer to play downloaded music
+            MediaPlayer.Pause();                           //Start, and pause music. Toggable later in the code.
+
         }
 
         protected override void Update(GameTime gameTime)
@@ -82,6 +93,34 @@ namespace CIM_Labyrint
             base.Update(gameTime);
 
             Cleanup();
+
+            KeyboardState keyState = Keyboard.GetState();
+
+            if (keyState.IsKeyDown(Keys.V) && soundTap == true) //Toggle music and sounds
+            {
+                if (sound == false)
+                {
+                    sound = true;
+                }
+                else
+                {
+                    sound = false;
+                }
+                soundTap = false;
+
+                if (sound)
+                {
+                    MediaPlayer.Resume(); //if sound on, resume playing
+                }
+                else
+                {
+                    MediaPlayer.Pause(); //if off stop playing
+                }
+            }
+            if (keyState.IsKeyUp(Keys.V))
+            {
+                soundTap = true; //prevent running each time.
+            }
         }
 
         protected override void Draw(GameTime gameTime)

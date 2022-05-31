@@ -862,3 +862,5 @@ C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_
 C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_6.xnb
 C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_5.xnb
 C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_6.xnb
+C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\The-Northern-Path.wma
+C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\The-Northern-Path.xnb

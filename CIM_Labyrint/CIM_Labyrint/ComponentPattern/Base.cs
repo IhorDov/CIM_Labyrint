@@ -15,6 +15,11 @@ namespace CIM_Labyrint
             sr.Rotation = 0;
         }
 
+        public override void Awake()
+        {
+            GameObject.Tag = "Base";
+        }
+
         public void Notify(GameEvent gameEvent)
         {
             if (gameEvent is CollisionEvent)

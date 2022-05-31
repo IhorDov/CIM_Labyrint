@@ -1087,3 +1087,9 @@
 /processorParam:TextureFormat=Color
 /build:Player/PlayerR_6.png
 
+#begin The-Northern-Path.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:The-Northern-Path.mp3
+
