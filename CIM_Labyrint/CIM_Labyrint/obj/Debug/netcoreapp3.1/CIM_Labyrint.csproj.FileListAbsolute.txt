@@ -864,14 +864,3 @@ C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_
 C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_6.xnb
 C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\The-Northern-Path.wma
 C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\The-Northern-Path.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster10.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster5.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster6.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster7.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster8.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster9.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\File.xnb
