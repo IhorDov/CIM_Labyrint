@@ -15,6 +15,11 @@ namespace CIM_Labyrint
 
         public static bool sound = false; //Play soundeffects and music.
         private bool soundTap = true; //Used to prevent music spam.
+        private SpriteFont text; //A single spritefront for the text (viewing score)
+        public static int lives = 3; //We make static field for life
+        public static int score;      //Static field for score
+        private int highScore;        //Create field for highScore
+
 
 
         //game gameObjects
@@ -75,6 +80,7 @@ namespace CIM_Labyrint
             Song music = Content.Load<Song>("The-Northern-Path"); //Download music
             MediaPlayer.Play(music);                       //Create a MediaPlayer to play downloaded music
             MediaPlayer.Pause();                           //Start, and pause music. Toggable later in the code.
+            text = Content.Load<SpriteFont>("File"); //Download sprite fond
 
         }
 
@@ -128,6 +134,8 @@ namespace CIM_Labyrint
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             spriteBatch.Begin(SpriteSortMode.BackToFront);
+
+            spriteBatch.DrawString(text, $"Score: {score}\nLives: {lives}\n\nSound (V): On", new Vector2(0, 0), Color.White);
 
             for (int i = 0; i < gameObjects.Count; i++)
             {

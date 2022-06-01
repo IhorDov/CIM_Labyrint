@@ -21,6 +21,8 @@ namespace CIM_Labyrint
 
         private SoundEffect walkSound;
         private SoundEffectInstance soundEffectInstance;
+        private float cooldown = 0f; //Cooldown field
+
 
 
         //public Player()
@@ -59,26 +61,31 @@ namespace CIM_Labyrint
             if (velocity.X > 0)
             {
                 animator.PlayAnimation("Right");
-                soundEffectInstance.Stop();
-                soundEffectInstance.Play();
+                if (cooldown <= 0)
+                {
+                    //cooldown = 60;
+                    soundEffectInstance.Stop();
+                    soundEffectInstance.Play();
+                }
+                cooldown--;                
             }
             else if (velocity.X < 0)
             {
                 animator.PlayAnimation("Left");
-                soundEffectInstance.Stop();
-                soundEffectInstance.Play();
+                //soundEffectInstance.Stop();
+                //soundEffectInstance.Play();
             }
             else if (velocity.Y < 0)
             {
                 animator.PlayAnimation("Back");
-                soundEffectInstance.Stop();
-                soundEffectInstance.Play();
+                //soundEffectInstance.Stop();
+                //soundEffectInstance.Play();
             }
             else if (velocity.Y > 0)
             {
                 animator.PlayAnimation("Forward");
-                soundEffectInstance.Stop();
-                soundEffectInstance.Play();
+                //soundEffectInstance.Stop();
+                //soundEffectInstance.Play();
             }
             else if (velocity.X == 0 && velocity.Y == 0)
             {
@@ -92,7 +99,6 @@ namespace CIM_Labyrint
 
             GameObject.Tag = "Player";
 
-
             walkSound = GameWorld.Instance.Content.Load<SoundEffect>("326543__sqeeeek__wetfootsteps");
             soundEffectInstance = walkSound.CreateInstance();
             soundEffectInstance.IsLooped = false;
@@ -100,8 +106,6 @@ namespace CIM_Labyrint
             soundEffectInstance.Pitch = 0.1f;
             soundEffectInstance.Pan = 0.1f;
             SoundEffect.MasterVolume = 0.3f;
-
-
         }
 
         public override void Start()
@@ -119,7 +123,12 @@ namespace CIM_Labyrint
 
         public override void Update()
         {
-              InputHandler.Instance.Execute(this);
+            if (cooldown <= 0)
+            {
+                //cooldown = 10;
+                InputHandler.Instance.Execute(this);
+            }
+            cooldown--;
         }
 
         public void Notify(GameEvent gameEvent)
@@ -129,6 +138,9 @@ namespace CIM_Labyrint
             if (gameEvent is CollisionEvent ce)
             {
                 Collider otherCollider = ce.Other.GetComponent<Collider>();
+                //It's just a music
+                soundEffectInstance.Stop();
+                soundEffectInstance.Play();
 
                 if (ce.Other.Tag == "Block")
                 {
@@ -151,7 +163,29 @@ namespace CIM_Labyrint
                     {
                         GameObject.Transform.Translate(new Vector2(0, -1));
                     }
-                }                
+                }
+                if (ce.Other.Tag == "Enemy")
+                {                    
+                    if (playerCollider.CollisionBox.Right >= otherCollider.CollisionBox.Right)
+                    {
+                        GameObject.Transform.Translate(new Vector2(1, 0));                        
+                    }
+
+                    if (playerCollider.CollisionBox.Left <= otherCollider.CollisionBox.Left)
+                    {
+                        GameObject.Transform.Translate(new Vector2(-1, 0));
+                    }
+
+                    if (playerCollider.CollisionBox.Top >= otherCollider.CollisionBox.Top)
+                    {
+                        GameObject.Transform.Translate(new Vector2(0, 1));
+                    }
+
+                    if (playerCollider.CollisionBox.Bottom <= otherCollider.CollisionBox.Bottom)
+                    {
+                        GameObject.Transform.Translate(new Vector2(0, -1));
+                    }
+                }
             }
 
             if (gameEvent is ButtonEvent)

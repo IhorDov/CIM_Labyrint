@@ -14,8 +14,6 @@ namespace CIM_Labyrint
 
         private static readonly object padlock = new object();
 
-        //private Player player;
-
         private InputHandler()
         {
             keybinds.Add(new KeyInfo(Keys.D), new MoveCommand(new Vector2(1, 0)));

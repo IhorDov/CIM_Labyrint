@@ -7,6 +7,11 @@ namespace CIM_Labyrint
 {
     class Enemy : Component, IGameListner
     {
+        private float Lifetime = 3600f;
+        private Collider enemyCollider;
+        private float cooldown = 0f; //Cooldown field
+
+
         public float XPos { get; set; }
         public float YPos { get; set; }
 
@@ -14,7 +19,10 @@ namespace CIM_Labyrint
         {
             SpriteRenderer sr = GameObject.GetComponent<SpriteRenderer>() as SpriteRenderer;
 
-            sr.SetSprite("Crate/crate_03");
+            sr.SetSprite("Enemy/monster10");
+
+            enemyCollider = GameObject.GetComponent<Collider>() as Collider;
+
         }
 
         public override void Awake()
@@ -23,13 +31,31 @@ namespace CIM_Labyrint
 
             GameObject.Tag = "Enemy";
         }
-
-        public void Notify(GameEvent gameEvent)
+        public override void Update()
         {
-            //if (gameEvent is CollisionEvent)
-            //{
-            //    GameWorld.Instance.Destroy((gameEvent as CollisionEvent).Other);
-            //}
+            Lifetime--;
+
+            if (Lifetime <= 0)
+            {
+                GameWorld.Instance.Destroy(GameObject);
+            }
+        }
+
+            public void Notify(GameEvent gameEvent)
+        {
+            if (gameEvent is CollisionEvent)
+            {
+                GameWorld.Instance.Destroy(GameObject);
+               
+                    if (cooldown <= 0)
+                    {
+                        cooldown = 60;
+                        GameWorld.lives--;
+                    }
+                    cooldown--;
+                
+                //GameWorld.Instance.Destroy((gameEvent as CollisionEvent).Other);
+            }
         }
     }
 }

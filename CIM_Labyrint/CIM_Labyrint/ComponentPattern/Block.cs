@@ -13,7 +13,7 @@ namespace CIM_Labyrint
             SpriteRenderer sr = GameObject.GetComponent<SpriteRenderer>() as SpriteRenderer;
 
             sr.SetSprite("Bloks/block_05");
-            sr.LayerDepth = 0;
+            sr.LayerDepth = 0.05f;
             sr.Rotation = 0;
         }
         public override void Awake()
