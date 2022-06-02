@@ -17,7 +17,9 @@ namespace CIM_Labyrint
         {
             listners.Remove(listner);
         }
-
+        /// <summary>
+        /// // Trigger an update in each subscriber.
+        /// </summary>
         public void Notify()
         {
             foreach (IGameListner listner in listners)

@@ -9,8 +9,9 @@ namespace CIM_Labyrint
     {
 
 
-        protected float speed;
+        private float speed;
         public GameObject GameObject { get; set; }
+        public float Speed { get => speed; set => speed = value; }
 
         public virtual void Awake() { }
 

@@ -41,30 +41,32 @@ namespace CIM_Labyrint
 
             Grafer<string> grafer = new Grafer<string>();
 
-
-
             grafer.AddNode("start");
-            grafer.AddNode("1");
-            grafer.AddNode("2");
-            grafer.AddNode("3");
-            grafer.AddNode("4");
-            grafer.AddNode("5");
-            grafer.AddNode("6");
-            
-
+            grafer.AddNode("Ice Blaster");
+            grafer.AddNode("Slot Machines");
+            grafer.AddNode("Rocket Ships");
+            grafer.AddNode("3D Cinema");
+            grafer.AddNode("Slot Machines");
+            grafer.AddNode("Funhouse");
  
-            grafer.AddEdge("start", "1");
-            grafer.AddEdge("start", "6");
-            grafer.AddEdge("start", "2");
-            grafer.AddEdge("1", "5");
-            grafer.AddEdge("1", "2");
-            grafer.AddEdge("1", "4");
-            grafer.AddEdge("1", "3");
+            grafer.AddEdge("start", "Ice Blaster");
+            grafer.AddEdge("start", "Funhouse");
+            grafer.AddEdge("start", "Slot Machines");
+            grafer.AddEdge("Ice Blaster", "Funhouse");
+            grafer.AddEdge("Ice Blaster", "Slot Machines");
+            grafer.AddEdge("Ice Blaster", "Rocket Ships");
+            grafer.AddEdge("Ice Blaster", "3D Cinema");
 
 
 
 
-            Node<string> n = Bfs<string>(grafer.Nodes.Find(x => x.Data == "start"), grafer.Nodes.Find(x => x.Data == "3"));
+
+
+
+
+
+
+            Node<string> n = DFS<string>(grafer.Nodes.Find(x => x.Data == "start"), grafer.Nodes.Find(x => x.Data == "3D Cinema"));
 
 
 
@@ -95,30 +97,11 @@ namespace CIM_Labyrint
                         velocityd += new Vector2(0.001f, 0);
                         Thread.Sleep(500);
                         break;
-                    case "1":
+                    case "Ice Blaster":
                         velocityd += new Vector2(0.001f, 0);
                         Thread.Sleep(500);
                         break;
-                    case "2":
-                        velocityd += new Vector2(0.001f, 0);
-                        Thread.Sleep(500);
-                        break;
-                    case "3":
-                        velocityd += new Vector2(0.001f, 0);
-                        Thread.Sleep(500);
-                        break;
-                    case "4":
-                        velocityd += new Vector2(0.001f, 0);
-                        Thread.Sleep(500);
-                        break;
-                    case "5":
-                        velocityd += new Vector2(0.001f, 0);
-                        Thread.Sleep(500);
-                        break;
-                    case "6":
-                        velocityd += new Vector2(0.001f, 0);
-                        Thread.Sleep(500);
-                        break;
+
                 }
 
             }
@@ -127,7 +110,7 @@ namespace CIM_Labyrint
 
 
 
-        private static Node<T> Bfs<T>(Node<T> start, Node<T> goal)
+        private static Node<T> DFS<T>(Node<T> start, Node<T> goal)
         {
             Queue<Edge<T>> edges = new Queue<Edge<T>>();
             edges.Enqueue(new Edge<T>(start, start));

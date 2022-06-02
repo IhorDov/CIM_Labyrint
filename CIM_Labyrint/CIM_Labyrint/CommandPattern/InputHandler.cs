@@ -9,14 +9,15 @@ namespace CIM_Labyrint
     class InputHandler
     {
         private static InputHandler instance;
+        private Dictionary<KeyInfo, ICommand> keybinds = new Dictionary<KeyInfo, ICommand>();
+        
+        private readonly ButtonEvent buttonEvent = new ButtonEvent();
 
         private static readonly object padlock = new object();
 
-        private Dictionary<KeyInfo, ICommand> keybinds = new Dictionary<KeyInfo, ICommand>();
-        private ButtonEvent buttonEvent = new ButtonEvent();
-
         private InputHandler()
         {
+
             keybinds.Add(new KeyInfo(Keys.D), new MoveCommand(new Vector2(1, 0)));
             keybinds.Add(new KeyInfo(Keys.A), new MoveCommand(new Vector2(-1, 0)));
             keybinds.Add(new KeyInfo(Keys.W), new MoveCommand(new Vector2(0, -1)));
@@ -30,10 +31,15 @@ namespace CIM_Labyrint
 
             foreach (KeyInfo keyInfo in keybinds.Keys)
             {
+
                 if (keyState.IsKeyDown(keyInfo.Key))
                 {
                     keybinds[keyInfo].Execute(player);
-                    buttonEvent.Notify(keyInfo.Key, BUTTONSTATE.DOWN);
+                    if (player.test == true)
+                    {
+buttonEvent.Notify(keyInfo.Key, BUTTONSTATE.DOWN);
+                    }
+                    
                     keyInfo.IsDown = true;
                 }
 
@@ -41,7 +47,9 @@ namespace CIM_Labyrint
                 {
                     buttonEvent.Notify(keyInfo.Key, BUTTONSTATE.UP);
                 }
+            
             }
+
         }
         public static InputHandler Instance
         {
@@ -53,6 +61,7 @@ namespace CIM_Labyrint
                     {
                         instance = new InputHandler();
                     }
+
                 }
                 return instance;
             }

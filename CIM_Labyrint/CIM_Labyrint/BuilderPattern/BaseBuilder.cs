@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CIM_Labyrint
 {
-    class BaseBuilder : IBuilder
+    class BaseBuilder : Component, IBuilder
     {
         private GameObject gameObject;     
 
@@ -26,16 +26,48 @@ namespace CIM_Labyrint
 
             BuildComponents();
         }
+
+        public override void Update()
+        {
+            MoveCrateOnBasePlace(gridPosition.X, gridPosition.Y);
+        }
+
+        private void MoveCrateOnBasePlace(float x, float y)
+        {
+            CrateBuilder crateBuilder = new CrateBuilder(x, y);
+
+            this.gridPosition.X = x;
+            this.gridPosition.Y = y;
+
+            if (position.Y  <= crateBuilder.position.Y)
+            {
+                crateBuilder.position.Y = position.Y;
+            }
+            if (position.Y >= crateBuilder.position.Y)
+            {
+                crateBuilder.position.Y = position.Y;
+            }
+            if (position.X  <= crateBuilder.position.X)
+            {
+                crateBuilder.position.X = position.X;
+            }
+            if (position.X >= crateBuilder.position.X)
+            {
+                crateBuilder.position.X = position.X;
+            }
+        }
         private void BuildComponents()
         {
             Base b = (Base)gameObject.AddComponent(new Base());
-
-            gameObject.AddComponent(new Base());
             gameObject.AddComponent(new SpriteRenderer());
-            gameObject.Transform.Position = new Vector2(position.X, position.Y);
 
             Collider c = (Collider)gameObject.AddComponent(new Collider());
             c.CollisionEvent.Attach(b);
+            //if (c.CollisionBox.Intersects()
+            //{
+
+            //}
+            gameObject.Transform.Position = new Vector2(position.X, position.Y);
         }
 
         public GameObject GetResult()

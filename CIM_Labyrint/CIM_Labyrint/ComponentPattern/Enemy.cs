@@ -7,6 +7,11 @@ namespace CIM_Labyrint
 {
     class Enemy : Component, IGameListner
     {
+        private float Lifetime = 3600f;
+        private Collider enemyCollider;
+        private float cooldown = 0f; //Cooldown field
+
+
         public float XPos { get; set; }
         public float YPos { get; set; }
 
@@ -14,30 +19,42 @@ namespace CIM_Labyrint
         {
             SpriteRenderer sr = GameObject.GetComponent<SpriteRenderer>() as SpriteRenderer;
 
-            sr.SetSprite("Crate/crate_03");
+            sr.SetSprite("Enemy/monster10");
+
+            enemyCollider = GameObject.GetComponent<Collider>() as Collider;
+
         }
-        //public bool CrateMovement(Vector2 direction)
-        //{
-        //    GameObjectWithCollider targetObject = LookAround.LookAt(GridPlacement.Placement(gridPosition + direction));
 
-        //    if (targetObject == null)
-        //    {
-        //        MoveInDirection(direction);
+        public override void Awake()
+        {
+            this.Speed = 120;
 
-        //        return true;
-        //    }
+            GameObject.Tag = "Enemy";
+        }
+        public override void Update()
+        {
+            Lifetime--;
 
-        //    return false;
-        //}
-        //public override void Update()
-        //{
-        //    GameWorld.Instance.Execute(this);
-        //}
-        public void Notify(GameEvent gameEvent)
+            if (Lifetime <= 0)
+            {
+                GameWorld.Instance.Destroy(GameObject);
+            }
+        }
+
+            public void Notify(GameEvent gameEvent)
         {
             if (gameEvent is CollisionEvent)
             {
-                GameWorld.Instance.Destroy((gameEvent as CollisionEvent).Other);
+                GameWorld.Instance.Destroy(GameObject);
+               
+                    if (cooldown <= 0)
+                    {
+                        cooldown = 60;
+                        GameWorld.lives--;
+                    }
+                    cooldown--;
+                
+                //GameWorld.Instance.Destroy((gameEvent as CollisionEvent).Other);
             }
         }
     }

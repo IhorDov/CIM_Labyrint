@@ -28,14 +28,13 @@ namespace CIM_Labyrint
         }
         private void BuildComponents()
         {
-            Crate cr = (Crate)gameObject.AddComponent(new Crate());
-
-            gameObject.AddComponent(new Crate());
+            Crate crate = (Crate)gameObject.AddComponent(new Crate());
             gameObject.AddComponent(new SpriteRenderer());
-            gameObject.Transform.Position = new Vector2(position.X, position.Y);
 
             Collider c = (Collider)gameObject.AddComponent(new Collider());
-            c.CollisionEvent.Attach(cr);
+            c.CollisionEvent.Attach(crate);
+
+            gameObject.Transform.Position = new Vector2(position.X, position.Y);
         }
 
         public GameObject GetResult()

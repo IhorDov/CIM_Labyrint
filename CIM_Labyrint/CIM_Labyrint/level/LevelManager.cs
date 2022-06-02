@@ -9,7 +9,9 @@ namespace CIM_Labyrint
     {
         public List<int[,]> levelHolder = new List<int[,]>();
 
-        private GameObject gameObject;
+        private GameObject gameObject = new GameObject();
+
+        public GameObject GameObject { get => gameObject; set => gameObject = value; }
 
         public LevelManager()
         {
@@ -24,7 +26,7 @@ namespace CIM_Labyrint
         {
             GameObject go = new GameObject();
 
-            Director director = null;
+            Director director;
 
             if (whatObjects == 0) //Alle objects skal tilføjes i denne metode
             {
@@ -46,6 +48,7 @@ namespace CIM_Labyrint
             }
             else if (whatObjects == 3)
             {
+                //tilføjer en base til spillet
                 director = new Director(new BaseBuilder(xPos, yPos));
                 go = director.Construct();              
             }
@@ -68,7 +71,7 @@ namespace CIM_Labyrint
         public void LoadLevel(int targetLevel)
         {
             int[,] spawnLevel = new int[0, 0];
-            gameObject = new GameObject();
+            GameObject = new GameObject();
 
 
             try
@@ -122,5 +125,14 @@ namespace CIM_Labyrint
             }
         }
 
+        //public void BuildGameObject()
+        //{
+        //    LoadLevel(0);
+        //}
+
+        //public GameObject GetResult()
+        //{
+        //    return gameObject;
+        //}
     }
 }

@@ -23,4 +23,7 @@
   <ItemGroup>
     <Folder Include="Content\Player\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\database.csproj" />
+  </ItemGroup>
 </Project>

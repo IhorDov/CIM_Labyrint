@@ -1,8 +1,12 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
 using System;
 using System.Collections.Generic;
+
+using database;
+
 
 namespace CIM_Labyrint
 {
@@ -11,6 +15,15 @@ namespace CIM_Labyrint
         private static GameWorld instance;
         private GraphicsDeviceManager graphics;
         private SpriteBatch spriteBatch;
+
+        public static bool sound = false; //Play soundeffects and music.
+        private bool soundTap = true; //Used to prevent music spam.
+        private SpriteFont text; //A single spritefront for the text (viewing score)
+        public static int lives = 3; //We make static field for life
+        public static int score;      //Static field for score
+        private int highScore;        //Create field for highScore
+
+
 
         //game gameObjects
         private List<GameObject> gameObjects = new List<GameObject>();
@@ -39,12 +52,36 @@ namespace CIM_Labyrint
             }
         }
 
-        private GameWorld()
+        public GameWorld()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
+
+            Data();
+
         }
+
+
+       private void Data()
+        {
+            // TODO: Add your initialization logic here
+            var mapper = new AdventurerMapper();
+            var provider = new SQLiteDatabaseProvider("Data Source=CIMLabyrint.db;Version=3;new=true");
+
+            var repo = new Reading(provider, mapper);
+            repo.Open();
+            repo.AddAdmin(score);
+
+            repo.AddAdmin(highScore);
+
+            repo.AddAdmin(lives);
+
+
+            repo.Close();
+
+        }
+
 
         protected override void Initialize()
         {
@@ -52,15 +89,7 @@ namespace CIM_Labyrint
 
             LevelManager levelManager = new LevelManager();
 
-            levelManager.LoadLevel(0);
-
-            gameObjects.AddRange(newGameObjects);
-            newGameObjects.Clear();
-
-            for (int i = 0; i < gameObjects.Count; i++)
-            {
-                gameObjects[i].Awake();
-            }
+            levelManager.LoadLevel(1);
 
             base.Initialize();
         }
@@ -73,6 +102,13 @@ namespace CIM_Labyrint
             {
                 gameObjects[i].Start();
             }
+
+            //MediaPlayer.IsRepeating = true;          //Set MediaPlayer to true
+            //Song music = Content.Load<Song>("The-Northern-Path"); //Download music
+            //MediaPlayer.Play(music);                       //Create a MediaPlayer to play downloaded music
+            //MediaPlayer.Pause();                           //Start, and pause music. Toggable later in the code.
+            text = Content.Load<SpriteFont>("File"); //Download sprite fond
+
         }
 
         protected override void Update(GameTime gameTime)
@@ -87,19 +123,46 @@ namespace CIM_Labyrint
                 gameObjects[i].Update(gameTime);
             }
 
-            gameObjects.AddRange(newGameObjects);
-            newGameObjects.Clear();
-
             base.Update(gameTime);
 
             Cleanup();
+
+            KeyboardState keyState = Keyboard.GetState();
+
+            if (keyState.IsKeyDown(Keys.V) && soundTap == true) //Toggle music and sounds
+            {
+                if (sound == false)
+                {
+                    sound = true;
+                }
+                else
+                {
+                    sound = false;
+                }
+                soundTap = false;
+
+                if (sound)
+                {
+                    MediaPlayer.Resume(); //if sound on, resume playing
+                }
+                else
+                {
+                    MediaPlayer.Pause(); //if off stop playing
+                }
+            }
+            if (keyState.IsKeyUp(Keys.V))
+            {
+                soundTap = true; //prevent running each time.
+            }
         }
 
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            spriteBatch.Begin();
+            spriteBatch.Begin(SpriteSortMode.BackToFront);
+
+            spriteBatch.DrawString(text, $"Score: {score}\nLives: {lives}\n\nSound (V): On", new Vector2(0, 0), Color.White);
 
             for (int i = 0; i < gameObjects.Count; i++)
             {

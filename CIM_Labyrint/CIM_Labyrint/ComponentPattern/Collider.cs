@@ -35,7 +35,7 @@ namespace CIM_Labyrint
             {
                 return new Rectangle
                     (
-                        (int)(GameObject.Transform.Position.X - spriteRenderer.Sprite.Width / 2),
+                        (int)(GameObject.Transform.Position.X - spriteRenderer.Sprite.Width + 10),
                         (int)(GameObject.Transform.Position.Y - spriteRenderer.Sprite.Height / 2),
                         spriteRenderer.Sprite.Width,
                         spriteRenderer.Sprite.Height

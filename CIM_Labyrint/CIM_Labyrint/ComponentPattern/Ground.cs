@@ -11,6 +11,8 @@ namespace CIM_Labyrint
             SpriteRenderer sr = GameObject.GetComponent<SpriteRenderer>() as SpriteRenderer;
 
             sr.SetSprite("Ground/ground_06");
+            sr.LayerDepth = 0.1f;
+            sr.Rotation = 0;
         }
     }
 }
