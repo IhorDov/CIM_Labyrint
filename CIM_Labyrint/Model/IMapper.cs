@@ -5,7 +5,7 @@ using System.Text;
 
 namespace database
 {
-   public interface IAdventurerMapper
+   public interface IMapper
     {
         List<Character> MapCharactersFromReader(SQLiteDataReader reader);
 

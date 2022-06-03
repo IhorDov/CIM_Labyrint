@@ -1,27 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Data.SQLite;
-using System.Text;
 
 namespace database
 {
-    public class AdventurerMapper : IAdventurerMapper
+    public class Mapper : IMapper
     {
-
         public List<Character> MapCharactersFromReader(SQLiteDataReader reader)
         {
-
-
             var result = new List<Character>();
-
-
             while (reader.Read())
             {
-             
-                result.Add(new Character() { Buget = 1000000 });
+                var id = reader.GetInt32(0);
+                var name = reader.GetString(1);
+
+                result.Add(new Character() { Id = id, Score = name });
             }
             return result;
         }
-
     }
 }

@@ -8,7 +8,8 @@ namespace database
     {
       
 
-        public int Buget { get; set; }
+        public string Score { get; set; }
+        public int Id { get; set; }
 
     }
 }

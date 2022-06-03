@@ -6,16 +6,16 @@ using System.Linq;
 
 namespace database
 {
-    public class Reading : IAdventurerRepository
+    public class Reading : IRepository
     {
 
         public readonly IDatabaseProvider provider;
-        private readonly IAdventurerMapper mapper;
+        private readonly IMapper mapper;
         private IDbConnection connection;
 
 
 
-        public Reading(IDatabaseProvider provider, IAdventurerMapper mapper)
+        public Reading(IDatabaseProvider provider, IMapper mapper)
         {
             this.provider = provider;
             this.mapper = mapper;
@@ -26,32 +26,32 @@ namespace database
 
 
 
-            var createAdministrator = new SQLiteCommand($"drop table if exists Administrator");
+            //var Score = new SQLiteCommand($"drop table if exists Score");
 
 
             //CREATE TABLES IF NOT EXISTS 
-            createAdministrator = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Administrator (Id INTEGER PRIMARY KEY, Buget VARCHAR(50));", (SQLiteConnection)connection);
+           var Score = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Score (Id INTEGER PRIMARY KEY, Score VARCHAR(100));", (SQLiteConnection)connection);
 
 
-            createAdministrator.ExecuteNonQuery();
+            Score.ExecuteNonQuery();
 
 
         }
 
-        public void AddAdmin(int Buget)
+        public void AddScore(int Score)
         {
-            var cmd = new SQLiteCommand($"INSERT INTO Administrator (Buget) VALUES ({Buget})", (SQLiteConnection)connection);
+            var cmd = new SQLiteCommand($"INSERT INTO Score (Score) VALUES ({Score})", (SQLiteConnection)connection);
             cmd.ExecuteNonQuery();
         }
 
-        public Character GetAllAdmin(int Buget)
+        public Character GetAllScore(int Id)
     {
-        var cmd = new SQLiteCommand($"SELECT * from Administrator WHERE Buget = '{Buget}'", (SQLiteConnection)connection);
-        var reader = cmd.ExecuteReader();
+            var cmd = new SQLiteCommand($"SELECT * from Score WHERE Id = '{Id}'", (SQLiteConnection)connection);
+            var reader = cmd.ExecuteReader();
 
-        var result = mapper.MapCharactersFromReader(reader).First();
-        return result;
-    }
+            var result = mapper.MapCharactersFromReader(reader).First();
+            return result;
+        }
 
 
         public void Open()

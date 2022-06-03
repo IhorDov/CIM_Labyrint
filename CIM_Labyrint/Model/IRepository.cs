@@ -4,12 +4,12 @@ using System.Text;
 
 namespace database
 {
-   public interface IAdventurerRepository
+   public interface IRepository
     {
-        void AddAdmin(int buget);
+        void AddScore(int score);
 
 
-         Character GetAllAdmin(int buget);
+         Character GetAllScore(int score);
 
         
 

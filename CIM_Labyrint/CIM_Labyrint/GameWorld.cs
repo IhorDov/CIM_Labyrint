@@ -23,6 +23,10 @@ namespace CIM_Labyrint
         public static int score;      //Static field for score
         private int highScore;        //Create field for highScore
 
+        IRepository repository;
+
+
+        private Character mapScore;
 
 
         //game gameObjects
@@ -66,29 +70,37 @@ namespace CIM_Labyrint
        private void Data()
         {
             // TODO: Add your initialization logic here
-            var mapper = new AdventurerMapper();
-            var provider = new SQLiteDatabaseProvider("Data Source=CIMLabyrint.db;Version=3;new=true");
+            var mapper = new Mapper();
+            var provider = new SQLiteDatabaseProvider("Data Source=Data.db;Version=3;new=true");
 
-            var repo = new Reading(provider, mapper);
-            repo.Open();
-            repo.AddAdmin(score);
+            // Til så Tingene bliver slettet bagefter når man er i gang med at teste
+            // var provider = new SQLiteDatabaseProvider("Data Source=:memory:;Version=3;New=true");
 
-            repo.AddAdmin(highScore);
+            //data
+            repository = new Reading(provider, mapper);
 
-            repo.AddAdmin(lives);
+            // start
+            repository.Open();
 
+            // den husker stadigvæk tingene når du tager den væk over det hele kører som normalt
+            repository.AddScore(100);
 
-            repo.Close();
+            // Maper
+            mapScore = repository.GetAllScore(1);
+
+            // stop  vi stopper databasen for at stoppe memory leak
+            repository.Close();
 
         }
 
 
         protected override void Initialize()
         {
+            //laver skærmstørrelse
             ScreenSize();
 
+            // Definer hvilket level den skal være
             LevelManager levelManager = new LevelManager();
-
             levelManager.LoadLevel(1);
 
             base.Initialize();
@@ -162,7 +174,8 @@ namespace CIM_Labyrint
 
             spriteBatch.Begin(SpriteSortMode.BackToFront);
 
-            spriteBatch.DrawString(text, $"Score: {score}\nLives: {lives}\n\nSound (V): On", new Vector2(0, 0), Color.White);
+
+            spriteBatch.DrawString(text, $"Score: {mapScore.Score}\nLives: {lives}\n\nSound (V): On", new Vector2(0, 0), Color.White);
 
             for (int i = 0; i < gameObjects.Count; i++)
             {

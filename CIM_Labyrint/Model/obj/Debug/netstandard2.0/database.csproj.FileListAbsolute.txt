@@ -28,3 +28,13 @@ C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\Model\obj\Debug\netstand
 C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\Model\obj\Debug\netstandard2.0\database.csproj.CoreCompileInputs.cache
 C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\Model\obj\Debug\netstandard2.0\database.dll
 C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\Model\obj\Debug\netstandard2.0\database.pdb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\Model\bin\Debug\netstandard2.0\database.deps.json
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\Model\bin\Debug\netstandard2.0\database.dll
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\Model\bin\Debug\netstandard2.0\database.pdb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\Model\obj\Debug\netstandard2.0\database.csproj.AssemblyReference.cache
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\Model\obj\Debug\netstandard2.0\database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\Model\obj\Debug\netstandard2.0\database.AssemblyInfoInputs.cache
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\Model\obj\Debug\netstandard2.0\database.AssemblyInfo.cs
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\Model\obj\Debug\netstandard2.0\database.csproj.CoreCompileInputs.cache
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\Model\obj\Debug\netstandard2.0\database.dll
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\Model\obj\Debug\netstandard2.0\database.pdb
