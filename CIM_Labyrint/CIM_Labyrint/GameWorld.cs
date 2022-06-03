@@ -28,6 +28,10 @@ namespace CIM_Labyrint
 
         private Character mapScore;
 
+        private Life Life;
+        private Musik musik;
+
+
 
         //game gameObjects
         private List<GameObject> gameObjects = new List<GameObject>();
@@ -85,8 +89,17 @@ namespace CIM_Labyrint
             // den husker stadigvæk tingene når du tager den væk over det hele kører som normalt
             repository.AddScore(100);
 
+
+            repository.AddLife(3);
+            //Maper life
+            Life = repository.GetAllLife(1);
+
             // Maper
             mapScore = repository.GetAllScore(1);
+
+            musik = repository.GetAlltru(1);
+
+
 
             // stop  vi stopper databasen for at stoppe memory leak
             repository.Close();
@@ -115,10 +128,10 @@ namespace CIM_Labyrint
                 gameObjects[i].Start();
             }
 
-            //MediaPlayer.IsRepeating = true;          //Set MediaPlayer to true
-            //Song music = Content.Load<Song>("The-Northern-Path"); //Download music
-            //MediaPlayer.Play(music);                       //Create a MediaPlayer to play downloaded music
-            //MediaPlayer.Pause();                           //Start, and pause music. Toggable later in the code.
+            MediaPlayer.IsRepeating = true;          //Set MediaPlayer to true
+            Song music = Content.Load<Song>("The-Northern-Path"); //Download music
+            MediaPlayer.Play(music);                       //Create a MediaPlayer to play downloaded music
+            MediaPlayer.Pause();                           //Start, and pause music. Toggable later in the code.
             text = Content.Load<SpriteFont>("File"); //Download sprite fond
 
         }
@@ -128,6 +141,11 @@ namespace CIM_Labyrint
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
+
+            if (int.Parse(Life.life) == 0)
+            {
+                Exit();
+            }
             DeltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
 
             for (int i = 0; i < gameObjects.Count; i++)
@@ -143,24 +161,34 @@ namespace CIM_Labyrint
 
             if (keyState.IsKeyDown(Keys.V) && soundTap == true) //Toggle music and sounds
             {
+                repository.Open();
                 if (sound == false)
                 {
                     sound = true;
+                    
+
                 }
                 else
                 {
                     sound = false;
+                    
+
                 }
                 soundTap = false;
 
                 if (sound)
                 {
+                    repository.Addmusik(sound);
                     MediaPlayer.Resume(); //if sound on, resume playing
                 }
                 else
                 {
+                    repository.Addmusik(sound);
                     MediaPlayer.Pause(); //if off stop playing
                 }
+
+                repository.Close();
+
             }
             if (keyState.IsKeyUp(Keys.V))
             {
@@ -174,8 +202,12 @@ namespace CIM_Labyrint
 
             spriteBatch.Begin(SpriteSortMode.BackToFront);
 
+       
+                spriteBatch.DrawString(text, $"Score: {mapScore.Score}\nLives: {Life.life}\n\nSound (V): {sound}", new Vector2(0, 0), Color.White);
 
-            spriteBatch.DrawString(text, $"Score: {mapScore.Score}\nLives: {lives}\n\nSound (V): On", new Vector2(0, 0), Color.White);
+
+
+            
 
             for (int i = 0; i < gameObjects.Count; i++)
             {

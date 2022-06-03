@@ -8,10 +8,14 @@ namespace database
     {
         void AddScore(int score);
 
+        void AddLife(int life);
 
-         Character GetAllScore(int score);
+        void Addmusik(bool falsk);
 
-        
+        Life GetAllLife(int life);
+        Character GetAllScore(int score);
+
+        Musik GetAlltru(int id);
 
         void Open();
 

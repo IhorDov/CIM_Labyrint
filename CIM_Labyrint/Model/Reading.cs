@@ -30,19 +30,57 @@ namespace database
 
 
             //CREATE TABLES IF NOT EXISTS 
-           var Score = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Score (Id INTEGER PRIMARY KEY, Score VARCHAR(100));", (SQLiteConnection)connection);
+            var score = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Score (Id INTEGER PRIMARY KEY, Score VARCHAR(100));", (SQLiteConnection)connection);
+            var life = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Life (Id INTEGER PRIMARY KEY, life VARCHAR(100));", (SQLiteConnection)connection);
+            var musik = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Musik (Id INTEGER PRIMARY KEY, T BLOB);", (SQLiteConnection)connection);
 
-
-            Score.ExecuteNonQuery();
-
+            score.ExecuteNonQuery();
+            life.ExecuteNonQuery();
+            musik.ExecuteNonQuery();
 
         }
+
+        public void Addmusik(bool T)
+        {
+            var cmd = new SQLiteCommand($"INSERT INTO Musik (T) VALUES ({T})", (SQLiteConnection)connection);
+            cmd.ExecuteNonQuery();
+        }
+
+
+        public void AddLife(int life)
+        {
+            var cmd = new SQLiteCommand($"INSERT INTO Life (life) VALUES ({life})", (SQLiteConnection)connection);
+            cmd.ExecuteNonQuery();
+        }
+
+
+
 
         public void AddScore(int Score)
         {
             var cmd = new SQLiteCommand($"INSERT INTO Score (Score) VALUES ({Score})", (SQLiteConnection)connection);
             cmd.ExecuteNonQuery();
         }
+
+        public Life GetAllLife(int Id)
+        {
+            var cmd = new SQLiteCommand($"SELECT * from Life WHERE Id = '{Id}'", (SQLiteConnection)connection);
+            var reader = cmd.ExecuteReader();
+
+            var result = mapper.MapLiveFromReader(reader).First();
+            return result;
+        }
+
+
+        public Musik GetAlltru(int Id)
+        {
+            var cmd = new SQLiteCommand($"SELECT * from Musik WHERE Id = '{Id}'", (SQLiteConnection)connection);
+            var reader = cmd.ExecuteReader();
+
+            var result = mapper.MapMusikFromReader(reader).First();
+            return result;
+        }
+
 
         public Character GetAllScore(int Id)
     {
