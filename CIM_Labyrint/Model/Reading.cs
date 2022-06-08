@@ -1,5 +1,4 @@
-﻿
-using System.Data;
+﻿using System.Data;
 using System.Data.SQLite;
 using System.Linq;
 
@@ -35,10 +34,8 @@ namespace database
             musik.ExecuteNonQuery();
 
         }
-
         public void Addmusik(bool T)
         {
-
             var cmd = new SQLiteCommand($"INSERT INTO Musik (T) VALUES ({T})", (SQLiteConnection)connection);
             //den er variabel bruger vi til at kunne starte en INSERT i en tabel
             cmd.ExecuteNonQuery();
@@ -60,6 +57,7 @@ namespace database
 
         public Life GetAllLife(int Id)
         {
+            // vi bruger den når vi skal bruge et Select
             var cmd = new SQLiteCommand($"SELECT * from Life WHERE Id = '{Id}'", (SQLiteConnection)connection);
             var reader = cmd.ExecuteReader();
 
@@ -70,6 +68,7 @@ namespace database
 
         public Musik GetAlltru(int Id)
         {
+            // vi bruger den når vi skal bruge et Select
             var cmd = new SQLiteCommand($"SELECT * from Musik WHERE Id = '{Id}'", (SQLiteConnection)connection);
             var reader = cmd.ExecuteReader();
 
@@ -87,6 +86,8 @@ namespace database
             var result = mapper.MapCharactersFromReader(reader).First();
             return result;
         }
+
+
 
         public void Open()
         {

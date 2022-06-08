@@ -5,6 +5,5 @@ namespace database
     public interface IDatabaseProvider
     {
         IDbConnection CreateConnection();
-
     }
 }
