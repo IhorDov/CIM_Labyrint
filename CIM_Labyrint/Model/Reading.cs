@@ -1,113 +1,109 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
+﻿using System.Data;
 using System.Data.SQLite;
 using System.Linq;
 
 namespace database
 {
-    public class Reading : IAdventurerRepository
+    public class Reading : IRepository
     {
 
-        private readonly IDatabaseProvider provider;
-        private readonly IAdventurerMapper mapper;
+        public readonly IDatabaseProvider provider;
+        private readonly IMapper mapper;
         private IDbConnection connection;
 
-        public Reading(IDatabaseProvider provider, IAdventurerMapper mapper)
+        public Reading(IDatabaseProvider provider, IMapper mapper)
         {
+            //connection
             this.provider = provider;
+            //udskriver på skærmen
             this.mapper = mapper;
         }
 
         public void CreateDatabaseTables()
         {
-            var createAdministrator = new SQLiteCommand($"drop table if exists Administrator");
-            var createTournament = new SQLiteCommand($"drop table if exists Tournament");
-            var createTeam = new SQLiteCommand($"drop table if exists Team");
-            var createRider = new SQLiteCommand($"drop table if exists Rider");
+            //var Score = new SQLiteCommand($"drop table if exists Score");
 
             //CREATE TABLES IF NOT EXISTS 
-            createAdministrator = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Administrator (Id INTEGER PRIMARY KEY, Buget VARCHAR(50));", (SQLiteConnection)connection);
+            var score = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Score (Id INTEGER PRIMARY KEY, Score VARCHAR(100));", (SQLiteConnection)connection);
+            var life = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Life (Id INTEGER PRIMARY KEY, life VARCHAR(100));", (SQLiteConnection)connection);
+            var musik = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Musik (Id INTEGER PRIMARY KEY, T BLOB);", (SQLiteConnection)connection);
 
-             createTeam = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Team (CVRnumber, Teamsname TINYTEXT, AdministratorId Integer, foreign key (AdministratorId) references Administrator(Id));", (SQLiteConnection)connection);
-
-             createTournament = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Tournament (TournamentName TINYTEXT, Country TINYTEXT, AmountOfTeam VARCHAR(30), Money VARCHAR(50), TeamCVRnumber integer, foreign key (TeamCVRnumber) references Team (CVRnumber));", (SQLiteConnection)connection);
-             createRider = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Rider(CPRnumber INTEGER PRIMARY KEY, FirstName TINYTEXT, LastName TINYTEXT, Abilities Integer, Power Integer, Endurance Integer, Speed Integer, Price integer, TeamCVRnumber integer, foreign key (TeamCVRnumber) references Team (CVRnumber));", (SQLiteConnection)connection);
-
-            createAdministrator.ExecuteNonQuery();
-            createTeam.ExecuteNonQuery();
-            createRider.ExecuteNonQuery();
-            createTournament.ExecuteNonQuery();
+            //start SQL
+            score.ExecuteNonQuery();
+            life.ExecuteNonQuery();
+            musik.ExecuteNonQuery();
 
         }
-
-
-        
-
-        public void AddTeam(int CVRnumber, string Teamsname)
+        public void Addmusik(bool T)
         {
-            var cmd = new SQLiteCommand($"INSERT INTO Team (CVRnumber,Teamsname) VALUES ('{CVRnumber}','{Teamsname}')", (SQLiteConnection)connection);
+            var cmd = new SQLiteCommand($"INSERT INTO Musik (T) VALUES ({T})", (SQLiteConnection)connection);
+            //den er variabel bruger vi til at kunne starte en INSERT i en tabel
             cmd.ExecuteNonQuery();
         }
 
-        public void AddTornament(string tournamentName, string country, int amountOfTeam, int money)
+        public void AddLife(int life)
         {
-            var cmd = new SQLiteCommand($"INSERT INTO Tournament (TournamentName, Country, AmountOfTeam, Money) VALUES ('{tournamentName}', '{country}', {amountOfTeam}, {money})", (SQLiteConnection)connection);
+            var cmd = new SQLiteCommand($"INSERT INTO Life (life) VALUES ({life})", (SQLiteConnection)connection);
             cmd.ExecuteNonQuery();
         }
 
-        public void AddRider(int cprNumber, string firstName, string lastName, int abilities, int power, int endurance, int speed, int price, int teamCVRnumber)
+        public void AddScore(int Score)
         {
-            var cmd = new SQLiteCommand($"INSERT INTO Rider (CPRnumber, FirstName, LastName, Abilities, Power, Endurance, Speed, Price, TeamCVRnumber) VALUES ({cprNumber}, '{firstName}', '{lastName}', {abilities}, {power}, {endurance}, {speed}, {price}, {teamCVRnumber})", (SQLiteConnection)connection);
+            var cmd = new SQLiteCommand($"INSERT INTO Score (Score) VALUES ({Score})", (SQLiteConnection)connection);
             cmd.ExecuteNonQuery();
         }
 
-        public void AddAdmin(int Buget)
-        {
-            var cmd = new SQLiteCommand($"INSERT INTO administrator (Buget) VALUES ({Buget})", (SQLiteConnection)connection);
-            cmd.ExecuteNonQuery();
-        }
+        // alle sammen søger igennem mit ID på Spilleren
 
-        public void Addteam(string teamsname , int cvrnumber)
+        public Life GetAllLife(int Id)
         {
-            var cmd = new SQLiteCommand($"INSERT INTO team (cvrnumber,teamsname) VALUES ('{cvrnumber}' , '{teamsname}')", (SQLiteConnection)connection);
-            cmd.ExecuteNonQuery();
-        }
+            // vi bruger den når vi skal bruge et Select
+            var cmd = new SQLiteCommand($"SELECT * from Life WHERE Id = '{Id}'", (SQLiteConnection)connection);
+            var reader = cmd.ExecuteReader();
 
-        public void Add(string teamsname, int cvrnumber)
-        {
-            var cmd = new SQLiteCommand($"INSERT INTO team (cvrnumber,teamsname) VALUES ('{cvrnumber}' , '{teamsname}')", (SQLiteConnection)connection);
-            cmd.ExecuteNonQuery();
+            var result = mapper.MapLiveFromReader(reader).First();
+            return result;
         }
 
 
-        public Character GetAllAdmin(int Buget)
-    {
-        var cmd = new SQLiteCommand($"SELECT * from Administrator WHERE Buget = '{Buget}'", (SQLiteConnection)connection);
-        var reader = cmd.ExecuteReader();
+        public Musik GetAlltru(int Id)
+        {
+            // vi bruger den når vi skal bruge et Select
+            var cmd = new SQLiteCommand($"SELECT * from Musik WHERE Id = '{Id}'", (SQLiteConnection)connection);
+            var reader = cmd.ExecuteReader();
 
-        var result = mapper.MapCharactersFromReader(reader).First();
-        return result;
-    }
+            var result = mapper.MapMusikFromReader(reader).First();
+            return result;
+        }
+
+        public Character GetAllScore(int Id)
+        {
+            // vi bruger den når vi skal bruge et Select
+            var cmd = new SQLiteCommand($"SELECT * from Score WHERE Id = '{Id}'", (SQLiteConnection)connection);
+            // vi bruger den til at starte commands i SQL
+            var reader = cmd.ExecuteReader();
+            // Vi tager bare resultatet fra databasen og tager den først i row 1
+            var result = mapper.MapCharactersFromReader(reader).First();
+            return result;
+        }
+
 
 
         public void Open()
         {
-
+            //   vi tjekker om connection er 0 hvis den er 0  så laver vi en connection
             if (connection == null)
             {
                 connection = provider.CreateConnection();
             }
             connection.Open();
-
+            // Når alt er gået godt og den er startet på den rigtige måde så begynder den at lave også tabeller
             CreateDatabaseTables();
         }
-
         public void Close()
         {
+            // vi bruger denne her for at stoppe memory leak da det sker hvis vi ikke stopper når vi er færdig så er det bedre vi starter og stopper den når vi skal bruge det for at være sikker
             connection.Close();
         }
-
-
     }
 }

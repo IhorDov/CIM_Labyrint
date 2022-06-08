@@ -5,6 +5,9 @@ using Microsoft.Xna.Framework.Media;
 using System;
 using System.Collections.Generic;
 
+using database;
+
+
 namespace CIM_Labyrint
 {
     public class GameWorld : Game
@@ -19,6 +22,14 @@ namespace CIM_Labyrint
         public static int lives = 3; //We make static field for life
         public static int score;      //Static field for score
         private int highScore;        //Create field for highScore
+
+        IRepository repository;
+
+
+        private Character mapScore;
+
+        private Life Life;
+        private Musik musik;
 
 
 
@@ -54,15 +65,56 @@ namespace CIM_Labyrint
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
+
+            Data();
+
         }
+
+
+       private void Data()
+        {
+            // TODO: Add your initialization logic here
+            var mapper = new Mapper();
+            var provider = new SQLiteDatabaseProvider("Data Source=Data.db;Version=3;new=true");
+
+            // Til så Tingene bliver slettet bagefter når man er i gang med at teste
+            // var provider = new SQLiteDatabaseProvider("Data Source=:memory:;Version=3;New=true");
+
+            //data
+            repository = new Reading(provider, mapper);
+
+            // start
+            repository.Open();
+
+            // den husker stadigvæk tingene når du tager den væk over det hele kører som normalt
+            repository.AddScore(100);
+
+
+            repository.AddLife(3);
+            //Maper life
+            Life = repository.GetAllLife(1);
+
+            // Maper
+            mapScore = repository.GetAllScore(1);
+
+            musik = repository.GetAlltru(1);
+
+
+
+            // stop  vi stopper databasen for at stoppe memory leak
+            repository.Close();
+
+        }
+
 
         protected override void Initialize()
         {
+            //laver skærmstørrelse
             ScreenSize();
 
+            // Definer hvilket level den skal være
             LevelManager levelManager = new LevelManager();
-
-            levelManager.LoadLevel(0);
+            levelManager.LoadLevel(1);
 
             base.Initialize();
         }
@@ -89,6 +141,11 @@ namespace CIM_Labyrint
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
+
+            if (int.Parse(Life.life) == 0)
+            {
+                Exit();
+            }
             DeltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
 
             for (int i = 0; i < gameObjects.Count; i++)
@@ -104,24 +161,34 @@ namespace CIM_Labyrint
 
             if (keyState.IsKeyDown(Keys.V) && soundTap == true) //Toggle music and sounds
             {
+                repository.Open();
                 if (sound == false)
                 {
                     sound = true;
+                    
+
                 }
                 else
                 {
                     sound = false;
+                    
+
                 }
                 soundTap = false;
 
                 if (sound)
                 {
+                    repository.Addmusik(sound);
                     MediaPlayer.Resume(); //if sound on, resume playing
                 }
                 else
                 {
+                    repository.Addmusik(sound);
                     MediaPlayer.Pause(); //if off stop playing
                 }
+
+                repository.Close();
+
             }
             if (keyState.IsKeyUp(Keys.V))
             {
@@ -135,7 +202,12 @@ namespace CIM_Labyrint
 
             spriteBatch.Begin(SpriteSortMode.BackToFront);
 
-            spriteBatch.DrawString(text, $"Score: {score}\nLives: {lives}\n\nSound (V): On", new Vector2(0, 0), Color.White);
+       
+                spriteBatch.DrawString(text, $"Score: {mapScore.Score}\nLives: {Life.life}\n\nSound (V): {sound}", new Vector2(0, 0), Color.White);
+
+
+
+            
 
             for (int i = 0; i < gameObjects.Count; i++)
             {
@@ -161,12 +233,18 @@ namespace CIM_Labyrint
         {
             newGameObjects.Add(go);
         }
-
-        public void Destroy(GameObject go)
+        /// <summary>
+        /// destroyer game objects
+        /// </summary>
+        /// <param name="god"></param>
+        public void Destroy(GameObject god)
         {
-            destroyedGameObjects.Add(go);
+            destroyedGameObjects.Add(god);
         }
 
+        /// <summary>
+        /// så får du rydder op på den rigtige måde så at vi er sikker på at alting er slettet i Game World
+        /// </summary>
         private void Cleanup()
         {
             for (int i = 0; i < newGameObjects.Count; i++)
