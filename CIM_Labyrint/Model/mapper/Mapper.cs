@@ -5,6 +5,13 @@ namespace database
 {
     public class Mapper : IMapper
     {
+        //denne klasse er bare get og set
+
+        /// <summary>
+        /// det er den der sørger for at udskrive tingene på skærmen for eksempel som du kan se ved ID så tager den ID fra databasen
+        /// </summary>
+        /// <param name="reader"></param>
+        /// <returns></returns>
         public List<Character> MapCharactersFromReader(SQLiteDataReader reader)
         {
             var result = new List<Character>();

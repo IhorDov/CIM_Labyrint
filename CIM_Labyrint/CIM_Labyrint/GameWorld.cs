@@ -233,12 +233,18 @@ namespace CIM_Labyrint
         {
             newGameObjects.Add(go);
         }
-
-        public void Destroy(GameObject go)
+        /// <summary>
+        /// destroyer game objects
+        /// </summary>
+        /// <param name="god"></param>
+        public void Destroy(GameObject god)
         {
-            destroyedGameObjects.Add(go);
+            destroyedGameObjects.Add(god);
         }
 
+        /// <summary>
+        /// så får du rydder op på den rigtige måde så at vi er sikker på at alting er slettet i Game World
+        /// </summary>
         private void Cleanup()
         {
             for (int i = 0; i < newGameObjects.Count; i++)

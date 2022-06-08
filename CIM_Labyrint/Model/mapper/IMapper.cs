@@ -5,8 +5,9 @@ using System.Text;
 
 namespace database
 {
-    public interface IMapper
+  public   interface IMapper
     {
+        //interface til mapper
         List<Character> MapCharactersFromReader(SQLiteDataReader reader);
         List<Life> MapLiveFromReader(SQLiteDataReader reader);
 
