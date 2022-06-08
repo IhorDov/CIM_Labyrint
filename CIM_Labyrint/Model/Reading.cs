@@ -21,16 +21,15 @@ namespace database
 
         public void CreateDatabaseTables()
         {
-            //var Score = new SQLiteCommand($"drop table if exists Score");
+
 
             //CREATE TABLES IF NOT EXISTS 
             var score = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Score (Id INTEGER PRIMARY KEY, Score VARCHAR(100));", (SQLiteConnection)connection);
-            var life = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Life (Id INTEGER PRIMARY KEY, life VARCHAR(100));", (SQLiteConnection)connection);
             var musik = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Musik (Id INTEGER PRIMARY KEY, T BLOB);", (SQLiteConnection)connection);
 
             //start SQL
             score.ExecuteNonQuery();
-            life.ExecuteNonQuery();
+
             musik.ExecuteNonQuery();
 
         }
@@ -39,6 +38,17 @@ namespace database
             var cmd = new SQLiteCommand($"INSERT INTO Musik (T) VALUES ({T})", (SQLiteConnection)connection);
             //den er variabel bruger vi til at kunne starte en INSERT i en tabel
             cmd.ExecuteNonQuery();
+        }
+
+
+
+        public void DelLife(int d)
+        {
+
+            var lifeDel = new SQLiteCommand($"drop table if exists Life");
+            lifeDel = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Life (Id INTEGER PRIMARY KEY, life VARCHAR(100));", (SQLiteConnection)connection);
+
+            lifeDel.ExecuteNonQuery();
         }
 
         public void AddLife(int life)

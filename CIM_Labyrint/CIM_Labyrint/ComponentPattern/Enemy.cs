@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using database;
+using Microsoft.Xna.Framework;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,9 +12,8 @@ namespace CIM_Labyrint
         private Collider enemyCollider;
         private float cooldown = 0f; //Cooldown field
 
+        IRepository repository;
 
-        public float XPos { get; set; }
-        public float YPos { get; set; }
 
         public override void Start()
         {
@@ -51,7 +51,8 @@ namespace CIM_Labyrint
                     {
                         cooldown = 60;
                         GameWorld.lives--;
-                    }
+                    repository.AddLife(GameWorld.lives);
+                }
                     cooldown--;
                 
                 //GameWorld.Instance.Destroy((gameEvent as CollisionEvent).Other);

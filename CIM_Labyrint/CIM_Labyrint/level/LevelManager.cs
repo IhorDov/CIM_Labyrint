@@ -64,6 +64,12 @@ namespace CIM_Labyrint
                 director = new Director(new EnemyBuilder(xPos, yPos));
                 go = director.Construct();
             }
+            else if (whatObjects == 6)
+            {
+                //tilføjer en player til spillet
+                director = new Director(new AppleBuilder(xPos, yPos));
+                go = director.Construct();
+            }
 
             return go;
         }

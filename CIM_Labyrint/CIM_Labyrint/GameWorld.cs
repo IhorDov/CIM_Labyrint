@@ -90,7 +90,6 @@ namespace CIM_Labyrint
             repository.AddScore(100);
 
 
-            repository.AddLife(3);
             //Maper life
             Life = repository.GetAllLife(1);
 
@@ -114,7 +113,7 @@ namespace CIM_Labyrint
 
             // Definer hvilket level den skal være
             LevelManager levelManager = new LevelManager();
-            levelManager.LoadLevel(1);
+            levelManager.LoadLevel(0);
 
             base.Initialize();
         }

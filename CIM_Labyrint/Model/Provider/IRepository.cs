@@ -17,5 +17,6 @@ namespace database
         void Open();
 
         void Close();
+        void DelLife(int v);
     }
 }
