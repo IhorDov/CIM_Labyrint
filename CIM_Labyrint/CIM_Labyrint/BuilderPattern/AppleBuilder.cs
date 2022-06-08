@@ -43,53 +43,19 @@ namespace CIM_Labyrint
 
         private void BuildComponents()
         {
-            Enemy cr = (Enemy)gameObject.AddComponent(new Enemy());
+            //Enemy cr = (Apple)gameObject.AddComponent(new Apple());
 
-       internalThread = new Thread(Run);
 
-            internalThread.IsBackground = true;
-            internalThread.Start();
 
             gameObject.AddComponent(new Apple());
             gameObject.AddComponent(new SpriteRenderer());
-            gameObject.AddComponent(new StartAlgoritme());
 
             
      
 
 
-            Collider c = (Collider)gameObject.AddComponent(new Collider());
-            c.CollisionEvent.Attach(cr);
-        }
-
-        void Run()
-        {
-
-            lock (_object)
-            {
-
-
-
-
-                gameObject.Transform.Position = new Vector2(position.X, position.Y);
-
-
-                velocity = new Vector2(4.101f, 0);
-
-
-                velocity *= Speed;
-
-                velocity.X = position.X;
-
-                velocity.Y = position.Y;
-
-                if (velocity != Vector2.Zero)
-                {
-                    velocity.Normalize();
-                }
-                Thread.Sleep(1);
-            }
-
+            //Collider c = (Collider)gameObject.AddComponent(new Collider());
+            //c.CollisionEvent.Attach(cr);
         }
 
         public GameObject GetResult()

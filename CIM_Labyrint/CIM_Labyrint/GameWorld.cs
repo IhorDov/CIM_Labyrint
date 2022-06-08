@@ -1,11 +1,9 @@
-﻿using Microsoft.Xna.Framework;
+﻿using database;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
-using System;
 using System.Collections.Generic;
-
-using database;
 
 
 namespace CIM_Labyrint
@@ -19,7 +17,7 @@ namespace CIM_Labyrint
         public static bool sound = false; //Play soundeffects and music.
         private bool soundTap = true; //Used to prevent music spam.
         private SpriteFont text; //A single spritefront for the text (viewing score)
-        public static int lives = 3; //We make static field for life
+        public static int lives; //We make static field for life
         public static int score;      //Static field for score
         private int highScore;        //Create field for highScore
 
@@ -66,12 +64,13 @@ namespace CIM_Labyrint
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
 
+
             Data();
 
         }
 
 
-       private void Data()
+        private void Data()
         {
             // TODO: Add your initialization logic here
             var mapper = new Mapper();
@@ -89,16 +88,19 @@ namespace CIM_Labyrint
             // den husker stadigvæk tingene når du tager den væk over det hele kører som normalt
             repository.AddScore(100);
 
+            repository.AddLife(3);
+
 
             //Maper life
             Life = repository.GetAllLife(1);
+
 
             // Maper
             mapScore = repository.GetAllScore(1);
 
             musik = repository.GetAlltru(1);
 
-
+            lives = int.Parse(Life.life);
 
             // stop  vi stopper databasen for at stoppe memory leak
             repository.Close();
@@ -135,16 +137,18 @@ namespace CIM_Labyrint
 
         }
 
+        public void Quit()
+        {
+            this.Exit();
+        }
+
+
         protected override void Update(GameTime gameTime)
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
 
-            if (int.Parse(Life.life) == 0)
-            {
-                Exit();
-            }
             DeltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
 
             for (int i = 0; i < gameObjects.Count; i++)
@@ -164,13 +168,13 @@ namespace CIM_Labyrint
                 if (sound == false)
                 {
                     sound = true;
-                    
+
 
                 }
                 else
                 {
                     sound = false;
-                    
+
 
                 }
                 soundTap = false;
@@ -201,12 +205,12 @@ namespace CIM_Labyrint
 
             spriteBatch.Begin(SpriteSortMode.BackToFront);
 
-       
-                spriteBatch.DrawString(text, $"Score: {mapScore.Score}\nLives: {Life.life}\n\nSound (V): {sound}", new Vector2(0, 0), Color.White);
+
+            spriteBatch.DrawString(text, $"Score: {mapScore.Score}\nLives: {lives}\n\nSound (V): {sound}", new Vector2(0, 0), Color.White);
 
 
 
-            
+
 
             for (int i = 0; i < gameObjects.Count; i++)
             {

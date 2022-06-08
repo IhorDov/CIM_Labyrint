@@ -11,15 +11,11 @@ namespace CIM_Labyrint
         private Collider enemyCollider;
         private float cooldown = 0f; //Cooldown field
 
-
-        public float XPos { get; set; }
-        public float YPos { get; set; }
-
         public override void Start()
         {
             SpriteRenderer sr = GameObject.GetComponent<SpriteRenderer>() as SpriteRenderer;
 
-            sr.SetSprite("Enemy/monster10");
+            sr.SetSprite("cherry");
 
             enemyCollider = GameObject.GetComponent<Collider>() as Collider;
 
@@ -29,7 +25,7 @@ namespace CIM_Labyrint
         {
             this.Speed = 120;
 
-            GameObject.Tag = "Enemy";
+            GameObject.Tag = "Apple";
         }
         public override void Update()
         {

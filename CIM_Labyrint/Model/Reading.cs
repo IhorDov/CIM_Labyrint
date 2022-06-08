@@ -26,10 +26,12 @@ namespace database
             //CREATE TABLES IF NOT EXISTS 
             var score = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Score (Id INTEGER PRIMARY KEY, Score VARCHAR(100));", (SQLiteConnection)connection);
             var musik = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Musik (Id INTEGER PRIMARY KEY, T BLOB);", (SQLiteConnection)connection);
+           var lifeDel = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Life (Id INTEGER PRIMARY KEY, life VARCHAR(100));", (SQLiteConnection)connection);
 
+            
             //start SQL
             score.ExecuteNonQuery();
-
+lifeDel.ExecuteNonQuery();
             musik.ExecuteNonQuery();
 
         }
@@ -40,22 +42,18 @@ namespace database
             cmd.ExecuteNonQuery();
         }
 
-
-
-        public void DelLife(int d)
-        {
-
-            var lifeDel = new SQLiteCommand($"drop table if exists Life");
-            lifeDel = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Life (Id INTEGER PRIMARY KEY, life VARCHAR(100));", (SQLiteConnection)connection);
-
-            lifeDel.ExecuteNonQuery();
-        }
-
         public void AddLife(int life)
         {
             var cmd = new SQLiteCommand($"INSERT INTO Life (life) VALUES ({life})", (SQLiteConnection)connection);
             cmd.ExecuteNonQuery();
         }
+
+        public void UPDATELife(int life)
+        {
+            var cmd = new SQLiteCommand($"UPDATE Life SET life = ({life}) WHERE Id = 1", (SQLiteConnection)connection);
+            cmd.ExecuteNonQuery();
+        }
+        //UPDATE COMPANY SET ADDRESS = 'Texas' WHERE ID = 6;
 
         public void AddScore(int Score)
         {
@@ -82,7 +80,7 @@ namespace database
             var cmd = new SQLiteCommand($"SELECT * from Musik WHERE Id = '{Id}'", (SQLiteConnection)connection);
             var reader = cmd.ExecuteReader();
 
-            var result = mapper.MapMusikFromReader(reader).First();
+            var result = mapper.MapMusikFromReader(reader).FirstOrDefault();
             return result;
         }
 

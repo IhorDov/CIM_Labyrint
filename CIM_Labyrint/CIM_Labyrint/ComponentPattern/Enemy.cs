@@ -1,8 +1,4 @@
 ﻿using database;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CIM_Labyrint
 {
@@ -23,6 +19,9 @@ namespace CIM_Labyrint
 
             enemyCollider = GameObject.GetComponent<Collider>() as Collider;
 
+
+
+
         }
 
         public override void Awake()
@@ -33,28 +32,50 @@ namespace CIM_Labyrint
         }
         public override void Update()
         {
+
             Lifetime--;
 
             if (Lifetime <= 0)
             {
                 GameWorld.Instance.Destroy(GameObject);
             }
+
+
         }
 
-            public void Notify(GameEvent gameEvent)
+        public void Notify(GameEvent gameEvent)
         {
             if (gameEvent is CollisionEvent)
             {
+
+
+
                 GameWorld.Instance.Destroy(GameObject);
-               
-                    if (cooldown <= 0)
+
+                if (cooldown <= 0)
+                {
+                    cooldown = 60;
+
+                    GameWorld.lives--;
+
+                    var mapper = new Mapper();
+                    var provider = new SQLiteDatabaseProvider("Data Source=Data.db;Version=3;");
+
+                    //data
+                    repository = new Reading(provider, mapper);
+
+                    repository.Open();
+                    repository.UPDATELife(GameWorld.lives);
+                    if (GameWorld.lives <= 0)
                     {
-                        cooldown = 60;
-                        GameWorld.lives--;
-                    repository.AddLife(GameWorld.lives);
+                        GameWorld.lives = 3;
+                        repository.UPDATELife(GameWorld.lives);
+                        GameWorld.Instance.Quit();
+                    }
+                    repository.Close();
                 }
-                    cooldown--;
-                
+                cooldown--;
+
                 //GameWorld.Instance.Destroy((gameEvent as CollisionEvent).Other);
             }
         }

@@ -60,13 +60,13 @@ namespace CIM_Labyrint
             }
             else if (whatObjects == 5)
             {
-                //tilføjer en player til spillet
+                //tilføjer en Enemy til spillet
                 director = new Director(new EnemyBuilder(xPos, yPos));
                 go = director.Construct();
             }
             else if (whatObjects == 6)
             {
-                //tilføjer en player til spillet
+                //tilføjer en Apple til spillet
                 director = new Director(new AppleBuilder(xPos, yPos));
                 go = director.Construct();
             }

@@ -207,6 +207,29 @@ namespace CIM_Labyrint
                         GameObject.Transform.Translate(new Vector2(0, -1));
                     }
                 }
+
+                if (ce.Other.Tag == "Enemy")
+                {
+                    if (playerCollider.CollisionBox.Right >= otherCollider.CollisionBox.Right)
+                    {
+                        GameObject.Transform.Translate(new Vector2(1, 0));
+                    }
+
+                    if (playerCollider.CollisionBox.Left <= otherCollider.CollisionBox.Left)
+                    {
+                        GameObject.Transform.Translate(new Vector2(-1, 0));
+                    }
+
+                    if (playerCollider.CollisionBox.Top >= otherCollider.CollisionBox.Top)
+                    {
+                        GameObject.Transform.Translate(new Vector2(0, 1));
+                    }
+
+                    if (playerCollider.CollisionBox.Bottom <= otherCollider.CollisionBox.Bottom)
+                    {
+                        GameObject.Transform.Translate(new Vector2(0, -1));
+                    }
+                }
             }
 
             if (gameEvent is ButtonEvent)

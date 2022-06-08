@@ -1,495 +1,3 @@
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.AssemblyReference.cache
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.AssemblyInfoInputs.cache
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.AssemblyInfo.cs
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.CoreCompileInputs.cache
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_1.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_2.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_3.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_4.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_1.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_2.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_3.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_4.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_1.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_2.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_3.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_4.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_1.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_2.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_3.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_4.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.exe
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.deps.json
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.runtimeconfig.json
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.runtimeconfig.dev.json
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.dll
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.pdb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.VisualBasic.dll
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.dll
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct2D1.dll
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct3D11.dll
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct3D9.dll
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.DXGI.dll
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Mathematics.dll
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.MediaFoundation.dll
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.XAudio2.dll
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.XInput.dll
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libuv.so
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libuv.so
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\opensuse-x64\native\libuv.so
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\osx\native\libuv.dylib
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\rhel-x64\native\libuv.so
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-arm\native\libuv.dll
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\libuv.dll
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\libuv.dll
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.CopyComplete
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.dll
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.pdb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.genruntimeconfig.cache
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_1.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_2.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_3.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_4.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_1.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_2.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_3.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_4.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_1.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_2.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_3.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_4.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_1.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_2.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_3.xnb
-C:\Users\45527\Source\Repos\IhorDov\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_4.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.dll
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.pdb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.AssemblyReference.cache
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.AssemblyInfoInputs.cache
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.AssemblyInfo.cs
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.CoreCompileInputs.cache
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_1.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_2.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_3.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_4.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_1.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_2.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_3.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_4.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_1.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_2.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_3.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_4.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_1.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_2.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_3.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_4.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_1.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_2.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_3.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_4.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_1.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_2.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_3.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_4.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_1.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_2.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_3.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_4.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_1.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_2.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_3.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_4.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.exe
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.deps.json
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.runtimeconfig.json
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.runtimeconfig.dev.json
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.dll
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.pdb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.VisualBasic.dll
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.dll
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct2D1.dll
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct3D11.dll
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct3D9.dll
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.DXGI.dll
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Mathematics.dll
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.MediaFoundation.dll
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.XAudio2.dll
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.XInput.dll
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libuv.so
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libuv.so
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\opensuse-x64\native\libuv.so
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\osx\native\libuv.dylib
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\rhel-x64\native\libuv.so
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-arm\native\libuv.dll
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\libuv.dll
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\libuv.dll
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.CopyComplete
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.genruntimeconfig.cache
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_1.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_2.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_3.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_4.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_1.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_2.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_3.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_4.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_1.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_2.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_3.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_4.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_1.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_2.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_3.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_4.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_1.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_2.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_3.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_4.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_1.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_2.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_3.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_4.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_1.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_2.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_3.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_4.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_1.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_2.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_3.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_4.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.exe
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.deps.json
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.runtimeconfig.json
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.runtimeconfig.dev.json
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.pdb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.VisualBasic.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct2D1.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct3D11.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct3D9.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.DXGI.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Mathematics.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.MediaFoundation.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.XAudio2.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.XInput.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libuv.so
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libuv.so
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\opensuse-x64\native\libuv.so
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\osx\native\libuv.dylib
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\rhel-x64\native\libuv.so
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-arm\native\libuv.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\libuv.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\libuv.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.AssemblyReference.cache
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.AssemblyInfoInputs.cache
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.AssemblyInfo.cs
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.CoreCompileInputs.cache
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.CopyComplete
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.pdb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.genruntimeconfig.cache
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\block\block_05.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\block\block_05.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.exe
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.deps.json
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.runtimeconfig.json
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.runtimeconfig.dev.json
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.pdb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.VisualBasic.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct2D1.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct3D11.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct3D9.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.DXGI.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Mathematics.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.MediaFoundation.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.XAudio2.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.XInput.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libuv.so
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libuv.so
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\opensuse-x64\native\libuv.so
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\osx\native\libuv.dylib
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\rhel-x64\native\libuv.so
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-arm\native\libuv.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\libuv.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\libuv.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.AssemblyReference.cache
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.GeneratedMSBuildEditorConfig.editorconfig
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.AssemblyInfoInputs.cache
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.AssemblyInfo.cs
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.CoreCompileInputs.cache
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.CopyComplete
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.pdb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.genruntimeconfig.cache
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_01.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_02.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_03.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_04.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_05.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_06.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_07.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_08.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_09.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_10.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_11.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_12.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_13.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_14.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_15.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_16.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_17.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_18.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_19.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_20.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_21.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_22.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_23.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_24.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_25.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_26.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_28.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_29.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_30.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_31.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_32.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_33.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_01.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_02.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_03.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_04.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_05.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_06.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_07.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_08.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_09.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_10.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_11.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_12.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_13.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_14.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_15.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_16.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_01.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_02.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_03.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_04.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_05.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_06.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_07.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_08.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_09.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_10.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_11.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_12.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_13.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_14.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_15.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_16.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_17.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_18.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_19.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_20.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_21.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_22.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_23.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_24.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_25.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_26.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_28.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_29.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_30.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_31.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_32.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_33.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_01.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_02.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_03.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_04.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_05.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_06.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_07.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_08.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_09.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_10.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_11.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_12.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_13.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_14.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_15.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_16.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_1.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_2.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_3.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_4.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_1.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_2.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_3.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_4.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_1.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_2.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_3.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_4.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_1.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_2.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_3.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_4.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\block\block_05.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_01.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_02.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_03.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_04.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_05.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_06.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_07.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_08.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_09.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_10.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_11.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_12.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_13.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_14.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_15.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_16.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_17.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_18.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_19.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_20.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_21.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_22.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_23.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_24.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_25.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_26.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_28.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_29.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_30.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_31.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_32.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_33.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_01.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_02.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_03.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_04.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_05.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_06.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_07.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_08.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_09.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_10.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_11.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_12.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_13.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_14.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_15.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_16.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_1.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_2.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_3.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_4.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_1.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_2.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_3.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_4.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_1.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_2.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_3.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_4.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_1.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_2.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_3.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_4.xnb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.exe
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.deps.json
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.runtimeconfig.json
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.runtimeconfig.dev.json
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.dll
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.pdb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.VisualBasic.dll
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.dll
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct2D1.dll
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct3D11.dll
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct3D9.dll
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.DXGI.dll
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Mathematics.dll
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.MediaFoundation.dll
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.XAudio2.dll
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.XInput.dll
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libuv.so
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libuv.so
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\opensuse-x64\native\libuv.so
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\osx\native\libuv.dylib
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\rhel-x64\native\libuv.so
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-arm\native\libuv.dll
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\libuv.dll
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\libuv.dll
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.AssemblyReference.cache
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.AssemblyInfoInputs.cache
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.AssemblyInfo.cs
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.CoreCompileInputs.cache
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.CopyComplete
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.dll
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.pdb
-C:\Users\nap\Desktop\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.genruntimeconfig.cache
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\326543__sqeeeek__wetfootsteps.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\block\block_05.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_01.xnb
@@ -533,6 +41,16 @@ C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcorea
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_31.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_32.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_33.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster1.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster10.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster2.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster3.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster4.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster5.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster6.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster7.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster8.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster9.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_01.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_02.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_03.xnb
@@ -549,361 +67,6 @@ C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcorea
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_14.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_15.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_16.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\326543__sqeeeek__wetfootsteps.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_01.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_02.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_03.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_04.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_05.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_06.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_07.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_08.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\CollisionTexture.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_01.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_02.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_03.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_04.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_05.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_ Game\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_06.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\block\block_05.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\326543__sqeeeek__wetfootsteps.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_01.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_02.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_03.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_04.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_05.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_06.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_07.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_08.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\CollisionTexture.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_01.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_02.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_03.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_04.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_05.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_06.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_07.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_08.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_09.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_10.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_11.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_12.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_13.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_14.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_15.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_16.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_17.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_18.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_19.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_20.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_21.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_22.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_23.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_24.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_25.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_26.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_28.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_29.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_30.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_31.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_32.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_33.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_01.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_02.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_03.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_04.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_05.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_06.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_07.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_08.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_09.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_10.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_11.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_12.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_13.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_14.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_15.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_16.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_01.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_02.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_03.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_04.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_05.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_06.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.exe
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.deps.json
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.runtimeconfig.json
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.runtimeconfig.dev.json
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.pdb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.VisualBasic.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct2D1.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct3D11.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct3D9.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.DXGI.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Mathematics.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.MediaFoundation.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.XAudio2.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.XInput.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libuv.so
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libuv.so
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\opensuse-x64\native\libuv.so
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\osx\native\libuv.dylib
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\rhel-x64\native\libuv.so
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-arm\native\libuv.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\libuv.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\libuv.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.AssemblyReference.cache
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.GeneratedMSBuildEditorConfig.editorconfig
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.AssemblyInfoInputs.cache
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.AssemblyInfo.cs
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.CoreCompileInputs.cache
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.CopyComplete
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.pdb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.genruntimeconfig.cache
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game1\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Pixel.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\326543__sqeeeek__wetfootsteps.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_01.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_02.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_03.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_04.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_05.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_06.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_07.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_08.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\CollisionTexture.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_01.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_02.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_03.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_04.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_05.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_06.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Pixel.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\block\block_05.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\CollisionTexture.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\326543__sqeeeek__wetfootsteps.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_01.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_02.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_03.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_04.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_05.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_06.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_07.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Bloks\block_08.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_01.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_02.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_03.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_04.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_05.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_06.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_07.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_08.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_09.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_10.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_11.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_12.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_13.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_14.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_15.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_16.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_17.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_18.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_19.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_20.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_21.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_22.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_23.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_24.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_25.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_26.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_28.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_29.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_30.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_31.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_32.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Crate\crate_33.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_01.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_02.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_03.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_04.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_05.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_06.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_07.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_08.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_09.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_10.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_11.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_12.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_13.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_14.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_15.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Environment\environment_16.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_01.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_02.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_03.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_04.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_05.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_06.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Pixel.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_1.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_2.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_3.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_4.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.exe
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.deps.json
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.runtimeconfig.json
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.runtimeconfig.dev.json
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.pdb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.VisualBasic.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct2D1.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct3D11.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct3D9.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.DXGI.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Mathematics.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.MediaFoundation.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.XAudio2.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.XInput.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libuv.so
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libuv.so
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\opensuse-x64\native\libuv.so
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\osx\native\libuv.dylib
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\rhel-x64\native\libuv.so
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-arm\native\libuv.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\libuv.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\libuv.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.AssemblyReference.cache
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.GeneratedMSBuildEditorConfig.editorconfig
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.AssemblyInfoInputs.cache
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.AssemblyInfo.cs
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.CoreCompileInputs.cache
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.CopyComplete
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.dll
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.pdb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.genruntimeconfig.cache
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_5.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_6.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_5.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_6.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_7.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_8.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_5.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_6.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_5.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_6.xnb
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\The-Northern-Path.wma
-C:\Ihor\Uddannelse 2021\EaDania Projekter\A_Førsteårsprojekt\CIM_Labyrint\CID_Game2\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\The-Northern-Path.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster1.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster10.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster2.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster3.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster4.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster5.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster6.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster7.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster8.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster9.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\File.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_5.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_6.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_5.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_6.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_7.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_8.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_5.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_6.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_5.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_6.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\The-Northern-Path.wma
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\The-Northern-Path.xnb
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\System.Data.SQLite.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\SQLite.Interop.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\SQLite.Interop.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SQLite.Interop.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SQLite.Interop.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\database.dll
-C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\database.pdb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster1.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster10.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster2.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster3.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster4.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster5.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster6.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster7.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster8.xnb
-C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Enemy\monster9.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\File.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_01.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_02.xnb
@@ -912,22 +75,92 @@ C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcorea
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_05.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Ground\ground_06.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Pixel.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_1.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_2.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_3.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerB_4.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_1.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_2.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_3.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerF_4.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_1.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_2.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_3.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerL_4.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_1.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_2.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_3.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\PlayerR_4.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_1.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_2.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_3.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_4.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_5.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerB_6.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_1.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_2.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_3.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_4.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_5.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_6.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_7.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerF_8.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_1.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_2.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_3.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_4.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_5.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerL_6.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_1.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_2.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_3.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_4.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_5.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\Player\PlayerR_6.xnb
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\The-Northern-Path.wma
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\The-Northern-Path.xnb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.exe
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.deps.json
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.runtimeconfig.json
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.runtimeconfig.dev.json
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.dll
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\CIM_Labyrint.pdb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Microsoft.VisualBasic.dll
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.dll
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct2D1.dll
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct3D11.dll
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Direct3D9.dll
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.DXGI.dll
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.Mathematics.dll
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.MediaFoundation.dll
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.XAudio2.dll
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\SharpDX.XInput.dll
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\System.Data.SQLite.dll
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libuv.so
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libuv.so
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\opensuse-x64\native\libuv.so
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\osx\native\libuv.dylib
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\rhel-x64\native\libuv.so
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-arm\native\libuv.dll
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\libuv.dll
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\libuv.dll
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\SQLite.Interop.dll
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\SQLite.Interop.dll
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SQLite.Interop.dll
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SQLite.Interop.dll
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\database.dll
 C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\database.pdb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.AssemblyReference.cache
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.AssemblyInfoInputs.cache
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.AssemblyInfo.cs
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.CoreCompileInputs.cache
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.csproj.CopyComplete
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.dll
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.pdb
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\obj\Debug\netcoreapp3.1\CIM_Labyrint.genruntimeconfig.cache
+C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\bin\Debug\netcoreapp3.1\Content\cherry.xnb
