@@ -21,7 +21,7 @@ namespace CIM_Labyrint
         private SpriteFont text; //A single spritefront for the text (viewing score)
         public static int lives = 3; //We make static field for life
         public static int score;      //Static field for score
-        private int highScore;        //Create field for highScore
+        //private int highScore;        //Create field for highScore
 
         IRepository repository;
 
@@ -114,7 +114,7 @@ namespace CIM_Labyrint
 
             // Definer hvilket level den skal være
             LevelManager levelManager = new LevelManager();
-            levelManager.LoadLevel(1);
+            levelManager.LoadLevel(0);
 
             base.Initialize();
         }

@@ -72,7 +72,7 @@ namespace database
             var cmd = new SQLiteCommand($"SELECT * from Musik WHERE Id = '{Id}'", (SQLiteConnection)connection);
             var reader = cmd.ExecuteReader();
 
-            var result = mapper.MapMusikFromReader(reader).First();
+            var result = mapper.MapMusikFromReader(reader).FirstOrDefault();
             return result;
         }
 

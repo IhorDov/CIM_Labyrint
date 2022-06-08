@@ -94,7 +94,7 @@ namespace CIM_Labyrint
                     {
                         //Add floor if needed
                         if (spawnLevel[x, y] >= 0)
-                        {                            
+                        {
                             GameWorld.Instance.Instantiate(CreateGameObject(0, x, y));
 
                             GameObject newObject = CreateGameObject(spawnLevel[x, y], x, y);
@@ -111,7 +111,7 @@ namespace CIM_Labyrint
                         //Spawn object
                     }
                 }
-
+            
                 
             }
             catch (IndexOutOfRangeException e)

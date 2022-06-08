@@ -31,7 +31,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\nap\\Documents\\CIM_Labyrint\\CIM_Labyrint\\Model\\database.csproj": {
+                "projectPath": "C:\\Users\\nap\\Documents\\CIM_Labyrint\\CIM_Labyrint\\Model\\database.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -71,6 +75,71 @@
               "privateAssets": "none"
             }
           },
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nap\\Documents\\CIM_Labyrint\\CIM_Labyrint\\Model\\database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nap\\Documents\\CIM_Labyrint\\CIM_Labyrint\\Model\\database.csproj",
+        "projectName": "database",
+        "projectPath": "C:\\Users\\nap\\Documents\\CIM_Labyrint\\CIM_Labyrint\\Model\\database.csproj",
+        "packagesPath": "C:\\Users\\nap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nap\\Documents\\CIM_Labyrint\\CIM_Labyrint\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.115.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
           "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }

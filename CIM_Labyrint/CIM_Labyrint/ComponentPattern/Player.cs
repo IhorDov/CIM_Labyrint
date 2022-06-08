@@ -15,8 +15,6 @@ namespace CIM_Labyrint
 
         private Dictionary<Keys, BUTTONSTATE> movementKeys = new Dictionary<Keys, BUTTONSTATE>();
 
-        private Thread internalThread;
-
         private Collider playerCollider;
 
         private SoundEffect walkSound;
