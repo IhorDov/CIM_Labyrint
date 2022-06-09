@@ -116,7 +116,7 @@ namespace CIM_Labyrint
       
             // Definer hvilket level den skal være
             LevelManager levelManager = new LevelManager();
-            levelManager.LoadLevel(1);
+            levelManager.LoadLevel(0);
             lives = int.Parse(Life.life);
 
             base.Initialize();
