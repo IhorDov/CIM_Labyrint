@@ -29,6 +29,7 @@ namespace CIM_Labyrint
         private Life Life;
         private Musik musik;
 
+        private static bool start = false; //startmenu stuff
 
 
         //game gameObjects
@@ -100,7 +101,7 @@ namespace CIM_Labyrint
 
             musik = repository.GetAlltru(1);
 
-            lives = int.Parse(Life.life);
+
 
             // stop  vi stopper databasen for at stoppe memory leak
             repository.Close();
@@ -112,10 +113,11 @@ namespace CIM_Labyrint
         {
             //laver skærmstørrelse
             ScreenSize();
-
+      
             // Definer hvilket level den skal være
             LevelManager levelManager = new LevelManager();
-            levelManager.LoadLevel(0);
+            levelManager.LoadLevel(1);
+            lives = int.Parse(Life.life);
 
             base.Initialize();
         }
@@ -129,75 +131,152 @@ namespace CIM_Labyrint
                 gameObjects[i].Start();
             }
 
-            MediaPlayer.IsRepeating = true;          //Set MediaPlayer to true
-            Song music = Content.Load<Song>("The-Northern-Path"); //Download music
-            MediaPlayer.Play(music);                       //Create a MediaPlayer to play downloaded music
-            MediaPlayer.Pause();                           //Start, and pause music. Toggable later in the code.
+            //MediaPlayer.IsRepeating = true;          //Set MediaPlayer to true
+            //Song music = Content.Load<Song>("The-Northern-Path"); //Download music
+            //MediaPlayer.Play(music);                       //Create a MediaPlayer to play downloaded music
+            //MediaPlayer.Pause();                           //Start, and pause music. Toggable later in the code.
             text = Content.Load<SpriteFont>("File"); //Download sprite fond
 
         }
 
-        public void Quit()
-        {
-            this.Exit();
-        }
-
-
         protected override void Update(GameTime gameTime)
         {
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
-                Exit();
 
-
-            DeltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
-
-            for (int i = 0; i < gameObjects.Count; i++)
+            //Make here option to start game when we push Key B
+            if (!start)
             {
-                gameObjects[i].Update(gameTime);
+                KeyboardState keyState = Keyboard.GetState();
+                if (keyState.IsKeyDown(Keys.B))
+                {
+                    start = true;
+                }
             }
-
-            base.Update(gameTime);
-
-            Cleanup();
-
-            KeyboardState keyState = Keyboard.GetState();
-
-            if (keyState.IsKeyDown(Keys.V) && soundTap == true) //Toggle music and sounds
+            else
             {
-                repository.Open();
-                if (sound == false)
+                if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
+                    Exit();
+
+
+                DeltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
+
+                for (int i = 0; i < gameObjects.Count; i++)
                 {
-                    sound = true;
-
-
-                }
-                else
-                {
-                    sound = false;
-
-
-                }
-                soundTap = false;
-
-                if (sound)
-                {
-                    repository.Addmusik(sound);
-                    MediaPlayer.Resume(); //if sound on, resume playing
-                }
-                else
-                {
-                    repository.Addmusik(sound);
-                    MediaPlayer.Pause(); //if off stop playing
+                    gameObjects[i].Update(gameTime);
                 }
 
-                repository.Close();
+                Cleanup();
 
-            }
-            if (keyState.IsKeyUp(Keys.V))
-            {
-                soundTap = true; //prevent running each time.
+                KeyboardState keyState = Keyboard.GetState();
+
+                if (keyState.IsKeyDown(Keys.V) && soundTap == true) //Toggle music and sounds
+                {
+                    repository.Open();
+                    if (sound == false)
+                    {
+                        sound = true;
+                    }
+                    else
+                    {
+                        sound = false;
+                    }
+                    soundTap = false;
+
+                    if (sound)
+                    {
+                        repository.Addmusik(sound);
+                        MediaPlayer.Resume(); //if sound on, resume playing
+                    }
+                    else
+                    {
+                        repository.Addmusik(sound);
+                        MediaPlayer.Pause(); //if off stop playing
+                    }
+                    repository.Close();
+                }
+                if (keyState.IsKeyUp(Keys.V))
+                {
+                    soundTap = true; //prevent running each time.
+                }
+
+                if (lives < 0) //If dead, pause all logic in the game.
+                {
+                    if (score > highScore) //Set new highscore
+                    {
+                        highScore = score;
+                    }
+
+                    MediaPlayer.Pause();
+
+                    if (keyState.IsKeyDown(Keys.R)) //Restart game
+                    {
+                        RestartGame();
+
+                        if (sound)
+                        {
+                            MediaPlayer.Resume();
+                        }
+                    }
+                }
+
+
+                base.Update(gameTime);
             }
         }
+
+        public void RestartGame()
+        {
+            Initialize();
+            LoadContent();
+            repository.Open();
+            lives = 3;
+            score = 0;
+            repository.UPDATELife(lives);
+            repository.Close();
+
+        }
+        private void EndScreen()
+        {
+            //We have info efter end of game
+            string stringTemp = $"      GAME OVER\n You Achived a score \n               {score}" +
+                $"\n with a Maximum score \n               {highScore}";
+            Vector2 stringSize = text.MeasureString(stringTemp);
+            spriteBatch.DrawString(text, stringTemp, new Vector2(GraphicsDevice.Viewport.Width / 2 - stringSize.X,
+               GraphicsDevice.Viewport.Height / 2 - (int)(stringSize.Y * 1.5)), Color.White, 0, new Vector2(0, 0), 2f, 0, 0);
+            stringTemp = "Press R to retry";
+            stringSize = text.MeasureString(stringTemp);
+            spriteBatch.DrawString(text, stringTemp, new Vector2(GraphicsDevice.Viewport.Width / 2 - stringSize.X,
+                GraphicsDevice.Viewport.Height / 2 + (int)(stringSize.Y * 2.5)), Color.Yellow, 0, new Vector2(0, 0), 2f, 0, 0);
+        }
+
+        /// <summary>
+        /// Method that is active when we start the game
+        /// </summary>
+        private void StartScreen()
+        {
+            if (start)
+            {
+                return;
+            }
+
+            //We write what we need to do to start game
+            string stringTemp = "Press B to send your player in Labyrint.";
+            Vector2 stringSize = text.MeasureString(stringTemp);
+
+            spriteBatch.DrawString(text, stringTemp, new Vector2(GraphicsDevice.Viewport.Width / 2 - stringSize.X,
+                GraphicsDevice.Viewport.Height / 2 - stringSize.Y) + new Vector2(1 * 2f, 1 * 2), Color.Black, 0, Vector2.Zero, 2f, SpriteEffects.None, 1f);
+
+            spriteBatch.DrawString(text, stringTemp, new Vector2(GraphicsDevice.Viewport.Width / 2 - stringSize.X,
+                GraphicsDevice.Viewport.Height / 2 - stringSize.Y) + new Vector2(-1 * 2f, 1 * 2), Color.Black, 0, Vector2.Zero, 2f, SpriteEffects.None, 1f);
+            spriteBatch.DrawString(text, stringTemp, new Vector2(GraphicsDevice.Viewport.Width / 2 - stringSize.X,
+                GraphicsDevice.Viewport.Height / 2 - stringSize.Y) + new Vector2(-1 * 2f, -1 * 2), Color.Black, 0, Vector2.Zero, 2f, SpriteEffects.None, 1f);
+            spriteBatch.DrawString(text, stringTemp, new Vector2(GraphicsDevice.Viewport.Width / 2 - stringSize.X,
+                GraphicsDevice.Viewport.Height / 2 - stringSize.Y) + new Vector2(1 * 2f, -1 * 2), Color.Black, 0, Vector2.Zero, 2f, SpriteEffects.None, 1f);
+
+            spriteBatch.DrawString(text, stringTemp, new Vector2(GraphicsDevice.Viewport.Width / 2 - stringSize.X,
+                GraphicsDevice.Viewport.Height / 2 - stringSize.Y), Color.Gold, 0, Vector2.Zero, 2f, 0, 0);
+
+        }
+
 
         protected override void Draw(GameTime gameTime)
         {
@@ -205,17 +284,20 @@ namespace CIM_Labyrint
 
             spriteBatch.Begin(SpriteSortMode.BackToFront);
 
-
             spriteBatch.DrawString(text, $"Score: {mapScore.Score}\nLives: {lives}\n\nSound (V): {sound}", new Vector2(0, 0), Color.White);
-
-
-
-
 
             for (int i = 0; i < gameObjects.Count; i++)
             {
                 gameObjects[i].Draw(spriteBatch);
             }
+
+            //if (lives <= 1) //If dead, call EndScreen draw method.
+            //{
+            //    EndScreen();  //Call method EndScreen
+            //}
+            StartScreen();
+
+
 
             spriteBatch.End();
 
@@ -243,6 +325,12 @@ namespace CIM_Labyrint
         public void Destroy(GameObject god)
         {
             destroyedGameObjects.Add(god);
+        }
+
+
+        public void Quit()
+        {
+            this.Exit();
         }
 
         /// <summary>

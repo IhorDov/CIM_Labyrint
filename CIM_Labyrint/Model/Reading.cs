@@ -53,7 +53,6 @@ lifeDel.ExecuteNonQuery();
             var cmd = new SQLiteCommand($"UPDATE Life SET life = ({life}) WHERE Id = 1", (SQLiteConnection)connection);
             cmd.ExecuteNonQuery();
         }
-        //UPDATE COMPANY SET ADDRESS = 'Texas' WHERE ID = 6;
 
         public void AddScore(int Score)
         {

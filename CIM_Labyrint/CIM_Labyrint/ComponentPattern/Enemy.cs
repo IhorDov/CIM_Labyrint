@@ -1,7 +1,4 @@
-﻿using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using database;
 
 namespace CIM_Labyrint
 {
@@ -11,9 +8,8 @@ namespace CIM_Labyrint
         private Collider enemyCollider;
         private float cooldown = 0f; //Cooldown field
 
+        IRepository repository;
 
-        public float XPos { get; set; }
-        public float YPos { get; set; }
 
         public override void Start()
         {
@@ -22,6 +18,9 @@ namespace CIM_Labyrint
             sr.SetSprite("Enemy/monster10");
 
             enemyCollider = GameObject.GetComponent<Collider>() as Collider;
+
+
+
 
         }
 
@@ -33,27 +32,50 @@ namespace CIM_Labyrint
         }
         public override void Update()
         {
+
             Lifetime--;
 
             if (Lifetime <= 0)
             {
                 GameWorld.Instance.Destroy(GameObject);
             }
+
+
         }
 
-            public void Notify(GameEvent gameEvent)
+        public void Notify(GameEvent gameEvent)
         {
             if (gameEvent is CollisionEvent)
             {
+
+
+
                 GameWorld.Instance.Destroy(GameObject);
-               
-                    if (cooldown <= 0)
+
+                if (cooldown <= 0)
+                {
+                    cooldown = 60;
+
+                    GameWorld.lives--;
+
+                    var mapper = new Mapper();
+                    var provider = new SQLiteDatabaseProvider("Data Source=Data.db;Version=3;");
+
+                    //data
+                    repository = new Reading(provider, mapper);
+
+                    repository.Open();
+                    repository.UPDATELife(GameWorld.lives);
+                    if (GameWorld.lives <= 0)
                     {
-                        cooldown = 60;
-                        GameWorld.lives--;
+                        GameWorld.lives = 3;
+                        repository.UPDATELife(GameWorld.lives);
+                        GameWorld.Instance.Quit();
                     }
-                    cooldown--;
-                
+                    repository.Close();
+                }
+                cooldown--;
+
                 //GameWorld.Instance.Destroy((gameEvent as CollisionEvent).Other);
             }
         }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/File.spritefont</SourceFile>
-  <SourceTime>2022-06-01T10:57:36.1376411+02:00</SourceTime>
+  <SourceTime>2022-06-09T10:57:44.1839393+02:00</SourceTime>
   <DestFile>C:/Users/nap/Documents/GitHub/CIM_Labyrint/CIM_Labyrint/CIM_Labyrint/Content/bin/Windows/Content/File.xnb</DestFile>
-  <DestTime>2022-06-09T09:22:18.4918582+02:00</DestTime>
+  <DestTime>2022-06-09T10:57:51.2651775+02:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>
