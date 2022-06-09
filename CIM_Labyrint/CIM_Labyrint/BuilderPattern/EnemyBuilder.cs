@@ -52,7 +52,7 @@ namespace CIM_Labyrint
 
             gameObject.AddComponent(new Enemy());
             gameObject.AddComponent(new SpriteRenderer());
-            gameObject.AddComponent(new StartAlgoritme());
+           // gameObject.AddComponent(new StartAlgoritme());
 
             
      
