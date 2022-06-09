@@ -1,4 +1,5 @@
 ﻿using database;
+using Microsoft.Xna.Framework;
 
 namespace CIM_Labyrint
 {
@@ -10,7 +11,6 @@ namespace CIM_Labyrint
 
         IRepository repository;
 
-
         public override void Start()
         {
             SpriteRenderer sr = GameObject.GetComponent<SpriteRenderer>() as SpriteRenderer;
@@ -18,10 +18,6 @@ namespace CIM_Labyrint
             sr.SetSprite("Enemy/monster10");
 
             enemyCollider = GameObject.GetComponent<Collider>() as Collider;
-
-
-
-
         }
 
         public override void Awake()
@@ -32,24 +28,43 @@ namespace CIM_Labyrint
         }
         public override void Update()
         {
-
             Lifetime--;
-
             if (Lifetime <= 0)
             {
                 GameWorld.Instance.Destroy(GameObject);
             }
+        }
+
+        public void EnemyMoveToNode(Node<Vector2> pathNode)
+        {
+            SpriteRenderer sr = GameObject.GetComponent<SpriteRenderer>() as SpriteRenderer;
+
+            //// The Direction of the Enemy.
+            //Vector2 direction = pathNode.Data - GameObject.Transform.Position;
+            //direction.Normalize(); // Normalize in Unity terms: Makes the Objects position Local instead of World.
+
+            //// The Woker Forward Movement into the direction they look at (which is the Player here)...
+            //GameObject.Transform.Position += direction * (float)(Speed * GameWorld.DeltaTime);
+
+            //// Tells the Enemy to face the Player, but only AFTER getting their position.
+            //sr.Rotation = (float)Math.Atan2(direction.Y, direction.X) - MathHelper.ToRadians(90);
+        }
 
 
+        private bool CheckDistance(Vector2 a, Vector2 b, int r)
+        {
+            //Get distance
+            float l = (a - b).Length();
+
+            //Check distance
+            if (l < r) return true;
+            else return false;
         }
 
         public void Notify(GameEvent gameEvent)
         {
             if (gameEvent is CollisionEvent)
             {
-
-
-
                 GameWorld.Instance.Destroy(GameObject);
 
                 if (cooldown <= 0)
@@ -75,7 +90,6 @@ namespace CIM_Labyrint
                     repository.Close();
                 }
                 cooldown--;
-
                 //GameWorld.Instance.Destroy((gameEvent as CollisionEvent).Other);
             }
         }

@@ -1,11 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Input;
-using System;
 using System.Collections.Generic;
-using System.Diagnostics.Tracing;
-using System.Text;
-using System.Threading;
 
 namespace CIM_Labyrint
 {
@@ -65,7 +61,7 @@ namespace CIM_Labyrint
                     soundEffectInstance.Stop();
                     soundEffectInstance.Play();
                 }
-                cooldown--;                
+                cooldown--;
             }
             else if (velocity.X < 0)
             {
@@ -123,8 +119,10 @@ namespace CIM_Labyrint
         {
             if (cooldown <= 0)
             {
-                //cooldown = 10;
+                cooldown = 8;
+
                 InputHandler.Instance.Execute(this);
+
             }
             cooldown--;
         }
@@ -136,60 +134,52 @@ namespace CIM_Labyrint
             if (gameEvent is CollisionEvent ce)
             {
                 Collider otherCollider = ce.Other.GetComponent<Collider>();
-                //It's just a music
-                soundEffectInstance.Stop();
-                soundEffectInstance.Play();
 
                 if (ce.Other.Tag == "Block")
                 {
-                    if (playerCollider.CollisionBox.Right >= otherCollider.CollisionBox.Right)
+                    if (playerCollider.CollisionBox.Right < otherCollider.CollisionBox.Right)
                     {
-                        GameObject.Transform.Translate(new Vector2(1, 0));
+                        GameObject.Transform.Position = new Vector2(GameObject.Transform.Position.X - 1, GameObject.Transform.Position.Y);
                     }
 
-                    if (playerCollider.CollisionBox.Left <= otherCollider.CollisionBox.Left)
+                    if (playerCollider.CollisionBox.Left > otherCollider.CollisionBox.Left)
                     {
-                        GameObject.Transform.Translate(new Vector2(-1, 0));
+                        GameObject.Transform.Position = new Vector2(GameObject.Transform.Position.X + 1, GameObject.Transform.Position.Y);
                     }
 
-                    if (playerCollider.CollisionBox.Top >= otherCollider.CollisionBox.Top)
+                    if (playerCollider.CollisionBox.Top > otherCollider.CollisionBox.Top)
                     {
-                        GameObject.Transform.Translate(new Vector2(0, 1));
+                        GameObject.Transform.Position = new Vector2(GameObject.Transform.Position.X, GameObject.Transform.Position.Y + 1);
                     }
 
-                    if (playerCollider.CollisionBox.Bottom <= otherCollider.CollisionBox.Bottom)
+                    if (playerCollider.CollisionBox.Bottom < otherCollider.CollisionBox.Bottom)
                     {
-                        GameObject.Transform.Translate(new Vector2(0, -1));
+                        GameObject.Transform.Position = new Vector2(GameObject.Transform.Position.X, GameObject.Transform.Position.Y - 1);
                     }
-                }
-                if (ce.Other.Tag == "Enemy")
-                {                    
-                    if (playerCollider.CollisionBox.Right >= otherCollider.CollisionBox.Right)
+                    }
+                    if (ce.Other.Tag == "Enemy")
                     {
-                        GameObject.Transform.Translate(new Vector2(1, 0));                        
-                    }
+                        if (playerCollider.CollisionBox.Right >= otherCollider.CollisionBox.Right)
+                        {
+                            GameObject.Transform.Translate(new Vector2(1, 0));
+                        }
 
-                    if (playerCollider.CollisionBox.Left <= otherCollider.CollisionBox.Left)
-                    {
-                        GameObject.Transform.Translate(new Vector2(-1, 0));
-                    }
+                        if (playerCollider.CollisionBox.Left <= otherCollider.CollisionBox.Left)
+                        {
+                            GameObject.Transform.Translate(new Vector2(-1, 0));
+                        }
 
-                    if (playerCollider.CollisionBox.Top >= otherCollider.CollisionBox.Top)
-                    {
-                        GameObject.Transform.Translate(new Vector2(0, 1));
-                    }
+                        if (playerCollider.CollisionBox.Top >= otherCollider.CollisionBox.Top)
+                        {
+                            GameObject.Transform.Translate(new Vector2(0, 1));
+                        }
 
-                    if (playerCollider.CollisionBox.Bottom <= otherCollider.CollisionBox.Bottom)
-                    {
-                        GameObject.Transform.Translate(new Vector2(0, -1));
+                        if (playerCollider.CollisionBox.Bottom <= otherCollider.CollisionBox.Bottom)
+                        {
+                            GameObject.Transform.Translate(new Vector2(0, -1));
+                        }
                     }
                 }
             }
-
-            if (gameEvent is ButtonEvent)
-            {
-                movementKeys[be.Key] = be.State;                
-            }            
         }
     }
-}

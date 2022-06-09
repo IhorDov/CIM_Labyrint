@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CIM_Labyrint
+﻿namespace CIM_Labyrint
 {
     class Base : Component, IGameListner
     {
-        private Collider crateCollider;
-        //private CrateBuilder crate = new CrateBuilder();
+        private bool crateIsThere = true;
+
+        private Collider baseCollider;
 
         public override void Start()
         {
@@ -16,8 +13,7 @@ namespace CIM_Labyrint
             sr.SetSprite("Environment/environment_06");
             sr.LayerDepth = 0;
             sr.Rotation = 0;
-
-            crateCollider = GameObject.GetComponent<Collider>() as Collider;
+            baseCollider = GameObject.GetComponent<Collider>() as Collider;
         }
 
         public override void Awake()
@@ -27,17 +23,19 @@ namespace CIM_Labyrint
 
         public void Notify(GameEvent gameEvent)
         {
+
             if (gameEvent is CollisionEvent ce)
             {
                 Collider otherCollider = ce.Other.GetComponent<Collider>();
 
                 if (ce.Other.Tag == "Crate")
                 {
-                    if (crateCollider.CollisionBox.Intersects(otherCollider.CollisionBox))
+                    //Base position is crate position
+                    if (baseCollider.CollisionBox.Intersects(otherCollider.CollisionBox) && crateIsThere)
                     {
-                        //Base position is crate position
-                        //crate.GameObject.Transform.Position = GameObject.Transform.Position;
+                        ce.Other.Transform.Position = baseCollider.GameObject.Transform.Position;
                     }
+                    crateIsThere = false;
                 }
             }
         }

@@ -8,11 +8,11 @@ namespace CIM_Labyrint
 {
     class Crate : Component, IGameListner
     {
-        private Vector2 translation;
-        private bool blocked;
-        private bool stopMove = false;
+        //private Vector2 translation;
+        //private bool blocked;
+        //private bool stopMove = false;
 
-        private COLLIDERSIDE sideOfCollider = new COLLIDERSIDE();
+        //private COLLIDERSIDE sideOfCollider = new COLLIDERSIDE();
 
         private Collider crateCollider;
 
@@ -43,28 +43,24 @@ namespace CIM_Labyrint
 
                 if (ce.Other.Tag == "Player")
                 {
-                    if (crateCollider.CollisionBox.Right >= otherCollider.CollisionBox.Right)
+                    if (crateCollider.CollisionBox.Right < otherCollider.CollisionBox.Right)
                     {
-                        GameObject.Transform.Translate(new Vector2(1, 0));
-                        GameObject.Speed = 150;
+                        GameObject.Transform.Position = new Vector2(GameObject.Transform.Position.X - 1, GameObject.Transform.Position.Y);
                     }
 
-                    if (crateCollider.CollisionBox.Left <= otherCollider.CollisionBox.Left)
+                    if (crateCollider.CollisionBox.Left > otherCollider.CollisionBox.Left)
                     {
-                        GameObject.Transform.Translate(new Vector2(-1, 0));
-                        GameObject.Speed = 150;
+                        GameObject.Transform.Position = new Vector2(GameObject.Transform.Position.X + 1, GameObject.Transform.Position.Y);
                     }
 
-                    if (crateCollider.CollisionBox.Top >= otherCollider.CollisionBox.Top)
+                    if (crateCollider.CollisionBox.Top > otherCollider.CollisionBox.Top)
                     {
-                        GameObject.Transform.Translate(new Vector2(0, 1));
-                        GameObject.Speed = 150;
+                        GameObject.Transform.Position = new Vector2(GameObject.Transform.Position.X, GameObject.Transform.Position.Y + 1);
                     }
 
-                    if (crateCollider.CollisionBox.Bottom <= otherCollider.CollisionBox.Bottom)
+                    if (crateCollider.CollisionBox.Bottom < otherCollider.CollisionBox.Bottom)
                     {
-                        GameObject.Transform.Translate(new Vector2(0, -1));
-                        GameObject.Speed = 150;
+                        GameObject.Transform.Position = new Vector2(GameObject.Transform.Position.X, GameObject.Transform.Position.Y - 1);
                     }
                 }
 
