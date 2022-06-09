@@ -21,16 +21,17 @@ namespace database
 
         public void CreateDatabaseTables()
         {
-            //var Score = new SQLiteCommand($"drop table if exists Score");
+
 
             //CREATE TABLES IF NOT EXISTS 
             var score = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Score (Id INTEGER PRIMARY KEY, Score VARCHAR(100));", (SQLiteConnection)connection);
-            var life = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Life (Id INTEGER PRIMARY KEY, life VARCHAR(100));", (SQLiteConnection)connection);
             var musik = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Musik (Id INTEGER PRIMARY KEY, T BLOB);", (SQLiteConnection)connection);
+           var lifeDel = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS Life (Id INTEGER PRIMARY KEY, life VARCHAR(100));", (SQLiteConnection)connection);
 
+            
             //start SQL
             score.ExecuteNonQuery();
-            life.ExecuteNonQuery();
+lifeDel.ExecuteNonQuery();
             musik.ExecuteNonQuery();
 
         }
@@ -46,6 +47,13 @@ namespace database
             var cmd = new SQLiteCommand($"INSERT INTO Life (life) VALUES ({life})", (SQLiteConnection)connection);
             cmd.ExecuteNonQuery();
         }
+
+        public void UPDATELife(int life)
+        {
+            var cmd = new SQLiteCommand($"UPDATE Life SET life = ({life}) WHERE Id = 1", (SQLiteConnection)connection);
+            cmd.ExecuteNonQuery();
+        }
+        //UPDATE COMPANY SET ADDRESS = 'Texas' WHERE ID = 6;
 
         public void AddScore(int Score)
         {
