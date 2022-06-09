@@ -131,10 +131,10 @@ namespace CIM_Labyrint
                 gameObjects[i].Start();
             }
 
-            //MediaPlayer.IsRepeating = true;          //Set MediaPlayer to true
-            //Song music = Content.Load<Song>("The-Northern-Path"); //Download music
-            //MediaPlayer.Play(music);                       //Create a MediaPlayer to play downloaded music
-            //MediaPlayer.Pause();                           //Start, and pause music. Toggable later in the code.
+            MediaPlayer.IsRepeating = true;          //Set MediaPlayer to true
+            Song music = Content.Load<Song>("The-Northern-Path"); //Download music
+            MediaPlayer.Play(music);                       //Create a MediaPlayer to play downloaded music
+            MediaPlayer.Pause();                           //Start, and pause music. Toggable later in the code.
             text = Content.Load<SpriteFont>("File"); //Download sprite fond
 
         }
