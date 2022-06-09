@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <_LastSelectedProfileId>C:\Users\nap\Documents\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\Properties\PublishProfiles\ClickOnceProfile.pubxml</_LastSelectedProfileId>
+    <_LastSelectedProfileId>C:\Users\nap\Documents\GitHub\CIM_Labyrint\CIM_Labyrint\CIM_Labyrint\Properties\PublishProfiles\ClickOnceProfile.pubxml</_LastSelectedProfileId>
     <ShowAllFiles>false</ShowAllFiles>
   </PropertyGroup>
 </Project>
